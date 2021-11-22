@@ -1,0 +1,56 @@
+// Banner Type
+@if use_component(category-type-banner) {
+    .cat-type-banner {
+        overflow: hidden;
+        color: var(--alpha-dark-color, $dark-color);
+        &.text-white {
+            color: #fff;
+            .btn {
+                color: #fff;
+            }
+        }
+        .category-content {
+            top: 3.7rem;
+            #{$left}: 3.8rem;
+            bottom: auto;
+            align-items: flex-start;
+            z-index: 1;
+            background-color: transparent;
+            transition: top .3s, padding .3s;
+            min-height: 0;
+        }
+        .woocommerce-loop-category__title {
+            text-transform: none;
+            text-align: $left;
+            font: {
+                size: 2rem;
+                family: inherit;
+            }
+        }
+        mark {
+            visibility: visible;
+            opacity: 1;
+            font-size: 1.4rem;
+            line-height: 1.2;
+            transition: color .3s;
+            z-index: 1;
+        }
+        .btn {
+            position: absolute;
+            opacity: 0;
+            bottom: 0;
+            transition: transform .3s, opacity .3s;
+        }
+        &.active,
+        &:hover {
+            .category-content {
+                top: 3rem;
+                padding-bottom: 3rem;
+                background-color: transparent;
+            }
+            .btn {
+                opacity: 1;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+// Ellipse Type 2
+@if use_component(category-type-ellipse2) {
+    .cat-type-ellipse2 {
+        figure {
+            border-radius: 50%;
+            overflow: hidden;
+            border: 0px solid #fff;
+            transition: border-width .1s, box-shadow .2s;
+        }
+        .category-content {
+            margin-top: 1.7rem;
+        }
+        .woocommerce-loop-category__title {
+            color: var(--alpha-dark-color, $dark-color);
+            font-weight: 700;
+            letter-spacing: 0;
+            &:hover {
+                color: var(--alpha-primary-color, $primary-color);
+            }
+        }
+
+        &.active figure,
+        &:hover figure {
+            border-width: 6px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, .12);
+        }
+    }
+}

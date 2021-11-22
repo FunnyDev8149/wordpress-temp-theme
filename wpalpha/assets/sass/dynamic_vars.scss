@@ -1,0 +1,95 @@
+@import './config';
+
+html {
+    --alpha-container-width: 1280px;
+    --alpha-container-fluid-width: 1820px;
+    --alpha-site-bg-color: #fff;
+    --alpha-site-width: false;
+    --alpha-site-margin: 0;
+    --alpha-site-gap: 0;
+    --alpha-primary-color: #{$primary-color};
+    --alpha-secondary-color: #{$secondary-color};
+    --alpha-dark-color: #{$dark-color};
+    --alpha-light-color: #{$light-color};
+    --alpha-white-color: #{$white-color};
+    --alpha-primary-color-hover: #{lighten($primary-color, 10%)};
+    --alpha-primary-color-alpha: rgba(40,121,254, 0.8);
+    --alpha-secondary-color-hover: #{lighten($secondary-color, 10%)};
+    --alpha-dark-color-hover: #{lighten($dark-color, 10%)};
+    --alpha-light-color-hover: #{darken($light-color, 10%)};
+    --alpha-body-font-family: 'Poppins';
+    --alpha-body-font-weight: 400;
+    --alpha-body-font-size: #{$body-size}px;
+    --alpha-body-line-height: 1.6;
+    --alpha-body-color: #{$body-color};
+    --alpha-typo-ratio: 1;
+    --alpha-heading-font-weight: 600;
+    --alpha-heading-line-height: 1.2;
+    --alpha-heading-letter-spacing: -0.025em;
+    --alpha-heading-text-transform: none;
+    --alpha-heading-color: #333;
+}
+.page-wrapper {
+    --alpha-page-wrapper-bg-color: #fff;
+}
+.page-header {
+    --alpha-ptb-bg-color: #eee;
+    .page-title {
+        --alpha-ptb-title-font-weight: 700;
+        --alpha-ptb-title-font-size: 34px;
+        --alpha-ptb-title-line-height: 1.125;
+        --alpha-ptb-title-letter-spacing: -0.025em;
+        --alpha-ptb-title-text-transform: capitalize;
+        --alpha-ptb-title-color: #333;
+    }
+    .page-subtitle {
+        --alpha-ptb-subtitle-font-size: 18px;
+        --alpha-ptb-subtitle-line-height: 1.8;
+        --alpha-ptb-subtitle-color: #666;
+    }
+}
+.page-title-bar {
+    --alpha-ptb-height: 180px;
+}
+.breadcrumb {
+    --alpha-ptb-breadcrumb-font-size: 13px;
+    --alpha-ptb-breadcrumb-color: #333;
+}
+.d-lazyload {
+    --alpha-lazy-load-bg: #f4f4f4;
+}
+.elementor-section {
+    --alpha-gap: #{$default-gap};
+}
+@media (max-width: 1279px) {
+    .container-fluid .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 1279px) and (min-width: 480px) {
+    .elementor-top-section.elementor-section-boxed > .elementor-column-gap-no,
+    .elementor-section-full_width .elementor-section-boxed > .elementor-column-gap-no {
+        width: calc( 100% - var(--alpha-gap) * 4 );
+    }
+    .elementor-top-section.elementor-section-boxed > .elementor-column-gap-default,
+    .elementor-section-full_width .elementor-section-boxed > .elementor-column-gap-default {
+        width: calc( 100% - var(--alpha-gap) * 2 ); 
+    }
+    .elementor-top-section.elementor-section-boxed > .elementor-column-gap-narrow,
+    .elementor-section-full_width .elementor-section-boxed > .elementor-column-gap-narrow {
+        width: calc( 100% - var(--alpha-gap) * 4 + 10px );
+    }
+    .elementor-top-section.elementor-section-boxed > .elementor-column-gap-extended,
+    .elementor-section-full_width .elementor-section-boxed > .elementor-column-gap-extended {
+        width: calc( 100% - var(--alpha-gap) * 4 + 30px );
+    }
+    .elementor-top-section.elementor-section-boxed > .elementor-column-gap-wide,
+    .elementor-section-full_width .elementor-section-boxed > .elementor-column-gap-wide {
+        width: calc( 100% - var(--alpha-gap) * 4 + 40px );
+    }
+    .elementor-top-section.elementor-section-boxed > .elementor-column-gap-wider,
+    .elementor-section-full_width .elementor-section-boxed > .elementor-column-gap-wider {
+        width: calc( 100% - var(--alpha-gap) * 4 + 50px );
+    }
+}

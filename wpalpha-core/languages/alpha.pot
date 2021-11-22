@@ -1,0 +1,5264 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Alpha Core 1.0\n"
+"POT-Creation-Date: 2020-12-07 13:17-0800\n"
+"PO-Revision-Date: 2017-10-09 17:25+0800\n"
+"Last-Translator: alpha <alpha@example.com>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: vc/settings\n"
+"X-Poedit-SearchPathExcluded-2: vc/elements\n"
+"X-Poedit-SearchPathExcluded-3: templates/header-builder/vc-widgets\n"
+"X-Poedit-SearchPathExcluded-4: templates/single-product-builder/vc-widgets\n"
+
+#: elementor/elements/alpha-column.php:45 elementor/elements/alpha-section.php:68
+#: elementor/init.php:397
+msgid "Alpha Settings"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:52
+msgid "Grid Item Width (%)"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:63
+msgid "Grid Item Height"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:73
+msgid "Depending on Children"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:74
+msgid "Use From Preset"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:83
+msgid "Grid Item Order"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:88 elementor/elements/alpha-column.php:111
+#: elementor/elements/alpha-section.php:140 elementor/elements/alpha-section.php:165
+#: elementor/partials/banner.php:698 elementor/partials/banner.php:1076
+#: elementor/partials/button.php:28 elementor/partials/button.php:122
+#: elementor/partials/grid.php:33 elementor/partials/grid.php:77
+#: elementor/partials/grid.php:121 elementor/partials/products.php:118
+#: elementor/partials/products.php:147 elementor/partials/products.php:602
+#: elementor/partials/products.php:869 elementor/partials/products.php:887
+#: elementor/partials/products.php:1157 elementor/partials/products.php:1196
+#: elementor/partials/products.php:1273 elementor/partials/products.php:1295
+#: elementor/partials/products.php:1317 elementor/partials/slider.php:107
+#: elementor/widgets/widget-categories.php:202 elementor/widgets/widget-imagebox.php:114
+#: elementor/widgets/widget-imageslider.php:128
+#: elementor/widgets/widget-imageslider.php:147
+#: elementor/widgets/widget-imageslider.php:166
+#: elementor/widgets/widget-imageslider.php:370 elementor/widgets/widget-posts.php:109
+#: elementor/widgets/widget-posts.php:197 elementor/widgets/widget-products-banner.php:67
+#: elementor/widgets/widget-products-tab.php:247
+#: elementor/widgets/widget-products-tab.php:265
+#: elementor/widgets/widget-products-ultimate.php:67
+#: elementor/widgets/widget-share.php:128 elementor/widgets/widget-single-product.php:87
+#: elementor/widgets/widget-single-product.php:142
+#: elementor/widgets/widget-single-product.php:164
+#: elementor/widgets/widget-single-product.php:186 functions/core-functions.php:803
+#: gutenberg/assets/blocks.js:443 gutenberg/assets/blocks.js:461
+#: gutenberg/assets/blocks.js:1170 gutenberg/assets/blocks.js:1176
+#: gutenberg/assets/blocks.js:1834 gutenberg/assets/blocks.js:2308
+#: gutenberg/assets/blocks.js:2414 gutenberg/assets/blocks.js:2837
+#: gutenberg/assets/blocks.js:3308 gutenberg/assets/blocks.js:3544
+#: sidebar-widgets/posts.php:145 sidebar-widgets/products.php:151
+#: templates/header-builder/elementor-widgets/cart.php:77
+#: templates/single-product-builder/elementor-widgets/image.php:56
+#: templates/single-product-builder/elementor-widgets/image.php:79
+#: templates/single-product-builder/elementor-widgets/image.php:101
+#: templates/single-product-builder/elementor-widgets/image.php:123
+msgid "Default"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:108
+msgid "Use Column For"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:112 elementor/elements/alpha-section.php:141
+#: elementor/partials/slider.php:57 elementor/partials/slider.php:65
+#: elementor/widgets/widget-categories.php:158
+#: elementor/widgets/widget-imageslider.php:108
+#: elementor/widgets/widget-imageslider.php:329 elementor/widgets/widget-posts.php:150
+#: elementor/widgets/widget-products-tab.php:137 elementor/widgets/widget-products.php:68
+#: elementor/widgets/widget-testimonial-group.php:110 gutenberg/assets/blocks.js:1110
+#: gutenberg/assets/blocks.js:1740 gutenberg/assets/blocks.js:2252
+msgid "Slider"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:113
+msgid "1 Layer Banner"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:114 elementor/partials/banner.php:585
+#: elementor/partials/banner.php:1210
+msgid "Banner Layer"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:115
+msgid "Accordion Content"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:116
+msgid "Tab Content"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:127
+msgid "Nav Title"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:139
+msgid "Accordion Title"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:150 elementor/elements/alpha-section.php:201
+#: elementor/partials/button.php:193 elementor/widgets/widget-categories.php:206
+#: elementor/widgets/widget-heading.php:246 elementor/widgets/widget-hotspot.php:137
+#: elementor/widgets/widget-share.php:82 gutenberg/assets/blocks.js:1838
+#: gutenberg/assets/blocks.js:2821
+#: templates/header-builder/elementor-widgets/account.php:91
+#: templates/header-builder/elementor-widgets/cart.php:128
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:54
+#: templates/header-builder/elementor-widgets/wishlist.php:103
+#: templates/single-product-builder/elementor-widgets/flash-sale.php:53
+msgid "Icon"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:165 elementor/elements/alpha-section.php:590
+msgid "Header Icon"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:179 elementor/elements/alpha-section.php:601
+msgid "Header Icon Typography"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:190 elementor/elements/alpha-section.php:609
+msgid "Header Icon Space"
+msgstr ""
+
+#: elementor/elements/alpha-column.php:204
+msgid "Accordion Content Padding"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:76
+msgid "Gerneral Options"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:84
+msgid "Wrap with Container-Fluid"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:95
+msgid "Sticky Content"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:103
+msgid "Sticky Padding"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:121
+msgid "Sticky Background"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:137
+msgid "Use Section For"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:142 elementor/partials/products.php:189
+#: templates/single-product-builder/elementor-widgets/data-tab.php:59
+msgid "Tab"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:143 elementor/elements/alpha-section.php:402
+#: templates/single-product-builder/elementor-widgets/data-tab.php:60
+msgid "Accordion"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:144 elementor/partials/banner.php:312
+#: elementor/widgets/widget-categories.php:204 gutenberg/assets/blocks.js:1836
+msgid "Banner"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:145 elementor/widgets/widget-categories.php:159
+#: elementor/widgets/widget-posts.php:151 gutenberg/assets/blocks.js:1739
+msgid "Creative Grid"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:162
+msgid "Accordion Type"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:166 elementor/partials/products.php:119
+#: elementor/partials/products.php:148 elementor/partials/slider.php:108
+#: elementor/partials/testimonial.php:509 elementor/widgets/widget-heading.php:127
+#: elementor/widgets/widget-imageslider.php:371
+#: elementor/widgets/widget-subcategories.php:91 gutenberg/assets/blocks.js:443
+#: gutenberg/assets/blocks.js:3372
+msgid "Simple"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:167 elementor/widgets/widget-countdown.php:348
+#: elementor/widgets/widget-heading.php:472
+msgid "Border"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:168 elementor/partials/testimonial.php:510
+msgid "Boxed"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:179
+msgid "Card Space"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:232
+msgid "Active Icon"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:264
+msgid "Toggle Icon Size"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:299 elementor/partials/banner.php:453
+#: gutenberg/assets/blocks.js:764
+msgid "Enable Parallax"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:310 elementor/partials/banner.php:511
+#: gutenberg/assets/blocks.js:769
+msgid "Parallax Speed"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:333 elementor/partials/banner.php:533
+#: gutenberg/assets/blocks.js:777
+msgid "Parallax Offset"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:359 elementor/partials/banner.php:558
+msgid "Parallax Height (%)"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:385
+msgid "Enable Video"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:413 elementor/partials/button.php:399
+#: elementor/widgets/widget-filter.php:364 elementor/widgets/widget-menu.php:287
+#: elementor/widgets/widget-menu.php:444 elementor/widgets/widget-menu.php:626
+#: elementor/widgets/widget-posts.php:654 elementor/widgets/widget-products-tab.php:590
+#: elementor/widgets/widget-products-tab.php:797
+#: elementor/widgets/widget-products-tab.php:1122
+#: elementor/widgets/widget-products.php:241 elementor/widgets/widget-products.php:448
+#: elementor/widgets/widget-products.php:773 elementor/widgets/widget-share.php:157
+#: templates/header-builder/elementor-widgets/currency-switcher.php:74
+#: templates/header-builder/elementor-widgets/currency-switcher.php:288
+#: templates/header-builder/elementor-widgets/language-switcher.php:92
+#: templates/header-builder/elementor-widgets/language-switcher.php:323
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:100
+#: templates/header-builder/elementor-widgets/search.php:235
+#: templates/header-builder/elementor-widgets/search.php:309
+msgid "Border Width"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:433 elementor/partials/button.php:446
+#: elementor/partials/button.php:496 elementor/partials/button.php:546
+#: elementor/partials/products.php:410 elementor/partials/products.php:454
+#: elementor/partials/products.php:498 elementor/partials/slider.php:441
+#: elementor/partials/slider.php:491 elementor/partials/slider.php:541
+#: elementor/partials/slider.php:612 elementor/partials/slider.php:651
+#: elementor/partials/slider.php:690 elementor/widgets/widget-categories.php:1130
+#: elementor/widgets/widget-categories.php:1172 elementor/widgets/widget-filter.php:410
+#: elementor/widgets/widget-filter.php:452 elementor/widgets/widget-imageslider.php:708
+#: elementor/widgets/widget-imageslider.php:758
+#: elementor/widgets/widget-imageslider.php:808
+#: elementor/widgets/widget-imageslider.php:879
+#: elementor/widgets/widget-imageslider.php:918
+#: elementor/widgets/widget-imageslider.php:957 elementor/widgets/widget-menu.php:341
+#: elementor/widgets/widget-menu.php:385 elementor/widgets/widget-menu.php:498
+#: elementor/widgets/widget-menu.php:540 elementor/widgets/widget-menu.php:680
+#: elementor/widgets/widget-menu.php:722 elementor/widgets/widget-menu.php:792
+#: elementor/widgets/widget-posts.php:692 elementor/widgets/widget-products-tab.php:670
+#: elementor/widgets/widget-products-tab.php:712
+#: elementor/widgets/widget-products-tab.php:754
+#: elementor/widgets/widget-products-tab.php:809
+#: elementor/widgets/widget-products-tab.php:1134
+#: elementor/widgets/widget-products.php:321 elementor/widgets/widget-products.php:363
+#: elementor/widgets/widget-products.php:405 elementor/widgets/widget-products.php:460
+#: elementor/widgets/widget-products.php:785 elementor/widgets/widget-share.php:257
+#: elementor/widgets/widget-share.php:311 gutenberg/assets/blocks.js:3702
+#: gutenberg/assets/blocks.js:3705 gutenberg/assets/blocks.js:3729
+#: gutenberg/assets/blocks.js:3732
+#: templates/header-builder/elementor-widgets/currency-switcher.php:128
+#: templates/header-builder/elementor-widgets/currency-switcher.php:170
+#: templates/header-builder/elementor-widgets/currency-switcher.php:342
+#: templates/header-builder/elementor-widgets/currency-switcher.php:384
+#: templates/header-builder/elementor-widgets/language-switcher.php:146
+#: templates/header-builder/elementor-widgets/language-switcher.php:188
+#: templates/header-builder/elementor-widgets/language-switcher.php:377
+#: templates/header-builder/elementor-widgets/language-switcher.php:419
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:154
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:196
+#: templates/header-builder/elementor-widgets/search.php:263
+#: templates/header-builder/elementor-widgets/search.php:363
+#: templates/header-builder/elementor-widgets/search.php:405
+#: templates/single-product-builder/elementor-widgets/cart-form.php:142
+#: templates/single-product-builder/elementor-widgets/cart-form.php:184
+#: templates/single-product-builder/elementor-widgets/cart-form.php:313
+#: templates/single-product-builder/elementor-widgets/cart-form.php:355
+#: templates/single-product-builder/elementor-widgets/cart-form.php:496
+#: templates/single-product-builder/elementor-widgets/cart-form.php:557
+msgid "Border Color"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:447
+msgid "Panel Content Padding"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:462
+msgid "Panel Header Padding"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:479
+msgid "Panel Header Typography"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:489 elementor/partials/banner.php:270
+#: elementor/partials/banner.php:1025 elementor/partials/button.php:46
+#: elementor/partials/button.php:417 elementor/partials/products.php:379
+#: elementor/partials/slider.php:412 elementor/partials/slider.php:594
+#: elementor/widgets/widget-breadcrumb.php:128 elementor/widgets/widget-categories.php:919
+#: elementor/widgets/widget-categories.php:1100 elementor/widgets/widget-filter.php:381
+#: elementor/widgets/widget-heading.php:428 elementor/widgets/widget-hotspot.php:274
+#: elementor/widgets/widget-imageslider.php:679
+#: elementor/widgets/widget-imageslider.php:861 elementor/widgets/widget-menu.php:312
+#: elementor/widgets/widget-menu.php:469 elementor/widgets/widget-menu.php:651
+#: elementor/widgets/widget-products-tab.php:641 elementor/widgets/widget-products.php:292
+#: gutenberg/assets/blocks.js:2426 gutenberg/assets/blocks.js:3556
+#: gutenberg/assets/blocks.js:3675
+#: templates/header-builder/elementor-widgets/account.php:204
+#: templates/header-builder/elementor-widgets/cart.php:245
+#: templates/header-builder/elementor-widgets/cart.php:310
+#: templates/header-builder/elementor-widgets/currency-switcher.php:99
+#: templates/header-builder/elementor-widgets/currency-switcher.php:313
+#: templates/header-builder/elementor-widgets/language-switcher.php:117
+#: templates/header-builder/elementor-widgets/language-switcher.php:348
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:125
+#: templates/header-builder/elementor-widgets/search.php:334
+#: templates/header-builder/elementor-widgets/search.php:485
+#: templates/header-builder/elementor-widgets/wishlist.php:162
+#: templates/single-product-builder/elementor-widgets/cart-form.php:113
+#: templates/single-product-builder/elementor-widgets/cart-form.php:284
+#: templates/single-product-builder/elementor-widgets/data-tab.php:106
+#: templates/single-product-builder/elementor-widgets/navigation.php:169
+#: templates/single-product-builder/elementor-widgets/price.php:89
+#: templates/single-product-builder/elementor-widgets/share.php:74
+msgid "Normal"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:496 elementor/elements/alpha-section.php:529
+#: elementor/elements/alpha-section.php:562
+msgid "Header Background Color"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:508 elementor/elements/alpha-section.php:541
+#: elementor/elements/alpha-section.php:574
+msgid "Header Color"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:522 elementor/partials/button.php:467
+#: elementor/partials/products.php:423 elementor/partials/slider.php:462
+#: elementor/partials/slider.php:633 elementor/widgets/widget-categories.php:950
+#: elementor/widgets/widget-categories.php:1143 elementor/widgets/widget-filter.php:423
+#: elementor/widgets/widget-heading.php:448 elementor/widgets/widget-hotspot.php:305
+#: elementor/widgets/widget-imageslider.php:729
+#: elementor/widgets/widget-imageslider.php:900 elementor/widgets/widget-menu.php:354
+#: elementor/widgets/widget-menu.php:511 elementor/widgets/widget-menu.php:693
+#: elementor/widgets/widget-products-tab.php:683 elementor/widgets/widget-products.php:334
+#: gutenberg/assets/blocks.js:3681
+#: templates/header-builder/elementor-widgets/account.php:224
+#: templates/header-builder/elementor-widgets/cart.php:265
+#: templates/header-builder/elementor-widgets/cart.php:364
+#: templates/header-builder/elementor-widgets/currency-switcher.php:141
+#: templates/header-builder/elementor-widgets/currency-switcher.php:355
+#: templates/header-builder/elementor-widgets/language-switcher.php:159
+#: templates/header-builder/elementor-widgets/language-switcher.php:390
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:167
+#: templates/header-builder/elementor-widgets/search.php:376
+#: templates/header-builder/elementor-widgets/search.php:516
+#: templates/header-builder/elementor-widgets/wishlist.php:182
+#: templates/single-product-builder/elementor-widgets/cart-form.php:155
+#: templates/single-product-builder/elementor-widgets/data-tab.php:145
+#: templates/single-product-builder/elementor-widgets/navigation.php:199
+#: templates/single-product-builder/elementor-widgets/share.php:113
+msgid "Hover"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:555 elementor/partials/button.php:517
+#: elementor/partials/products.php:467 elementor/partials/slider.php:672
+#: elementor/widgets/widget-breadcrumb.php:149
+#: elementor/widgets/widget-imageslider.php:939
+#: elementor/widgets/widget-products-tab.php:725 elementor/widgets/widget-products.php:376
+#: templates/single-product-builder/elementor-widgets/data-tab.php:184
+msgid "Active"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:623
+msgid "Alpha Video Options"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:635 elementor/widgets/widget-button.php:151
+msgid "Source"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:639 elementor/widgets/widget-button.php:155
+msgid "YouTube"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:640 elementor/widgets/widget-button.php:156
+msgid "Vimeo"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:641
+msgid "Dailymotion"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:642 elementor/widgets/widget-button.php:157
+msgid "Self Hosted"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:650 elementor/elements/alpha-section.php:671
+#: elementor/elements/alpha-section.php:692 elementor/partials/button.php:31
+#: elementor/partials/testimonial.php:470 elementor/widgets/widget-heading.php:216
+#: elementor/widgets/widget-heading.php:409 elementor/widgets/widget-share.php:92
+#: elementor/widgets/widget-subcategories.php:204 gutenberg/assets/blocks.js:2414
+#: gutenberg/assets/blocks.js:3525 gutenberg/assets/blocks.js:3544
+#: templates/single-product-builder/elementor-widgets/meta.php:274
+msgid "Link"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:659
+msgid "Enter your URL (YouTube)"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:680 elementor/elements/alpha-section.php:757
+msgid "Enter your URL"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:701
+msgid "Enter your URL (Dailymotion)"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:713
+msgid "External URL"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:724
+msgid "Choose File"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:743
+msgid "URL"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:768 elementor/widgets/widget-button.php:115
+msgid "Video Options"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:777 elementor/partials/slider.php:322
+#: elementor/widgets/widget-imageslider.php:582 gutenberg/assets/blocks.js:471
+msgid "Autoplay"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:786
+msgid "Mute"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:794
+msgid "Loop"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:805
+msgid "Player Controls"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:807 elementor/elements/alpha-section.php:821
+#: elementor/elements/alpha-section.php:847 elementor/elements/alpha-section.php:902
+#: elementor/elements/alpha-section.php:916 elementor/elements/alpha-section.php:930
+#: elementor/elements/alpha-section.php:944 elementor/partials/products.php:1108
+#: elementor/widgets/widget-products-tab.php:484
+#: templates/single-product-builder/elementor-widgets/rating.php:187
+msgid "Hide"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:808 elementor/elements/alpha-section.php:822
+#: elementor/elements/alpha-section.php:848 elementor/elements/alpha-section.php:903
+#: elementor/elements/alpha-section.php:917 elementor/elements/alpha-section.php:931
+#: elementor/elements/alpha-section.php:945
+#: templates/single-product-builder/elementor-widgets/rating.php:188
+msgid "Show"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:819
+msgid "Video Info"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:833
+msgid "Modest Branding"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:845
+msgid "Logo"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:859
+msgid "Controls Color"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:872
+msgid "Privacy Mode"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:874
+msgid ""
+"When you turn on privacy mode, YouTube won't store information about visitors on your "
+"website unless they play the video."
+msgstr ""
+
+#: elementor/elements/alpha-section.php:884
+msgid "Suggested Videos"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:887
+msgid "Current Video Channel"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:888
+msgid "Any Video"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:900
+msgid "Intro Title"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:914
+msgid "Intro Portrait"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:928
+msgid "Intro Byline"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:942
+msgid "Image Overlay"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:953 elementor/elements/alpha-section.php:1092
+msgid "Lightbox"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:956 elementor/partials/button.php:147
+#: elementor/widgets/widget-button.php:124 elementor/widgets/widget-button.php:138
+#: templates/single-product-builder/elementor-widgets/meta.php:100
+msgid "Off"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:957 elementor/partials/button.php:143
+#: elementor/widgets/widget-button.php:125 elementor/widgets/widget-button.php:139
+#: templates/single-product-builder/elementor-widgets/meta.php:101
+msgid "On"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:969
+msgid "Video"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:981
+msgid "Aspect Ratio"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:1008 elementor/partials/button.php:383
+#: elementor/partials/testimonial.php:132 elementor/widgets/widget-categories.php:905
+#: elementor/widgets/widget-categories.php:1196 elementor/widgets/widget-filter.php:282
+#: elementor/widgets/widget-hotspot.php:256 elementor/widgets/widget-menu.php:299
+#: elementor/widgets/widget-menu.php:456 elementor/widgets/widget-menu.php:638
+#: elementor/widgets/widget-posts.php:665 elementor/widgets/widget-products-tab.php:574
+#: elementor/widgets/widget-products-tab.php:1253
+#: elementor/widgets/widget-products.php:225 elementor/widgets/widget-products.php:916
+#: gutenberg/assets/blocks.js:3660
+#: templates/header-builder/elementor-widgets/currency-switcher.php:86
+#: templates/header-builder/elementor-widgets/currency-switcher.php:300
+#: templates/header-builder/elementor-widgets/language-switcher.php:104
+#: templates/header-builder/elementor-widgets/language-switcher.php:335
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:112
+#: templates/header-builder/elementor-widgets/search.php:249
+#: templates/header-builder/elementor-widgets/search.php:321
+#: templates/single-product-builder/elementor-widgets/cart-form.php:88
+#: templates/single-product-builder/elementor-widgets/cart-form.php:259
+#: templates/single-product-builder/elementor-widgets/cart-form.php:515
+#: templates/single-product-builder/elementor-widgets/cart-form.php:576
+#: templates/single-product-builder/elementor-widgets/image.php:172
+#: templates/single-product-builder/elementor-widgets/image.php:201
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:1024
+msgid "Play Icon"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:1037 elementor/partials/banner.php:133
+#: elementor/partials/button.php:424 elementor/partials/button.php:474
+#: elementor/partials/button.php:524 elementor/partials/products.php:740
+#: elementor/partials/products.php:769 elementor/partials/products.php:798
+#: elementor/partials/products.php:822 elementor/partials/slider.php:419
+#: elementor/partials/slider.php:469 elementor/partials/slider.php:519
+#: elementor/partials/testimonial.php:54 elementor/partials/testimonial.php:154
+#: elementor/partials/testimonial.php:200 elementor/partials/testimonial.php:262
+#: elementor/partials/testimonial.php:308 elementor/partials/testimonial.php:380
+#: elementor/widgets/widget-breadcrumb.php:135 elementor/widgets/widget-breadcrumb.php:156
+#: elementor/widgets/widget-categories.php:452 elementor/widgets/widget-categories.php:509
+#: elementor/widgets/widget-categories.php:937 elementor/widgets/widget-categories.php:968
+#: elementor/widgets/widget-countdown.php:293 elementor/widgets/widget-filter.php:194
+#: elementor/widgets/widget-filter.php:388 elementor/widgets/widget-filter.php:430
+#: elementor/widgets/widget-heading.php:480 elementor/widgets/widget-hotspot.php:281
+#: elementor/widgets/widget-hotspot.php:312 elementor/widgets/widget-imagebox.php:160
+#: elementor/widgets/widget-imagebox.php:206 elementor/widgets/widget-imagebox.php:252
+#: elementor/widgets/widget-imageslider.php:686
+#: elementor/widgets/widget-imageslider.php:736
+#: elementor/widgets/widget-imageslider.php:786 elementor/widgets/widget-menu.php:319
+#: elementor/widgets/widget-menu.php:361 elementor/widgets/widget-menu.php:476
+#: elementor/widgets/widget-menu.php:518 elementor/widgets/widget-menu.php:658
+#: elementor/widgets/widget-menu.php:700 elementor/widgets/widget-posts.php:430
+#: elementor/widgets/widget-posts.php:476 elementor/widgets/widget-posts.php:522
+#: elementor/widgets/widget-posts.php:568 elementor/widgets/widget-posts.php:702
+#: elementor/widgets/widget-products-tab.php:648
+#: elementor/widgets/widget-products-tab.php:690
+#: elementor/widgets/widget-products-tab.php:732
+#: elementor/widgets/widget-products-tab.php:912
+#: elementor/widgets/widget-products-tab.php:953
+#: elementor/widgets/widget-products-tab.php:1046
+#: elementor/widgets/widget-products-tab.php:1145
+#: elementor/widgets/widget-products-tab.php:1200
+#: elementor/widgets/widget-products.php:299 elementor/widgets/widget-products.php:341
+#: elementor/widgets/widget-products.php:383 elementor/widgets/widget-products.php:563
+#: elementor/widgets/widget-products.php:604 elementor/widgets/widget-products.php:697
+#: elementor/widgets/widget-products.php:796 elementor/widgets/widget-products.php:851
+#: elementor/widgets/widget-share.php:243 elementor/widgets/widget-subcategories.php:168
+#: elementor/widgets/widget-subcategories.php:221 gutenberg/assets/blocks.js:2925
+#: gutenberg/assets/blocks.js:2928 gutenberg/assets/blocks.js:3005
+#: gutenberg/assets/blocks.js:3008 gutenberg/assets/blocks.js:3073
+#: gutenberg/assets/blocks.js:3076 gutenberg/assets/blocks.js:3355
+#: gutenberg/assets/blocks.js:3358 gutenberg/assets/blocks.js:3407
+#: gutenberg/assets/blocks.js:3684 gutenberg/assets/blocks.js:3687
+#: gutenberg/assets/blocks.js:3711 gutenberg/assets/blocks.js:3714
+#: templates/header-builder/elementor-widgets/account.php:180
+#: templates/header-builder/elementor-widgets/account.php:211
+#: templates/header-builder/elementor-widgets/account.php:231
+#: templates/header-builder/elementor-widgets/cart.php:252
+#: templates/header-builder/elementor-widgets/cart.php:272
+#: templates/header-builder/elementor-widgets/currency-switcher.php:106
+#: templates/header-builder/elementor-widgets/currency-switcher.php:148
+#: templates/header-builder/elementor-widgets/currency-switcher.php:320
+#: templates/header-builder/elementor-widgets/currency-switcher.php:362
+#: templates/header-builder/elementor-widgets/language-switcher.php:124
+#: templates/header-builder/elementor-widgets/language-switcher.php:166
+#: templates/header-builder/elementor-widgets/language-switcher.php:355
+#: templates/header-builder/elementor-widgets/language-switcher.php:397
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:132
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:174
+#: templates/header-builder/elementor-widgets/search.php:211
+#: templates/header-builder/elementor-widgets/search.php:341
+#: templates/header-builder/elementor-widgets/search.php:383
+#: templates/header-builder/elementor-widgets/search.php:492
+#: templates/header-builder/elementor-widgets/search.php:523
+#: templates/header-builder/elementor-widgets/v-divider.php:54
+#: templates/header-builder/elementor-widgets/wishlist.php:169
+#: templates/header-builder/elementor-widgets/wishlist.php:189
+#: templates/single-product-builder/elementor-widgets/cart-form.php:446
+#: templates/single-product-builder/elementor-widgets/cart-form.php:474
+#: templates/single-product-builder/elementor-widgets/cart-form.php:535
+#: templates/single-product-builder/elementor-widgets/data-tab.php:113
+#: templates/single-product-builder/elementor-widgets/data-tab.php:152
+#: templates/single-product-builder/elementor-widgets/data-tab.php:191
+#: templates/single-product-builder/elementor-widgets/excerpt.php:63
+#: templates/single-product-builder/elementor-widgets/flash-sale.php:124
+#: templates/single-product-builder/elementor-widgets/flash-sale.php:152
+#: templates/single-product-builder/elementor-widgets/meta.php:230
+#: templates/single-product-builder/elementor-widgets/meta.php:263
+#: templates/single-product-builder/elementor-widgets/meta.php:291
+#: templates/single-product-builder/elementor-widgets/price.php:96
+#: templates/single-product-builder/elementor-widgets/price.php:116
+#: templates/single-product-builder/elementor-widgets/price.php:136
+#: templates/single-product-builder/elementor-widgets/rating.php:157
+#: templates/single-product-builder/elementor-widgets/rating.php:209
+#: templates/single-product-builder/elementor-widgets/share.php:81
+#: templates/single-product-builder/elementor-widgets/share.php:120
+msgid "Color"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:1052 elementor/partials/button.php:40
+#: elementor/partials/testimonial.php:29 elementor/partials/testimonial.php:354
+#: elementor/widgets/widget-floating.php:92 gutenberg/assets/blocks.js:2424
+#: gutenberg/assets/blocks.js:3554
+#: templates/single-product-builder/elementor-widgets/rating.php:117
+#: templates/single-product-builder/elementor-widgets/share.php:56
+msgid "Size"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:1077
+msgctxt "Text Shadow Control"
+msgid "Shadow"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:1107 elementor/partials/banner.php:619
+#: elementor/partials/button.php:435 elementor/partials/button.php:485
+#: elementor/partials/button.php:535 elementor/partials/slider.php:430
+#: elementor/partials/slider.php:480 elementor/partials/slider.php:530
+#: elementor/partials/slider.php:601 elementor/partials/slider.php:640
+#: elementor/partials/slider.php:679 elementor/partials/testimonial.php:65
+#: elementor/widgets/widget-categories.php:441 elementor/widgets/widget-categories.php:926
+#: elementor/widgets/widget-categories.php:957
+#: elementor/widgets/widget-categories.php:1119
+#: elementor/widgets/widget-categories.php:1161 elementor/widgets/widget-filter.php:205
+#: elementor/widgets/widget-filter.php:399 elementor/widgets/widget-filter.php:441
+#: elementor/widgets/widget-hotspot.php:292 elementor/widgets/widget-hotspot.php:323
+#: elementor/widgets/widget-imageslider.php:697
+#: elementor/widgets/widget-imageslider.php:747
+#: elementor/widgets/widget-imageslider.php:797
+#: elementor/widgets/widget-imageslider.php:868
+#: elementor/widgets/widget-imageslider.php:907
+#: elementor/widgets/widget-imageslider.php:946 elementor/widgets/widget-menu.php:330
+#: elementor/widgets/widget-menu.php:373 elementor/widgets/widget-menu.php:487
+#: elementor/widgets/widget-menu.php:529 elementor/widgets/widget-menu.php:669
+#: elementor/widgets/widget-menu.php:711 elementor/widgets/widget-posts.php:712
+#: elementor/widgets/widget-products-tab.php:659
+#: elementor/widgets/widget-products-tab.php:701
+#: elementor/widgets/widget-products-tab.php:743
+#: elementor/widgets/widget-products-tab.php:820
+#: elementor/widgets/widget-products-tab.php:1156
+#: elementor/widgets/widget-products.php:310 elementor/widgets/widget-products.php:352
+#: elementor/widgets/widget-products.php:394 elementor/widgets/widget-products.php:471
+#: elementor/widgets/widget-products.php:807 elementor/widgets/widget-share.php:271
+#: gutenberg/assets/blocks.js:718 gutenberg/assets/blocks.js:2934
+#: gutenberg/assets/blocks.js:2937 gutenberg/assets/blocks.js:3693
+#: gutenberg/assets/blocks.js:3696 gutenberg/assets/blocks.js:3720
+#: gutenberg/assets/blocks.js:3723
+#: templates/header-builder/elementor-widgets/currency-switcher.php:117
+#: templates/header-builder/elementor-widgets/currency-switcher.php:159
+#: templates/header-builder/elementor-widgets/currency-switcher.php:235
+#: templates/header-builder/elementor-widgets/currency-switcher.php:331
+#: templates/header-builder/elementor-widgets/currency-switcher.php:373
+#: templates/header-builder/elementor-widgets/language-switcher.php:135
+#: templates/header-builder/elementor-widgets/language-switcher.php:177
+#: templates/header-builder/elementor-widgets/language-switcher.php:253
+#: templates/header-builder/elementor-widgets/language-switcher.php:366
+#: templates/header-builder/elementor-widgets/language-switcher.php:408
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:143
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:185
+#: templates/header-builder/elementor-widgets/search.php:503
+#: templates/header-builder/elementor-widgets/search.php:534
+#: templates/header-builder/elementor-widgets/search.php:593
+#: templates/single-product-builder/elementor-widgets/cart-form.php:131
+#: templates/single-product-builder/elementor-widgets/cart-form.php:173
+#: templates/single-product-builder/elementor-widgets/cart-form.php:302
+#: templates/single-product-builder/elementor-widgets/cart-form.php:344
+#: templates/single-product-builder/elementor-widgets/cart-form.php:485
+#: templates/single-product-builder/elementor-widgets/cart-form.php:546
+#: templates/single-product-builder/elementor-widgets/data-tab.php:124
+#: templates/single-product-builder/elementor-widgets/data-tab.php:163
+#: templates/single-product-builder/elementor-widgets/data-tab.php:202
+#: templates/single-product-builder/elementor-widgets/flash-sale.php:96
+#: templates/single-product-builder/elementor-widgets/share.php:92
+#: templates/single-product-builder/elementor-widgets/share.php:131
+msgid "Background Color"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:1118
+msgid "UI Color"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:1129
+msgid "UI Hover Color"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:1141 elementor/partials/banner.php:1074
+#: elementor/widgets/widget-categories.php:826
+msgid "Content Width"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:1160
+msgid "Content Position"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:1164 elementor/partials/banner.php:644
+#: elementor/partials/banner.php:673 elementor/partials/banner.php:710
+#: elementor/partials/banner.php:1228 elementor/partials/banner.php:1264
+#: elementor/partials/products.php:88 elementor/partials/products.php:1034
+#: elementor/partials/testimonial.php:590 elementor/partials/testimonial.php:619
+#: elementor/widgets/widget-breadcrumb.php:110 elementor/widgets/widget-button.php:82
+#: elementor/widgets/widget-categories.php:542 elementor/widgets/widget-categories.php:891
+#: elementor/widgets/widget-countdown.php:66 elementor/widgets/widget-filter.php:133
+#: elementor/widgets/widget-heading.php:160 elementor/widgets/widget-imagebox.php:132
+#: elementor/widgets/widget-imageslider.php:238
+#: elementor/widgets/widget-imageslider.php:307 elementor/widgets/widget-posts.php:389
+#: elementor/widgets/widget-products-tab.php:412
+#: elementor/widgets/widget-products-tab.php:623 elementor/widgets/widget-products.php:274
+#: elementor/widgets/widget-share.php:211 gutenberg/assets/blocks.js:794
+#: gutenberg/assets/blocks.js:821 gutenberg/assets/blocks.js:1197
+#: gutenberg/assets/blocks.js:2358 gutenberg/assets/blocks.js:2726
+#: gutenberg/assets/blocks.js:2738 gutenberg/assets/blocks.js:3301
+#: gutenberg/assets/blocks.js:3612
+#: templates/single-product-builder/elementor-widgets/data-tab.php:76
+#: templates/single-product-builder/elementor-widgets/excerpt.php:82
+#: templates/single-product-builder/elementor-widgets/meta.php:77
+#: templates/single-product-builder/elementor-widgets/navigation.php:62
+#: templates/single-product-builder/elementor-widgets/price.php:71
+#: templates/single-product-builder/elementor-widgets/rating.php:76
+#: templates/single-product-builder/elementor-widgets/share.php:162
+msgid "Center"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:1165 elementor/partials/banner.php:792
+#: elementor/partials/banner.php:1338 elementor/partials/products.php:1004
+#: elementor/partials/slider.php:22 elementor/partials/slider.php:125
+#: elementor/partials/testimonial.php:535 elementor/partials/testimonial.php:615
+#: elementor/widgets/widget-categories.php:614 elementor/widgets/widget-hotspot.php:153
+#: elementor/widgets/widget-imageslider.php:194
+#: elementor/widgets/widget-imageslider.php:263
+#: elementor/widgets/widget-imageslider.php:388
+#: elementor/widgets/widget-products-tab.php:382 gutenberg/assets/blocks.js:449
+#: gutenberg/assets/blocks.js:574 gutenberg/assets/blocks.js:646
+#: gutenberg/assets/blocks.js:685 gutenberg/assets/blocks.js:841
+#: gutenberg/assets/blocks.js:1158 gutenberg/assets/blocks.js:1821
+#: gutenberg/assets/blocks.js:2295 gutenberg/assets/blocks.js:2732
+#: gutenberg/assets/blocks.js:2751 gutenberg/assets/blocks.js:2790
+#: gutenberg/assets/blocks.js:2856 gutenberg/assets/blocks.js:2895
+#: gutenberg/assets/blocks.js:2975 gutenberg/assets/blocks.js:3043
+#: gutenberg/assets/blocks.js:3325 gutenberg/assets/blocks.js:3630
+msgid "Top"
+msgstr ""
+
+#: elementor/elements/alpha-section.php:1179 elementor/partials/banner.php:255
+#: elementor/partials/banner.php:1010
+msgid "Entrance Animation"
+msgstr ""
+
+#: elementor/init.php:106
+msgid "Alpha Widgets"
+msgstr ""
+
+#: elementor/init.php:208
+msgid "Alpha Icons"
+msgstr ""
+
+#: elementor/init.php:322
+msgid "Alpha Popup Settings"
+msgstr ""
+
+#: elementor/init.php:331
+msgid "Popup Width (px)"
+msgstr ""
+
+#: elementor/init.php:340
+msgid "Popup Animation"
+msgstr ""
+
+#: elementor/init.php:350
+msgid "Animation Duration (ms)"
+msgstr ""
+
+#: elementor/init.php:359
+msgid "Show Popup on"
+msgstr ""
+
+#: elementor/init.php:362
+msgid "Page Load"
+msgstr ""
+
+#: elementor/init.php:363
+msgid "Click Event"
+msgstr ""
+
+#: elementor/init.php:372
+#, php-format
+msgid ""
+"You can change page load popup options in %1$sAlpha Page Layout / General Settings / "
+"Popup%2$s"
+msgstr ""
+
+#: elementor/init.php:383
+#, php-format
+msgid ""
+"Please add two classes - \"show-popup popup-id-ID\" to any elements you want to show "
+"popup on click. %1$se.x) shop-popup popup-id-725%2$s"
+msgstr ""
+
+#: elementor/init.php:406 meta-box/init.php:110
+msgid "Custom CSS"
+msgstr ""
+
+#: elementor/init.php:423 meta-box/init.php:116
+msgid "Custom JS"
+msgstr ""
+
+#: elementor/partials/banner.php:22 elementor/partials/banner.php:299
+msgid "Banner Items"
+msgstr ""
+
+#: elementor/partials/banner.php:29
+msgid "Preset"
+msgstr ""
+
+#: elementor/partials/banner.php:33
+msgid "Simple Left"
+msgstr ""
+
+#: elementor/partials/banner.php:34
+msgid "Simple Center"
+msgstr ""
+
+#: elementor/partials/banner.php:35
+msgid "Simple Right"
+msgstr ""
+
+#: elementor/partials/banner.php:36
+msgid "Badge Simple"
+msgstr ""
+
+#: elementor/partials/banner.php:37
+msgid "Boxed Left"
+msgstr ""
+
+#: elementor/partials/banner.php:38
+msgid "Boxed Center"
+msgstr ""
+
+#: elementor/partials/banner.php:39
+msgid "Boxed Right"
+msgstr ""
+
+#: elementor/partials/banner.php:40
+msgid "Boxed Round"
+msgstr ""
+
+#: elementor/partials/banner.php:50 elementor/partials/button.php:24
+#: elementor/widgets/widget-countdown.php:82 elementor/widgets/widget-floating.php:52
+#: elementor/widgets/widget-hotspot.php:52 elementor/widgets/widget-share.php:125
+#: elementor/widgets/widget-subcategories.php:74
+#: elementor/widgets/widget-subcategories.php:87 gutenberg/assets/blocks.js:2412
+#: gutenberg/assets/blocks.js:3542
+#: templates/single-product-builder/elementor-widgets/data-tab.php:55
+#: templates/single-product-builder/elementor-widgets/image.php:52
+#: templates/single-product-builder/elementor-widgets/rating.php:55
+msgid "Type"
+msgstr ""
+
+#: elementor/partials/banner.php:54 elementor/partials/banner.php:159
+#: gutenberg/assets/blocks.js:3520
+#: templates/single-product-builder/elementor-widgets/meta.php:245
+msgid "Text"
+msgstr ""
+
+#: elementor/partials/banner.php:55 elementor/widgets/widget-categories.php:1073
+#: templates/header-builder/elementor-widgets/search.php:277
+#: templates/single-product-builder/elementor-widgets/cart-form.php:63
+msgid "Button"
+msgstr ""
+
+#: elementor/partials/banner.php:56 elementor/widgets/widget-floating.php:56
+msgid "Image"
+msgstr ""
+
+#: elementor/partials/banner.php:57 elementor/widgets/widget-floating.php:44
+msgid "Floating"
+msgstr ""
+
+#: elementor/partials/banner.php:65
+msgid "Display"
+msgstr ""
+
+#: elementor/partials/banner.php:69 elementor/widgets/widget-countdown.php:87
+#: templates/header-builder/elementor-widgets/account.php:63
+#: templates/header-builder/elementor-widgets/cart.php:63
+#: templates/header-builder/elementor-widgets/wishlist.php:63
+msgid "Inline"
+msgstr ""
+
+#: elementor/partials/banner.php:70 elementor/widgets/widget-block.php:43
+#: elementor/widgets/widget-countdown.php:86 elementor/widgets/widget-hotspot.php:57
+#: templates/header-builder/elementor-widgets/account.php:59
+#: templates/header-builder/elementor-widgets/cart.php:59
+#: templates/header-builder/elementor-widgets/wishlist.php:59
+msgid "Block"
+msgstr ""
+
+#: elementor/partials/banner.php:78 elementor/partials/button.php:161
+#: elementor/widgets/widget-hotspot.php:238
+msgid "Custom Class"
+msgstr ""
+
+#: elementor/partials/banner.php:86 elementor/partials/testimonial.php:108
+#: elementor/partials/testimonial.php:174 elementor/partials/testimonial.php:236
+#: elementor/partials/testimonial.php:282 elementor/partials/testimonial.php:328
+#: elementor/partials/testimonial.php:402 elementor/widgets/widget-categories.php:476
+#: elementor/widgets/widget-categories.php:1021
+#: elementor/widgets/widget-categories.php:1216 elementor/widgets/widget-imagebox.php:180
+#: elementor/widgets/widget-imagebox.php:226 elementor/widgets/widget-imagebox.php:272
+#: elementor/widgets/widget-menu.php:413 elementor/widgets/widget-menu.php:567
+#: elementor/widgets/widget-posts.php:418 elementor/widgets/widget-posts.php:464
+#: elementor/widgets/widget-posts.php:510 elementor/widgets/widget-posts.php:556
+#: elementor/widgets/widget-products-tab.php:525
+#: elementor/widgets/widget-products-tab.php:892
+#: elementor/widgets/widget-products-tab.php:933
+#: elementor/widgets/widget-products-tab.php:974
+#: elementor/widgets/widget-products-tab.php:1026
+#: elementor/widgets/widget-products-tab.php:1066
+#: elementor/widgets/widget-products.php:176 elementor/widgets/widget-products.php:543
+#: elementor/widgets/widget-products.php:584 elementor/widgets/widget-products.php:625
+#: elementor/widgets/widget-products.php:677 elementor/widgets/widget-products.php:717
+#: elementor/widgets/widget-products.php:954 gutenberg/assets/blocks.js:680
+#: gutenberg/assets/blocks.js:2785 gutenberg/assets/blocks.js:2890
+#: gutenberg/assets/blocks.js:2970 gutenberg/assets/blocks.js:3038
+#: gutenberg/assets/blocks.js:3320
+#: templates/header-builder/elementor-widgets/currency-switcher.php:276
+#: templates/header-builder/elementor-widgets/language-switcher.php:311
+msgid "Margin"
+msgstr ""
+
+#: elementor/partials/banner.php:99 elementor/partials/testimonial.php:452
+#: elementor/widgets/widget-heading.php:59 elementor/widgets/widget-hotspot.php:45
+#: elementor/widgets/widget-imagebox.php:96 elementor/widgets/widget-posts.php:230
+#: elementor/widgets/widget-posts.php:362 elementor/widgets/widget-products-tab.php:862
+#: elementor/widgets/widget-products.php:513
+#: templates/single-product-builder/elementor-widgets/cart-form.php:46
+#: templates/single-product-builder/elementor-widgets/data-tab.php:47
+#: templates/single-product-builder/elementor-widgets/flash-sale.php:46
+#: templates/single-product-builder/elementor-widgets/image.php:45
+msgid "Content"
+msgstr ""
+
+#: elementor/partials/banner.php:110
+msgid "Tag"
+msgstr ""
+
+#: elementor/partials/banner.php:114 gutenberg/assets/blocks.js:3251
+msgid "H1"
+msgstr ""
+
+#: elementor/partials/banner.php:115 gutenberg/assets/blocks.js:3252
+msgid "H2"
+msgstr ""
+
+#: elementor/partials/banner.php:116 gutenberg/assets/blocks.js:3253
+msgid "H3"
+msgstr ""
+
+#: elementor/partials/banner.php:117 gutenberg/assets/blocks.js:3254
+msgid "H4"
+msgstr ""
+
+#: elementor/partials/banner.php:118 gutenberg/assets/blocks.js:3255
+msgid "H5"
+msgstr ""
+
+#: elementor/partials/banner.php:119 gutenberg/assets/blocks.js:3256
+msgid "H6"
+msgstr ""
+
+#: elementor/partials/banner.php:120
+msgid "p"
+msgstr ""
+
+#: elementor/partials/banner.php:121
+msgid "div"
+msgstr ""
+
+#: elementor/partials/banner.php:122
+msgid "span"
+msgstr ""
+
+#: elementor/partials/banner.php:170 elementor/widgets/widget-button.php:100
+#: elementor/widgets/widget-heading.php:226 elementor/widgets/widget-hotspot.php:84
+msgid "Link Url"
+msgstr ""
+
+#: elementor/partials/banner.php:184
+msgid "Button Padding"
+msgstr ""
+
+#: elementor/partials/banner.php:202 elementor/widgets/widget-imagebox.php:58
+msgid "Choose Image"
+msgstr ""
+
+#: elementor/partials/banner.php:265 elementor/partials/banner.php:1020
+msgid "Animation Duration"
+msgstr ""
+
+#: elementor/partials/banner.php:269 elementor/partials/banner.php:1024
+msgid "Slow"
+msgstr ""
+
+#: elementor/partials/banner.php:271 elementor/partials/banner.php:1026
+msgid "Fast"
+msgstr ""
+
+#: elementor/partials/banner.php:283 elementor/partials/banner.php:1038
+msgid "Animation Delay"
+msgstr ""
+
+#: elementor/partials/banner.php:342 elementor/partials/banner.php:1121
+msgid "Max Height"
+msgstr ""
+
+#: elementor/partials/banner.php:369 elementor/partials/banner.php:1090
+#: elementor/widgets/widget-categories.php:414
+msgid "Min Height"
+msgstr ""
+
+#: elementor/partials/banner.php:413
+msgid "Content absolute banner."
+msgstr ""
+
+#: elementor/partials/banner.php:422 elementor/partials/banner.php:1151
+msgid "Adjust banner size with image."
+msgstr ""
+
+#: elementor/partials/banner.php:434 elementor/partials/banner.php:1186
+msgid "Banner Overlay"
+msgstr ""
+
+#: elementor/partials/banner.php:436 elementor/partials/banner.php:1188
+#: elementor/partials/grid.php:233 elementor/widgets/widget-categories.php:264
+#: elementor/widgets/widget-posts.php:245 gutenberg/assets/blocks.js:1856
+#: gutenberg/assets/blocks.js:2341
+msgid "No"
+msgstr ""
+
+#: elementor/partials/banner.php:437 elementor/partials/banner.php:1189
+#: elementor/widgets/widget-categories.php:265 elementor/widgets/widget-posts.php:246
+#: gutenberg/assets/blocks.js:1857 gutenberg/assets/blocks.js:2342
+msgid "Light"
+msgstr ""
+
+#: elementor/partials/banner.php:438 elementor/partials/banner.php:1190
+#: elementor/partials/button.php:127 elementor/widgets/widget-categories.php:266
+#: elementor/widgets/widget-filter.php:164 elementor/widgets/widget-posts.php:247
+#: gutenberg/assets/blocks.js:461 gutenberg/assets/blocks.js:1858
+#: gutenberg/assets/blocks.js:2343 gutenberg/assets/blocks.js:2402
+#: gutenberg/assets/blocks.js:3532
+msgid "Dark"
+msgstr ""
+
+#: elementor/partials/banner.php:439 elementor/partials/banner.php:1191
+#: elementor/widgets/widget-categories.php:267 elementor/widgets/widget-posts.php:248
+#: gutenberg/assets/blocks.js:1859 gutenberg/assets/blocks.js:2344
+msgid "Zoom"
+msgstr ""
+
+#: elementor/partials/banner.php:440 elementor/partials/banner.php:1192
+#: elementor/widgets/widget-categories.php:268 elementor/widgets/widget-posts.php:249
+#: gutenberg/assets/blocks.js:1860 gutenberg/assets/blocks.js:2345
+msgid "Zoom and Light"
+msgstr ""
+
+#: elementor/partials/banner.php:441 elementor/partials/banner.php:1193
+#: elementor/widgets/widget-categories.php:269 elementor/widgets/widget-posts.php:250
+#: gutenberg/assets/blocks.js:1861 gutenberg/assets/blocks.js:2346
+msgid "Zoom and Dark"
+msgstr ""
+
+#: elementor/partials/banner.php:475 elementor/partials/banner.php:1163
+msgid "Image Position (%)"
+msgstr ""
+
+#: elementor/partials/banner.php:499
+msgid "Parallax"
+msgstr ""
+
+#: elementor/partials/banner.php:592 gutenberg/assets/blocks.js:753
+msgid "Wrap with"
+msgstr ""
+
+#: elementor/partials/banner.php:596 elementor/partials/button.php:81
+#: elementor/widgets/widget-imageslider.php:84 gutenberg/assets/blocks.js:754
+#: gutenberg/assets/blocks.js:2420 gutenberg/assets/blocks.js:2458
+#: gutenberg/assets/blocks.js:3550 gutenberg/assets/blocks.js:3601
+msgid "None"
+msgstr ""
+
+#: elementor/partials/banner.php:597 elementor/partials/banner.php:1077
+#: gutenberg/assets/blocks.js:754 meta-box/product-cat-meta.php:48
+#: meta-box/product-cat-meta.php:71 meta-box/product-cat-meta.php:80
+#: meta-box/product-cat-meta.php:89
+msgid "Container"
+msgstr ""
+
+#: elementor/partials/banner.php:598 gutenberg/assets/blocks.js:754
+msgid "Container fluid"
+msgstr ""
+
+#: elementor/partials/banner.php:605
+#: templates/single-product-builder/elementor-widgets/data-tab.php:241
+msgid "Content Padding"
+msgstr ""
+
+#: elementor/partials/banner.php:636 elementor/partials/banner.php:1220
+#: gutenberg/assets/blocks.js:3299
+msgid "Text Align"
+msgstr ""
+
+#: elementor/partials/banner.php:640 elementor/partials/banner.php:669
+#: elementor/partials/banner.php:733 elementor/partials/banner.php:1224
+#: elementor/partials/banner.php:1280 elementor/partials/products.php:84
+#: elementor/partials/products.php:1030 elementor/partials/testimonial.php:586
+#: elementor/widgets/widget-breadcrumb.php:106 elementor/widgets/widget-button.php:78
+#: elementor/widgets/widget-categories.php:555 elementor/widgets/widget-categories.php:887
+#: elementor/widgets/widget-countdown.php:62 elementor/widgets/widget-filter.php:129
+#: elementor/widgets/widget-heading.php:156 elementor/widgets/widget-heading.php:308
+#: elementor/widgets/widget-hotspot.php:154 elementor/widgets/widget-imagebox.php:128
+#: elementor/widgets/widget-imageslider.php:234
+#: elementor/widgets/widget-imageslider.php:303 elementor/widgets/widget-menu.php:141
+#: elementor/widgets/widget-posts.php:385 elementor/widgets/widget-products-tab.php:408
+#: elementor/widgets/widget-products-tab.php:619 elementor/widgets/widget-products.php:270
+#: elementor/widgets/widget-share.php:207 gutenberg/assets/blocks.js:667
+#: gutenberg/assets/blocks.js:706 gutenberg/assets/blocks.js:794
+#: gutenberg/assets/blocks.js:815 gutenberg/assets/blocks.js:1197
+#: gutenberg/assets/blocks.js:2358 gutenberg/assets/blocks.js:2726
+#: gutenberg/assets/blocks.js:2738 gutenberg/assets/blocks.js:2772
+#: gutenberg/assets/blocks.js:2811 gutenberg/assets/blocks.js:2877
+#: gutenberg/assets/blocks.js:2916 gutenberg/assets/blocks.js:2996
+#: gutenberg/assets/blocks.js:3064 gutenberg/assets/blocks.js:3301
+#: gutenberg/assets/blocks.js:3346 gutenberg/assets/blocks.js:3612
+#: gutenberg/assets/blocks.js:3651
+#: templates/single-product-builder/elementor-widgets/data-tab.php:72
+#: templates/single-product-builder/elementor-widgets/excerpt.php:78
+#: templates/single-product-builder/elementor-widgets/meta.php:73
+#: templates/single-product-builder/elementor-widgets/navigation.php:58
+#: templates/single-product-builder/elementor-widgets/price.php:67
+#: templates/single-product-builder/elementor-widgets/rating.php:72
+#: templates/single-product-builder/elementor-widgets/share.php:158
+msgid "Left"
+msgstr ""
+
+#: elementor/partials/banner.php:648 elementor/partials/banner.php:677
+#: elementor/partials/banner.php:851 elementor/partials/banner.php:1232
+#: elementor/partials/banner.php:1396 elementor/partials/products.php:92
+#: elementor/partials/products.php:1038 elementor/partials/testimonial.php:594
+#: elementor/widgets/widget-breadcrumb.php:114 elementor/widgets/widget-button.php:86
+#: elementor/widgets/widget-categories.php:673 elementor/widgets/widget-categories.php:895
+#: elementor/widgets/widget-countdown.php:70 elementor/widgets/widget-filter.php:137
+#: elementor/widgets/widget-heading.php:164 elementor/widgets/widget-heading.php:312
+#: elementor/widgets/widget-hotspot.php:155 elementor/widgets/widget-imagebox.php:136
+#: elementor/widgets/widget-imageslider.php:242
+#: elementor/widgets/widget-imageslider.php:311 elementor/widgets/widget-menu.php:145
+#: elementor/widgets/widget-posts.php:393 elementor/widgets/widget-products-tab.php:416
+#: elementor/widgets/widget-products-tab.php:627 elementor/widgets/widget-products.php:278
+#: elementor/widgets/widget-share.php:215 gutenberg/assets/blocks.js:653
+#: gutenberg/assets/blocks.js:692 gutenberg/assets/blocks.js:794
+#: gutenberg/assets/blocks.js:827 gutenberg/assets/blocks.js:1197
+#: gutenberg/assets/blocks.js:2358 gutenberg/assets/blocks.js:2726
+#: gutenberg/assets/blocks.js:2738 gutenberg/assets/blocks.js:2758
+#: gutenberg/assets/blocks.js:2797 gutenberg/assets/blocks.js:2863
+#: gutenberg/assets/blocks.js:2902 gutenberg/assets/blocks.js:2982
+#: gutenberg/assets/blocks.js:3050 gutenberg/assets/blocks.js:3301
+#: gutenberg/assets/blocks.js:3332 gutenberg/assets/blocks.js:3612
+#: gutenberg/assets/blocks.js:3637
+#: templates/single-product-builder/elementor-widgets/data-tab.php:80
+#: templates/single-product-builder/elementor-widgets/excerpt.php:86
+#: templates/single-product-builder/elementor-widgets/meta.php:81
+#: templates/single-product-builder/elementor-widgets/navigation.php:66
+#: templates/single-product-builder/elementor-widgets/price.php:75
+#: templates/single-product-builder/elementor-widgets/rating.php:80
+#: templates/single-product-builder/elementor-widgets/share.php:166
+msgid "Right"
+msgstr ""
+
+#: elementor/partials/banner.php:652 elementor/partials/banner.php:1236
+#: elementor/widgets/widget-share.php:219 gutenberg/assets/blocks.js:3612
+#: templates/single-product-builder/elementor-widgets/excerpt.php:90
+msgid "Justify"
+msgstr ""
+
+#: elementor/partials/banner.php:665 elementor/partials/products.php:1026
+#: elementor/widgets/widget-categories.php:883
+#: elementor/widgets/widget-products-tab.php:404 gutenberg/assets/blocks.js:1196
+#: gutenberg/assets/blocks.js:2357 gutenberg/assets/blocks.js:2736
+msgid "Content Align"
+msgstr ""
+
+#: elementor/partials/banner.php:681 elementor/partials/slider.php:34
+#: elementor/widgets/widget-imageslider.php:206
+#: elementor/widgets/widget-imageslider.php:275 gutenberg/assets/blocks.js:574
+#: gutenberg/assets/blocks.js:1158 gutenberg/assets/blocks.js:1821
+#: gutenberg/assets/blocks.js:2295
+msgid "Stretch"
+msgstr ""
+
+#: elementor/partials/banner.php:694 elementor/partials/banner.php:1252
+#: elementor/widgets/widget-categories.php:530
+msgid "Origin"
+msgstr ""
+
+#: elementor/partials/banner.php:702 elementor/partials/banner.php:1256
+#: elementor/widgets/widget-categories.php:534
+msgid "Vertical Center"
+msgstr ""
+
+#: elementor/partials/banner.php:706 elementor/partials/banner.php:1260
+#: elementor/widgets/widget-categories.php:538
+msgid "Horizontal Center"
+msgstr ""
+
+#: elementor/partials/banner.php:740 elementor/partials/banner.php:1290
+#: elementor/widgets/widget-categories.php:562
+msgid "Left Offset"
+msgstr ""
+
+#: elementor/partials/banner.php:780 elementor/partials/banner.php:839
+#: elementor/widgets/widget-categories.php:602 elementor/widgets/widget-categories.php:661
+#: elementor/widgets/widget-categories.php:720 elementor/widgets/widget-categories.php:779
+msgid "Set Auto"
+msgstr ""
+
+#: elementor/partials/banner.php:799 elementor/partials/banner.php:1348
+#: elementor/widgets/widget-categories.php:621
+msgid "Top Offset"
+msgstr ""
+
+#: elementor/partials/banner.php:858 elementor/partials/banner.php:1406
+#: elementor/widgets/widget-categories.php:680
+msgid "Right Offset"
+msgstr ""
+
+#: elementor/partials/banner.php:899 elementor/partials/banner.php:1450
+#: elementor/partials/slider.php:30 elementor/partials/testimonial.php:623
+#: elementor/widgets/widget-categories.php:732 elementor/widgets/widget-hotspot.php:156
+#: elementor/widgets/widget-imageslider.php:202
+#: elementor/widgets/widget-imageslider.php:271 gutenberg/assets/blocks.js:574
+#: gutenberg/assets/blocks.js:660 gutenberg/assets/blocks.js:699
+#: gutenberg/assets/blocks.js:853 gutenberg/assets/blocks.js:1158
+#: gutenberg/assets/blocks.js:1821 gutenberg/assets/blocks.js:2295
+#: gutenberg/assets/blocks.js:2732 gutenberg/assets/blocks.js:2765
+#: gutenberg/assets/blocks.js:2804 gutenberg/assets/blocks.js:2870
+#: gutenberg/assets/blocks.js:2909 gutenberg/assets/blocks.js:2989
+#: gutenberg/assets/blocks.js:3057 gutenberg/assets/blocks.js:3339
+#: gutenberg/assets/blocks.js:3644
+msgid "Bottom"
+msgstr ""
+
+#: elementor/partials/banner.php:906 elementor/partials/banner.php:1460
+#: elementor/widgets/widget-categories.php:739
+msgid "Bottom Offset"
+msgstr ""
+
+#: elementor/partials/banner.php:949 elementor/partials/banner.php:1506
+#: elementor/widgets/widget-filter.php:245 elementor/widgets/widget-filter.php:332
+#: templates/header-builder/elementor-widgets/v-divider.php:77
+#: templates/single-product-builder/elementor-widgets/cart-form.php:400
+#: templates/single-product-builder/elementor-widgets/meta.php:182
+msgid "Width"
+msgstr ""
+
+#: elementor/partials/banner.php:980 elementor/partials/banner.php:1537
+#: elementor/widgets/widget-filter.php:354 elementor/widgets/widget-heading.php:502
+#: templates/header-builder/elementor-widgets/v-divider.php:65
+#: templates/single-product-builder/elementor-widgets/meta.php:201
+msgid "Height"
+msgstr ""
+
+#: elementor/partials/banner.php:1078 meta-box/product-cat-meta.php:49
+#: meta-box/product-cat-meta.php:72 meta-box/product-cat-meta.php:81
+#: meta-box/product-cat-meta.php:90
+msgid "Container Fluid"
+msgstr ""
+
+#: elementor/partials/button.php:29 elementor/partials/products.php:149
+#: elementor/widgets/widget-testimonial-group.php:160
+#: elementor/widgets/widget-testimonial.php:78 gutenberg/assets/blocks.js:2414
+#: gutenberg/assets/blocks.js:3544
+#: templates/single-product-builder/elementor-widgets/meta.php:116
+msgid "Solid"
+msgstr ""
+
+#: elementor/partials/button.php:30 elementor/widgets/widget-testimonial-group.php:164
+#: elementor/widgets/widget-testimonial.php:82 gutenberg/assets/blocks.js:2414
+#: gutenberg/assets/blocks.js:3544
+msgid "Outline"
+msgstr ""
+
+#: elementor/partials/button.php:44 elementor/partials/grid.php:160
+#: elementor/partials/products.php:1334 elementor/widgets/widget-imageslider.php:180
+#: elementor/widgets/widget-single-product.php:203 gutenberg/assets/blocks.js:568
+#: gutenberg/assets/blocks.js:1152 gutenberg/assets/blocks.js:1815
+#: gutenberg/assets/blocks.js:2289 gutenberg/assets/blocks.js:2426
+#: gutenberg/assets/blocks.js:3556
+#: templates/single-product-builder/elementor-widgets/image.php:140
+msgid "Small"
+msgstr ""
+
+#: elementor/partials/button.php:45 elementor/partials/grid.php:161
+#: elementor/partials/products.php:1335 elementor/widgets/widget-imageslider.php:181
+#: elementor/widgets/widget-single-product.php:204 gutenberg/assets/blocks.js:568
+#: gutenberg/assets/blocks.js:1152 gutenberg/assets/blocks.js:1815
+#: gutenberg/assets/blocks.js:2289 gutenberg/assets/blocks.js:2426
+#: gutenberg/assets/blocks.js:3556
+#: templates/single-product-builder/elementor-widgets/image.php:141
+msgid "Medium"
+msgstr ""
+
+#: elementor/partials/button.php:47 elementor/partials/grid.php:162
+#: elementor/partials/products.php:1336 elementor/widgets/widget-imageslider.php:182
+#: elementor/widgets/widget-single-product.php:205 gutenberg/assets/blocks.js:568
+#: gutenberg/assets/blocks.js:1152 gutenberg/assets/blocks.js:1815
+#: gutenberg/assets/blocks.js:2289 gutenberg/assets/blocks.js:2426
+#: gutenberg/assets/blocks.js:3556
+#: templates/single-product-builder/elementor-widgets/image.php:142
+msgid "Large"
+msgstr ""
+
+#: elementor/partials/button.php:56 gutenberg/assets/blocks.js:2418
+#: gutenberg/assets/blocks.js:3548
+msgid "Hover Underline"
+msgstr ""
+
+#: elementor/partials/button.php:60 elementor/partials/button.php:301
+msgid "none"
+msgstr ""
+
+#: elementor/partials/button.php:61 gutenberg/assets/blocks.js:2420
+#: gutenberg/assets/blocks.js:3550
+msgid "Underline1"
+msgstr ""
+
+#: elementor/partials/button.php:62 gutenberg/assets/blocks.js:2420
+#: gutenberg/assets/blocks.js:3550
+msgid "Underline2"
+msgstr ""
+
+#: elementor/partials/button.php:63 gutenberg/assets/blocks.js:2420
+#: gutenberg/assets/blocks.js:3550
+msgid "Underline3"
+msgstr ""
+
+#: elementor/partials/button.php:78
+msgid "Box Shadow"
+msgstr ""
+
+#: elementor/partials/button.php:82
+msgid "Shadow 1"
+msgstr ""
+
+#: elementor/partials/button.php:83
+msgid "Shadow 2"
+msgstr ""
+
+#: elementor/partials/button.php:84
+msgid "Shadow 3"
+msgstr ""
+
+#: elementor/partials/button.php:98 elementor/widgets/widget-share.php:140
+msgid "Border Style"
+msgstr ""
+
+#: elementor/partials/button.php:102
+msgid "Square"
+msgstr ""
+
+#: elementor/partials/button.php:103 elementor/widgets/widget-share.php:144
+#: gutenberg/assets/blocks.js:2408 gutenberg/assets/blocks.js:2843
+#: gutenberg/assets/blocks.js:3538
+#: templates/header-builder/elementor-widgets/search.php:86
+msgid "Rounded"
+msgstr ""
+
+#: elementor/partials/button.php:104 elementor/widgets/widget-categories.php:208
+#: gutenberg/assets/blocks.js:1840 gutenberg/assets/blocks.js:2408
+#: gutenberg/assets/blocks.js:3538
+msgid "Ellipse"
+msgstr ""
+
+#: elementor/partials/button.php:118 gutenberg/assets/blocks.js:2400
+#: gutenberg/assets/blocks.js:3530
+msgid "Skin"
+msgstr ""
+
+#: elementor/partials/button.php:123 elementor/widgets/widget-filter.php:160
+#: gutenberg/assets/blocks.js:2402 gutenberg/assets/blocks.js:3532
+msgid "Primary"
+msgstr ""
+
+#: elementor/partials/button.php:124 elementor/widgets/widget-filter.php:161
+#: gutenberg/assets/blocks.js:2402 gutenberg/assets/blocks.js:3532
+msgid "Secondary"
+msgstr ""
+
+#: elementor/partials/button.php:125 elementor/widgets/widget-filter.php:162
+#: gutenberg/assets/blocks.js:2402 gutenberg/assets/blocks.js:3532
+msgid "Alert"
+msgstr ""
+
+#: elementor/partials/button.php:126 elementor/widgets/widget-filter.php:163
+#: gutenberg/assets/blocks.js:2402 gutenberg/assets/blocks.js:3532
+msgid "Success"
+msgstr ""
+
+#: elementor/partials/button.php:128 elementor/widgets/widget-filter.php:165
+#: gutenberg/assets/blocks.js:461 gutenberg/assets/blocks.js:2402
+#: gutenberg/assets/blocks.js:3532
+msgid "White"
+msgstr ""
+
+#: elementor/partials/button.php:138
+msgid "Disable Line-break"
+msgstr ""
+
+#: elementor/partials/button.php:171
+msgid "Show Icon?"
+msgstr ""
+
+#: elementor/partials/button.php:180
+msgid "Show Label?"
+msgstr ""
+
+#: elementor/partials/button.php:211 elementor/widgets/widget-heading.php:254
+msgid "Icon Position"
+msgstr ""
+
+#: elementor/partials/button.php:215 elementor/widgets/widget-heading.php:258
+#: gutenberg/assets/blocks.js:2448 gutenberg/assets/blocks.js:3578
+msgid "After"
+msgstr ""
+
+#: elementor/partials/button.php:216 elementor/widgets/widget-heading.php:259
+#: gutenberg/assets/blocks.js:2442 gutenberg/assets/blocks.js:3572
+msgid "Before"
+msgstr ""
+
+#: elementor/partials/button.php:230 elementor/widgets/widget-heading.php:267
+msgid "Icon Spacing (px)"
+msgstr ""
+
+#: elementor/partials/button.php:257 elementor/widgets/widget-heading.php:286
+#: elementor/widgets/widget-menu.php:602
+#: templates/header-builder/elementor-widgets/account.php:138
+#: templates/header-builder/elementor-widgets/cart.php:207
+#: templates/header-builder/elementor-widgets/search.php:297
+#: templates/header-builder/elementor-widgets/search.php:460
+#: templates/header-builder/elementor-widgets/wishlist.php:136
+msgid "Icon Size (px)"
+msgstr ""
+
+#: elementor/partials/button.php:281 gutenberg/assets/blocks.js:2462
+#: gutenberg/assets/blocks.js:3605
+msgid "Animation Infinite"
+msgstr ""
+
+#: elementor/partials/button.php:297 gutenberg/assets/blocks.js:2456
+#: gutenberg/assets/blocks.js:3599
+msgid "Icon Hover Effect"
+msgstr ""
+
+#: elementor/partials/button.php:302
+msgid "Slide Left"
+msgstr ""
+
+#: elementor/partials/button.php:303
+msgid "Slide Right"
+msgstr ""
+
+#: elementor/partials/button.php:304 elementor/partials/products.php:889
+#: elementor/widgets/widget-products-tab.php:267 gutenberg/assets/blocks.js:1176
+msgid "Slide Up"
+msgstr ""
+
+#: elementor/partials/button.php:305
+msgid "Slide Down"
+msgstr ""
+
+#: elementor/partials/button.php:306
+msgid "Reveal Left"
+msgstr ""
+
+#: elementor/partials/button.php:307
+msgid "Reveal Right"
+msgstr ""
+
+#: elementor/partials/button.php:326 gutenberg/assets/blocks.js:3617
+msgid "Button Style"
+msgstr ""
+
+#: elementor/partials/button.php:335
+msgid "Label Typography"
+msgstr ""
+
+#: elementor/partials/button.php:344
+msgid "Min Width"
+msgstr ""
+
+#: elementor/partials/button.php:367 elementor/partials/testimonial.php:92
+#: elementor/partials/testimonial.php:220 elementor/widgets/widget-categories.php:402
+#: elementor/widgets/widget-categories.php:488 elementor/widgets/widget-categories.php:871
+#: elementor/widgets/widget-categories.php:1229 elementor/widgets/widget-filter.php:216
+#: elementor/widgets/widget-menu.php:400 elementor/widgets/widget-menu.php:554
+#: elementor/widgets/widget-menu.php:736 elementor/widgets/widget-menu.php:759
+#: elementor/widgets/widget-posts.php:369 elementor/widgets/widget-products-tab.php:537
+#: elementor/widgets/widget-products-tab.php:785
+#: elementor/widgets/widget-products-tab.php:870 elementor/widgets/widget-products.php:188
+#: elementor/widgets/widget-products.php:436 elementor/widgets/widget-products.php:521
+#: gutenberg/assets/blocks.js:641 gutenberg/assets/blocks.js:2746
+#: gutenberg/assets/blocks.js:2851 gutenberg/assets/blocks.js:3625
+#: templates/header-builder/elementor-widgets/cart.php:195
+#: templates/header-builder/elementor-widgets/currency-switcher.php:62
+#: templates/header-builder/elementor-widgets/currency-switcher.php:194
+#: templates/header-builder/elementor-widgets/currency-switcher.php:264
+#: templates/header-builder/elementor-widgets/language-switcher.php:80
+#: templates/header-builder/elementor-widgets/language-switcher.php:212
+#: templates/header-builder/elementor-widgets/language-switcher.php:299
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:88
+#: templates/header-builder/elementor-widgets/search.php:198
+#: templates/header-builder/elementor-widgets/search.php:285
+#: templates/header-builder/elementor-widgets/search.php:448
+#: templates/header-builder/elementor-widgets/search.php:581
+#: templates/single-product-builder/elementor-widgets/cart-form.php:99
+#: templates/single-product-builder/elementor-widgets/cart-form.php:270
+msgid "Padding"
+msgstr ""
+
+#: elementor/partials/creative.php:22 elementor/widgets/widget-products-tab.php:154
+#: elementor/widgets/widget-products.php:85
+msgid "Creative Layout"
+msgstr ""
+
+#: elementor/partials/creative.php:35
+msgid "Change Grid Height"
+msgstr ""
+
+#: elementor/partials/creative.php:56
+msgid "Grid Mobile Height (%)"
+msgstr ""
+
+#: elementor/partials/creative.php:77
+msgid "Use Float Grid"
+msgstr ""
+
+#: elementor/partials/creative.php:78
+msgid ""
+"The Layout will be built with only float style not using isotope plugin. This is very "
+"useful for some simple creative layouts."
+msgstr ""
+
+#: elementor/partials/grid.php:23 elementor/partials/products.php:1263
+#: elementor/widgets/widget-single-product.php:132
+#: templates/single-product-builder/elementor-widgets/image.php:69
+msgid "Columns"
+msgstr ""
+
+#: elementor/partials/grid.php:66 elementor/partials/products.php:1284
+#: elementor/widgets/widget-single-product.php:153
+#: templates/single-product-builder/elementor-widgets/image.php:90
+msgid "Columns ( >= 1200px )"
+msgstr ""
+
+#: elementor/partials/grid.php:110 elementor/partials/products.php:1306
+#: elementor/widgets/widget-single-product.php:175
+#: templates/single-product-builder/elementor-widgets/image.php:112
+msgid "Columns ( < 576px )"
+msgstr ""
+
+#: elementor/partials/grid.php:154 elementor/widgets/widget-imageslider.php:174
+msgid "Columns Spacing"
+msgstr ""
+
+#: elementor/partials/grid.php:158 elementor/partials/products.php:1332
+#: elementor/widgets/widget-imageslider.php:178
+#: elementor/widgets/widget-single-product.php:201
+#: templates/single-product-builder/elementor-widgets/image.php:138
+msgid "No space"
+msgstr ""
+
+#: elementor/partials/grid.php:159 elementor/partials/products.php:1333
+#: elementor/widgets/widget-imageslider.php:179
+#: elementor/widgets/widget-single-product.php:202
+#: templates/single-product-builder/elementor-widgets/image.php:139
+msgid "Extra Small"
+msgstr ""
+
+#: elementor/partials/grid.php:229 elementor/partials/grid.php:250
+#: functions/core-functions.php:896
+msgid "Load More"
+msgstr ""
+
+#: elementor/partials/grid.php:234
+msgid "By button"
+msgstr ""
+
+#: elementor/partials/grid.php:235
+msgid "By pagination"
+msgstr ""
+
+#: elementor/partials/grid.php:236
+msgid "By scroll"
+msgstr ""
+
+#: elementor/partials/grid.php:247
+msgid "Load More Label"
+msgstr ""
+
+#: elementor/partials/products.php:19 elementor/partials/products.php:114
+#: elementor/partials/products.php:143
+msgid "Tab Type"
+msgstr ""
+
+#: elementor/partials/products.php:23 elementor/partials/products.php:1198
+#: elementor/widgets/widget-hotspot.php:164 elementor/widgets/widget-menu.php:103
+#: elementor/widgets/widget-single-product.php:89
+#: templates/single-product-builder/elementor-widgets/image.php:57
+#: templates/single-product-builder/elementor-widgets/meta.php:58
+msgid "Horizontal"
+msgstr ""
+
+#: elementor/partials/products.php:24 elementor/partials/products.php:1197
+#: elementor/widgets/widget-hotspot.php:201 elementor/widgets/widget-menu.php:104
+#: elementor/widgets/widget-single-product.php:88
+#: templates/single-product-builder/elementor-widgets/meta.php:57
+msgid "Vertical"
+msgstr ""
+
+#: elementor/partials/products.php:39
+msgid "Vertical Nav width"
+msgstr ""
+
+#: elementor/partials/products.php:79
+msgid "Tab Navs Position"
+msgstr ""
+
+#: elementor/partials/products.php:120
+msgid "Solid 1"
+msgstr ""
+
+#: elementor/partials/products.php:121
+msgid "Solid 2"
+msgstr ""
+
+#: elementor/partials/products.php:122
+msgid "Outline 1"
+msgstr ""
+
+#: elementor/partials/products.php:123
+msgid "Outline 2"
+msgstr ""
+
+#: elementor/partials/products.php:169
+msgid "Inversed Type"
+msgstr ""
+
+#: elementor/partials/products.php:204
+msgid "Tab Border Width (px)"
+msgstr ""
+
+#: elementor/partials/products.php:229
+msgid "Tab Border Radius (px)"
+msgstr ""
+
+#: elementor/partials/products.php:254
+msgid "Tab Border Color"
+msgstr ""
+
+#: elementor/partials/products.php:274
+msgid "Tab Active Color"
+msgstr ""
+
+#: elementor/partials/products.php:294
+msgid "Tab Content Padding"
+msgstr ""
+
+#: elementor/partials/products.php:313
+msgid "Nav Margin"
+msgstr ""
+
+#: elementor/partials/products.php:328
+msgid "Nav Padding"
+msgstr ""
+
+#: elementor/partials/products.php:349
+msgid "Nav Spacing (px)"
+msgstr ""
+
+#: elementor/partials/products.php:369
+msgid "Nav Typography"
+msgstr ""
+
+#: elementor/partials/products.php:386 elementor/partials/products.php:430
+#: elementor/partials/products.php:474
+msgid "Nav Background Color"
+msgstr ""
+
+#: elementor/partials/products.php:398 elementor/partials/products.php:442
+#: elementor/partials/products.php:486
+msgid "Nav Color"
+msgstr ""
+
+#: elementor/partials/products.php:522 elementor/widgets/widget-products-tab.php:76
+#: gutenberg/assets/blocks.js:1034
+msgid "Products Selector"
+msgstr ""
+
+#: elementor/partials/products.php:531
+msgid "Product IDs or slugs"
+msgstr ""
+
+#: elementor/partials/products.php:532
+msgid "comma separated list of product ids or slugs"
+msgstr ""
+
+#: elementor/partials/products.php:533 elementor/widgets/widget-posts.php:69
+msgid "ex. 420,436"
+msgstr ""
+
+#: elementor/partials/products.php:553 elementor/widgets/widget-subcategories.php:78
+msgid "Categories"
+msgstr ""
+
+#: elementor/partials/products.php:565 elementor/widgets/widget-categories.php:120
+#: gutenberg/assets/blocks.js:1072 gutenberg/assets/blocks.js:1714
+msgid "Product Count"
+msgstr ""
+
+#: elementor/partials/products.php:583 gutenberg/assets/blocks.js:1038
+#: sidebar-widgets/products.php:136
+#: templates/single-product-builder/elementor-widgets/linked-products.php:48
+msgid "Product Status"
+msgstr ""
+
+#: elementor/partials/products.php:587
+#: elementor/render/widget-products-banner-render.php:234
+#: elementor/render/widget-products-render.php:236
+#: elementor/render/widget-products-ultimate-render.php:236
+#: gutenberg/assets/blocks.js:1039 gutenberg/assets/blocks.js:1046
+#: gutenberg/assets/blocks.js:1679 gutenberg/assets/blocks.js:2197
+#: sidebar-widgets/price_filter.php:83 sidebar-widgets/products.php:139
+#: templates/header-builder/elementor-widgets/search.php:128 templates/init.php:125
+msgid "All"
+msgstr ""
+
+#: elementor/partials/products.php:588 gutenberg/assets/blocks.js:1039
+#: sidebar-widgets/products.php:140
+msgid "Featured"
+msgstr ""
+
+#: elementor/partials/products.php:589 gutenberg/assets/blocks.js:1039
+msgid "On Sale"
+msgstr ""
+
+#: elementor/partials/products.php:590
+msgid "Recently Viewed"
+msgstr ""
+
+#: elementor/partials/products.php:599 elementor/widgets/widget-categories.php:113
+#: elementor/widgets/widget-posts.php:106 gutenberg/assets/blocks.js:1080
+#: gutenberg/assets/blocks.js:1710 gutenberg/assets/blocks.js:2223
+msgid "Order By"
+msgstr ""
+
+#: elementor/partials/products.php:603 elementor/widgets/widget-categories.php:117
+#: elementor/widgets/widget-posts.php:110 gutenberg/assets/blocks.js:1082
+#: gutenberg/assets/blocks.js:1713 gutenberg/assets/blocks.js:2226
+#: sidebar-widgets/posts.php:146 sidebar-widgets/products.php:152
+msgid "ID"
+msgstr ""
+
+#: elementor/partials/products.php:604 elementor/partials/testimonial.php:254
+#: elementor/partials/testimonial.php:274 elementor/partials/testimonial.php:425
+#: elementor/widgets/widget-categories.php:116
+#: elementor/widgets/widget-products-tab.php:884 elementor/widgets/widget-products.php:535
+#: gutenberg/assets/blocks.js:1083 gutenberg/assets/blocks.js:1712
+#: sidebar-widgets/products.php:153
+msgid "Name"
+msgstr ""
+
+#: elementor/partials/products.php:605 elementor/partials/products.php:656
+#: elementor/partials/products.php:690 elementor/widgets/widget-posts.php:112
+#: elementor/widgets/widget-posts.php:227 gutenberg/assets/blocks.js:1084
+#: gutenberg/assets/blocks.js:2228 sidebar-widgets/posts.php:148
+#: sidebar-widgets/products.php:154
+msgid "Date"
+msgstr ""
+
+#: elementor/partials/products.php:606 elementor/widgets/widget-categories.php:119
+#: elementor/widgets/widget-posts.php:113 gutenberg/assets/blocks.js:1087
+#: gutenberg/assets/blocks.js:2229 sidebar-widgets/posts.php:149
+#: sidebar-widgets/products.php:155
+msgid "Modified"
+msgstr ""
+
+#: elementor/partials/products.php:607 elementor/partials/products.php:762
+#: elementor/partials/products.php:954 elementor/partials/products.php:1247
+#: elementor/widgets/widget-products-tab.php:332
+#: elementor/widgets/widget-products-tab.php:966 elementor/widgets/widget-products.php:617
+#: elementor/widgets/widget-single-product.php:116 gutenberg/assets/blocks.js:1085
+#: sidebar-widgets/products.php:156
+msgid "Price"
+msgstr ""
+
+#: elementor/partials/products.php:608 sidebar-widgets/products.php:157
+msgid "Random"
+msgstr ""
+
+#: elementor/partials/products.php:609 elementor/partials/products.php:955
+#: elementor/partials/products.php:1248 elementor/partials/testimonial.php:346
+#: elementor/partials/testimonial.php:488 elementor/widgets/widget-products-tab.php:333
+#: elementor/widgets/widget-products-tab.php:1018
+#: elementor/widgets/widget-products.php:669
+#: elementor/widgets/widget-single-product.php:117 gutenberg/assets/blocks.js:1086
+#: sidebar-widgets/products.php:158
+msgid "Rating"
+msgstr ""
+
+#: elementor/partials/products.php:610 elementor/widgets/widget-posts.php:115
+#: sidebar-widgets/posts.php:151
+msgid "Comment count"
+msgstr ""
+
+#: elementor/partials/products.php:611 sidebar-widgets/products.php:160
+msgid "Total Sales"
+msgstr ""
+
+#: elementor/partials/products.php:612
+msgid "Sale End Date"
+msgstr ""
+
+#: elementor/partials/products.php:613
+msgid "Sale Start Date"
+msgstr ""
+
+#: elementor/partials/products.php:623 elementor/widgets/widget-categories.php:132
+#: elementor/widgets/widget-posts.php:124 gutenberg/assets/blocks.js:1093
+#: gutenberg/assets/blocks.js:1722 gutenberg/assets/blocks.js:2235
+msgid "Order Way"
+msgstr ""
+
+#: elementor/partials/products.php:626 elementor/widgets/widget-categories.php:135
+#: elementor/widgets/widget-posts.php:128 gutenberg/assets/blocks.js:1096
+#: gutenberg/assets/blocks.js:1725 gutenberg/assets/blocks.js:2238
+#: sidebar-widgets/posts.php:163
+msgid "Ascending"
+msgstr ""
+
+#: elementor/partials/products.php:627 elementor/widgets/widget-categories.php:134
+#: elementor/widgets/widget-posts.php:127 gutenberg/assets/blocks.js:1095
+#: gutenberg/assets/blocks.js:1724 gutenberg/assets/blocks.js:2237
+#: sidebar-widgets/posts.php:164
+msgid "Descending"
+msgstr ""
+
+#: elementor/partials/products.php:635
+msgid "Date From"
+msgstr ""
+
+#: elementor/partials/products.php:636
+msgid "Start date that the ordering will be applied"
+msgstr ""
+
+#: elementor/partials/products.php:641 elementor/partials/products.php:675
+msgid "Today"
+msgstr ""
+
+#: elementor/partials/products.php:642 elementor/partials/products.php:676
+msgid "This Week"
+msgstr ""
+
+#: elementor/partials/products.php:643 elementor/partials/products.php:677
+msgid "This Month"
+msgstr ""
+
+#: elementor/partials/products.php:644 elementor/partials/products.php:678
+msgid "This Year"
+msgstr ""
+
+#: elementor/partials/products.php:645 elementor/partials/products.php:679
+#: elementor/partials/slider.php:123 elementor/partials/slider.php:228
+#: elementor/partials/testimonial.php:511 elementor/widgets/widget-countdown.php:146
+#: elementor/widgets/widget-imageslider.php:386
+#: elementor/widgets/widget-imageslider.php:490 elementor/widgets/widget-menu.php:91
+msgid "Custom"
+msgstr ""
+
+#: elementor/partials/products.php:669
+msgid "Date To"
+msgstr ""
+
+#: elementor/partials/products.php:670
+msgid "End date that the ordering will be applied"
+msgstr ""
+
+#: elementor/partials/products.php:704
+msgid "Hide Product Out of Date"
+msgstr ""
+
+#: elementor/partials/products.php:723 elementor/partials/products.php:1138
+#: elementor/widgets/widget-single-product.php:59
+msgid "Single Product"
+msgstr ""
+
+#: elementor/partials/products.php:733 elementor/partials/products.php:1245
+#: elementor/partials/testimonial.php:146 elementor/partials/testimonial.php:443
+#: elementor/widgets/widget-heading.php:52 elementor/widgets/widget-heading.php:89
+#: elementor/widgets/widget-heading.php:363 elementor/widgets/widget-imagebox.php:78
+#: elementor/widgets/widget-imagebox.php:152 elementor/widgets/widget-imageslider.php:85
+#: elementor/widgets/widget-posts.php:111 elementor/widgets/widget-posts.php:456
+#: elementor/widgets/widget-single-product.php:114
+#: elementor/widgets/widget-subcategories.php:151 gutenberg/assets/blocks.js:2227
+#: sidebar-widgets/block.php:70 sidebar-widgets/contact_info.php:112
+#: sidebar-widgets/posts.php:134 sidebar-widgets/posts.php:147
+#: sidebar-widgets/price_filter.php:146 sidebar-widgets/products.php:130
+#: templates/init.php:205
+msgid "Title"
+msgstr ""
+
+#: elementor/partials/products.php:791
+msgid "Old Price"
+msgstr ""
+
+#: elementor/partials/products.php:849 elementor/partials/products.php:865
+#: elementor/widgets/widget-products-tab.php:227
+#: elementor/widgets/widget-products-tab.php:243 gutenberg/assets/blocks.js:1169
+msgid "Product Type"
+msgstr ""
+
+#: elementor/partials/products.php:856 elementor/widgets/widget-categories.php:189
+#: elementor/widgets/widget-posts.php:184 elementor/widgets/widget-products-tab.php:234
+msgid "Follow Theme Option"
+msgstr ""
+
+#: elementor/partials/products.php:870 elementor/widgets/widget-categories.php:207
+#: elementor/widgets/widget-products-tab.php:248 gutenberg/assets/blocks.js:1170
+#: gutenberg/assets/blocks.js:1839
+msgid "Classic"
+msgstr ""
+
+#: elementor/partials/products.php:871 elementor/widgets/widget-posts.php:198
+#: elementor/widgets/widget-products-tab.php:249
+#: elementor/widgets/widget-subcategories.php:67 gutenberg/assets/blocks.js:1170
+#: gutenberg/assets/blocks.js:2309 gutenberg/assets/blocks.js:2720
+#: meta-box/product-attr-meta.php:154
+msgid "List"
+msgstr ""
+
+#: elementor/partials/products.php:872 elementor/widgets/widget-posts.php:201
+#: elementor/widgets/widget-products-tab.php:250 gutenberg/assets/blocks.js:1170
+#: gutenberg/assets/blocks.js:2312
+msgid "Widget"
+msgstr ""
+
+#: elementor/partials/products.php:883 elementor/widgets/widget-categories.php:248
+#: elementor/widgets/widget-products-tab.php:261 gutenberg/assets/blocks.js:1175
+msgid "Hover Effect"
+msgstr ""
+
+#: elementor/partials/products.php:888 elementor/widgets/widget-products-tab.php:266
+#: gutenberg/assets/blocks.js:1176
+msgid "Popup"
+msgstr ""
+
+#: elementor/partials/products.php:901 elementor/widgets/widget-products-tab.php:279
+#: gutenberg/assets/blocks.js:1181
+msgid "Show In Box"
+msgstr ""
+
+#: elementor/partials/products.php:913 elementor/widgets/widget-products-tab.php:291
+msgid "Shadow Effect on Hover"
+msgstr ""
+
+#: elementor/partials/products.php:926 elementor/widgets/widget-products-tab.php:304
+msgid "Media Shadow Effect on Hover"
+msgstr ""
+
+#: elementor/partials/products.php:939 elementor/partials/products.php:1240
+#: elementor/widgets/widget-posts.php:214 elementor/widgets/widget-products-tab.php:317
+#: elementor/widgets/widget-single-product.php:109
+msgid "Show Information"
+msgstr ""
+
+#: elementor/partials/products.php:952 elementor/widgets/widget-posts.php:229
+#: elementor/widgets/widget-posts.php:502 elementor/widgets/widget-products-tab.php:330
+#: elementor/widgets/widget-products-tab.php:925 elementor/widgets/widget-products.php:576
+#: gutenberg/assets/blocks.js:1044 gutenberg/assets/blocks.js:1677
+#: gutenberg/assets/blocks.js:2195
+msgid "Category"
+msgstr ""
+
+#: elementor/partials/products.php:953 elementor/widgets/widget-button.php:54
+#: elementor/widgets/widget-categories.php:205 elementor/widgets/widget-countdown.php:114
+#: elementor/widgets/widget-products-tab.php:331 gutenberg/assets/blocks.js:1837
+#: templates/header-builder/elementor-widgets/wishlist.php:82
+#: templates/single-product-builder/elementor-widgets/cart-form.php:437
+#: templates/single-product-builder/elementor-widgets/flash-sale.php:69
+#: templates/single-product-builder/elementor-widgets/flash-sale.php:107
+msgid "Label"
+msgstr ""
+
+#: elementor/partials/products.php:956 elementor/widgets/widget-filter.php:86
+#: elementor/widgets/widget-products-tab.php:334
+msgid "Attribute"
+msgstr ""
+
+#: elementor/partials/products.php:957 elementor/widgets/widget-products-tab.php:335
+msgid "Add To Cart"
+msgstr ""
+
+#: elementor/partials/products.php:958 elementor/partials/products.php:1254
+#: elementor/widgets/widget-products-tab.php:336
+#: elementor/widgets/widget-single-product.php:123
+msgid "Compare"
+msgstr ""
+
+#: elementor/partials/products.php:959 elementor/widgets/widget-products-tab.php:337
+#: gutenberg/assets/blocks.js:1434 gutenberg/assets/blocks.js:1443
+#: gutenberg/assets/blocks.js:1494 gutenberg/assets/blocks.js:1512
+#: gutenberg/assets/blocks.js:1541 gutenberg/assets/blocks.js:1559
+msgid "Quickview"
+msgstr ""
+
+#: elementor/partials/products.php:960 elementor/partials/products.php:1253
+#: elementor/widgets/widget-products-tab.php:338
+#: elementor/widgets/widget-single-product.php:122
+#: templates/header-builder/elementor-widgets/wishlist.php:46
+#: templates/header-builder/elementor-widgets/wishlist.php:84
+#: templates/header-builder/elementor-widgets/wishlist.php:120
+msgid "Wishlist"
+msgstr ""
+
+#: elementor/partials/products.php:961 elementor/widgets/widget-products-tab.php:339
+msgid "Short Description"
+msgstr ""
+
+#: elementor/partials/products.php:972 elementor/widgets/widget-products-tab.php:350
+msgid "Line Clamp"
+msgstr ""
+
+#: elementor/partials/products.php:995 elementor/widgets/widget-products-tab.php:373
+msgid "Show Labels"
+msgstr ""
+
+#: elementor/partials/products.php:1005 elementor/widgets/widget-products-tab.php:383
+msgid "Sale"
+msgstr ""
+
+#: elementor/partials/products.php:1006 elementor/widgets/widget-products-tab.php:384
+#: templates/single-product-builder/elementor-widgets/price.php:109
+msgid "New"
+msgstr ""
+
+#: elementor/partials/products.php:1007 elementor/widgets/widget-products-tab.php:385
+#: templates/single-product-builder/elementor-widgets/counter.php:69
+msgid "Stock"
+msgstr ""
+
+#: elementor/partials/products.php:1015 elementor/widgets/widget-products-tab.php:393
+#: gutenberg/assets/blocks.js:1191
+msgid "Change Image on Hover"
+msgstr ""
+
+#: elementor/partials/products.php:1051 elementor/widgets/widget-products-tab.php:429
+#: gutenberg/assets/blocks.js:1202
+msgid "Add to Cart Pos"
+msgstr ""
+
+#: elementor/partials/products.php:1055 elementor/partials/products.php:1075
+#: elementor/partials/products.php:1092 elementor/widgets/widget-products-tab.php:433
+#: elementor/widgets/widget-products-tab.php:451
+#: elementor/widgets/widget-products-tab.php:468 gutenberg/assets/blocks.js:1203
+#: gutenberg/assets/blocks.js:1209 gutenberg/assets/blocks.js:1215
+msgid "On top of the image"
+msgstr ""
+
+#: elementor/partials/products.php:1056 elementor/partials/products.php:1076
+#: elementor/widgets/widget-products-tab.php:434
+#: elementor/widgets/widget-products-tab.php:452 gutenberg/assets/blocks.js:1203
+#: gutenberg/assets/blocks.js:1209 gutenberg/assets/blocks.js:1215
+msgid "On bottom of the image"
+msgstr ""
+
+#: elementor/partials/products.php:1057
+msgid "On bottom of the details"
+msgstr ""
+
+#: elementor/partials/products.php:1058
+msgid "On bottom with QTY input"
+msgstr ""
+
+#: elementor/partials/products.php:1059 elementor/partials/products.php:1077
+#: elementor/partials/products.php:1094 elementor/widgets/widget-products-tab.php:435
+#: elementor/widgets/widget-products-tab.php:453
+#: elementor/widgets/widget-products-tab.php:470 gutenberg/assets/blocks.js:1203
+#: gutenberg/assets/blocks.js:1209 gutenberg/assets/blocks.js:1215
+msgid "Don't show"
+msgstr ""
+
+#: elementor/partials/products.php:1071 elementor/widgets/widget-products-tab.php:447
+#: gutenberg/assets/blocks.js:1208
+msgid "Quickview Pos"
+msgstr ""
+
+#: elementor/partials/products.php:1088 elementor/widgets/widget-products-tab.php:464
+#: gutenberg/assets/blocks.js:1214
+msgid "Add to wishlist Pos"
+msgstr ""
+
+#: elementor/partials/products.php:1093 elementor/widgets/widget-products-tab.php:469
+msgid "Under the image"
+msgstr ""
+
+#: elementor/partials/products.php:1106 elementor/widgets/widget-products-tab.php:482
+msgid "Show Progress"
+msgstr ""
+
+#: elementor/partials/products.php:1109 elementor/widgets/widget-products-tab.php:485
+msgid "Sales"
+msgstr ""
+
+#: elementor/partials/products.php:1118 elementor/widgets/widget-products-tab.php:494
+msgid "Sales & Stock Text"
+msgstr ""
+
+#: elementor/partials/products.php:1120
+#, php-format
+msgid "%1$s is sales, %2$s is stock, %3$s is total."
+msgstr ""
+
+#: elementor/partials/products.php:1122
+#, php-format
+msgid "e.g. Sold: %1$s/%3$s"
+msgstr ""
+
+#: elementor/partials/products.php:1145
+msgid "Product ID or Slug"
+msgstr ""
+
+#: elementor/partials/products.php:1153 elementor/widgets/widget-products-banner.php:63
+#: elementor/widgets/widget-products-ultimate.php:63
+msgid "Insert number"
+msgstr ""
+
+#: elementor/partials/products.php:1167 elementor/widgets/widget-products-banner.php:77
+#: elementor/widgets/widget-products-ultimate.php:77
+msgid "At last"
+msgstr ""
+
+#: elementor/partials/products.php:1175 elementor/widgets/widget-single-product.php:66
+msgid "Title Tag"
+msgstr ""
+
+#: elementor/partials/products.php:1192 elementor/widgets/widget-single-product.php:83
+msgid "Gallery Type"
+msgstr ""
+
+#: elementor/partials/products.php:1199 elementor/widgets/widget-single-product.php:90
+msgid "Grid Images"
+msgstr ""
+
+#: elementor/partials/products.php:1200 elementor/widgets/widget-single-product.php:91
+#: templates/single-product-builder/elementor-widgets/image.php:59
+msgid "Masonry"
+msgstr ""
+
+#: elementor/partials/products.php:1201 elementor/partials/products.php:1244
+#: elementor/widgets/widget-single-product.php:92
+#: elementor/widgets/widget-single-product.php:113
+#: templates/single-product-builder/elementor-widgets/image.php:60
+msgid "Gallery"
+msgstr ""
+
+#: elementor/partials/products.php:1209
+msgid "Sales Type"
+msgstr ""
+
+#: elementor/partials/products.php:1213
+msgid "In Sammary"
+msgstr ""
+
+#: elementor/partials/products.php:1214
+msgid "In Gallery"
+msgstr ""
+
+#: elementor/partials/products.php:1223
+msgid "Sales Label"
+msgstr ""
+
+#: elementor/partials/products.php:1224
+#: templates/single-product-builder/elementor-widgets/flash-sale.php:70
+msgid "Flash Deals"
+msgstr ""
+
+#: elementor/partials/products.php:1231 elementor/widgets/widget-single-product.php:100
+msgid "Show Vertical"
+msgstr ""
+
+#: elementor/partials/products.php:1246 elementor/widgets/widget-posts.php:410
+#: elementor/widgets/widget-single-product.php:115
+msgid "Meta"
+msgstr ""
+
+#: elementor/partials/products.php:1249 elementor/widgets/widget-categories.php:122
+#: elementor/widgets/widget-imagebox.php:244 elementor/widgets/widget-imageslider.php:87
+#: elementor/widgets/widget-single-product.php:118 gutenberg/assets/blocks.js:1715
+#: gutenberg/assets/blocks.js:3015
+msgid "Description"
+msgstr ""
+
+#: elementor/partials/products.php:1250 elementor/widgets/widget-single-product.php:119
+msgid "Add To Cart Form"
+msgstr ""
+
+#: elementor/partials/products.php:1251 elementor/widgets/widget-single-product.php:120
+msgid "Divider In Cart Form"
+msgstr ""
+
+#: elementor/partials/products.php:1252 elementor/widgets/widget-single-product.php:121
+msgid "Share"
+msgstr ""
+
+#: elementor/partials/products.php:1328 elementor/widgets/widget-single-product.php:197
+#: templates/single-product-builder/elementor-widgets/cart-form.php:229
+#: templates/single-product-builder/elementor-widgets/cart-form.php:415
+#: templates/single-product-builder/elementor-widgets/image.php:134
+#: templates/single-product-builder/elementor-widgets/image.php:213
+#: templates/single-product-builder/elementor-widgets/rating.php:137
+msgid "Spacing"
+msgstr ""
+
+#: elementor/partials/slider.php:18 elementor/widgets/widget-imageslider.php:190
+#: elementor/widgets/widget-imageslider.php:259 gutenberg/assets/blocks.js:573
+#: gutenberg/assets/blocks.js:1157 gutenberg/assets/blocks.js:1820
+#: gutenberg/assets/blocks.js:2294 gutenberg/assets/blocks.js:2730
+msgid "Vertical Align"
+msgstr ""
+
+#: elementor/partials/slider.php:26 elementor/widgets/widget-imageslider.php:198
+#: elementor/widgets/widget-imageslider.php:267 gutenberg/assets/blocks.js:574
+#: gutenberg/assets/blocks.js:847 gutenberg/assets/blocks.js:1158
+#: gutenberg/assets/blocks.js:1821 gutenberg/assets/blocks.js:2295
+#: gutenberg/assets/blocks.js:2732
+msgid "Middle"
+msgstr ""
+
+#: elementor/partials/slider.php:77 elementor/widgets/widget-imageslider.php:340
+msgid "Navigation"
+msgstr ""
+
+#: elementor/partials/slider.php:85 elementor/widgets/widget-imageslider.php:348
+#: gutenberg/assets/blocks.js:432
+msgid "Nav"
+msgstr ""
+
+#: elementor/partials/slider.php:94 elementor/widgets/widget-imageslider.php:357
+#: gutenberg/assets/blocks.js:437
+msgid "Nav Auto Hide"
+msgstr ""
+
+#: elementor/partials/slider.php:103 elementor/widgets/widget-imageslider.php:366
+#: gutenberg/assets/blocks.js:442
+msgid "Nav Type"
+msgstr ""
+
+#: elementor/partials/slider.php:109 elementor/widgets/widget-imageslider.php:372
+#: elementor/widgets/widget-share.php:145 gutenberg/assets/blocks.js:443
+#: gutenberg/assets/blocks.js:2843
+msgid "Circle"
+msgstr ""
+
+#: elementor/partials/slider.php:110 elementor/widgets/widget-countdown.php:129
+#: elementor/widgets/widget-imageslider.php:373 functions/core-functions.php:804
+#: gutenberg/assets/blocks.js:443 meta-box/product-cat-meta.php:50
+msgid "Full"
+msgstr ""
+
+#: elementor/partials/slider.php:118 elementor/widgets/widget-imageslider.php:381
+#: gutenberg/assets/blocks.js:448
+msgid "Nav Position"
+msgstr ""
+
+#: elementor/partials/slider.php:122 elementor/partials/slider.php:225
+#: elementor/widgets/widget-countdown.php:144 elementor/widgets/widget-imageslider.php:385
+#: elementor/widgets/widget-imageslider.php:488 gutenberg/assets/blocks.js:449
+#: gutenberg/assets/blocks.js:466
+msgid "Inner"
+msgstr ""
+
+#: elementor/partials/slider.php:124 elementor/partials/slider.php:226
+#: elementor/widgets/widget-countdown.php:145 elementor/widgets/widget-imageslider.php:387
+#: elementor/widgets/widget-imageslider.php:489 gutenberg/assets/blocks.js:449
+#: gutenberg/assets/blocks.js:466
+msgid "Outer"
+msgstr ""
+
+#: elementor/partials/slider.php:136 elementor/widgets/widget-imageslider.php:399
+msgid "Nav Horizontal Position"
+msgstr ""
+
+#: elementor/partials/slider.php:167 elementor/widgets/widget-imageslider.php:430
+msgid "Nav Vertical Position"
+msgstr ""
+
+#: elementor/partials/slider.php:197 elementor/widgets/widget-imageslider.php:460
+#: gutenberg/assets/blocks.js:454
+msgid "Dots"
+msgstr ""
+
+#: elementor/partials/slider.php:206 elementor/widgets/widget-imageslider.php:469
+#: gutenberg/assets/blocks.js:459
+msgid "Dots Type"
+msgstr ""
+
+#: elementor/partials/slider.php:210 elementor/widgets/widget-imageslider.php:473
+msgid "default"
+msgstr ""
+
+#: elementor/partials/slider.php:211 elementor/widgets/widget-imageslider.php:474
+msgid "white"
+msgstr ""
+
+#: elementor/partials/slider.php:212 elementor/widgets/widget-imageslider.php:475
+msgid "grey"
+msgstr ""
+
+#: elementor/partials/slider.php:213 elementor/widgets/widget-imageslider.php:476
+msgid "dark"
+msgstr ""
+
+#: elementor/partials/slider.php:221 elementor/widgets/widget-imageslider.php:484
+#: gutenberg/assets/blocks.js:465
+msgid "Dots Position"
+msgstr ""
+
+#: elementor/partials/slider.php:227
+msgid "Close Outer"
+msgstr ""
+
+#: elementor/partials/slider.php:236 elementor/widgets/widget-imageslider.php:532
+msgid "Dot Vertical Position"
+msgstr ""
+
+#: elementor/partials/slider.php:270 elementor/widgets/widget-imageslider.php:498
+msgid "Dot Horizontal Position"
+msgstr ""
+
+#: elementor/partials/slider.php:304 elementor/widgets/widget-imageslider.php:573
+msgid "Options"
+msgstr ""
+
+#: elementor/partials/slider.php:314
+msgid "Full Height"
+msgstr ""
+
+#: elementor/partials/slider.php:330 elementor/widgets/widget-imageslider.php:590
+#: gutenberg/assets/blocks.js:476
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: elementor/partials/slider.php:342 elementor/widgets/widget-imageslider.php:602
+#: gutenberg/assets/blocks.js:481
+msgid "Infinite Loop"
+msgstr ""
+
+#: elementor/partials/slider.php:350 elementor/widgets/widget-imageslider.php:610
+#: gutenberg/assets/blocks.js:486
+msgid "Pause on Hover"
+msgstr ""
+
+#: elementor/partials/slider.php:358 elementor/widgets/widget-imageslider.php:618
+#: gutenberg/assets/blocks.js:491
+msgid "Auto Height"
+msgstr ""
+
+#: elementor/partials/slider.php:365 elementor/widgets/widget-imageslider.php:626
+#: gutenberg/assets/blocks.js:496
+msgid "Animation In"
+msgstr ""
+
+#: elementor/partials/slider.php:374 elementor/widgets/widget-imageslider.php:635
+#: gutenberg/assets/blocks.js:501
+msgid "Animation Out"
+msgstr ""
+
+#: elementor/partials/slider.php:383 elementor/widgets/widget-imageslider.php:651
+msgid "Styles"
+msgstr ""
+
+#: elementor/partials/slider.php:393 elementor/widgets/widget-imageslider.php:660
+msgid "Nav Size"
+msgstr ""
+
+#: elementor/partials/slider.php:512 elementor/widgets/widget-imageslider.php:779
+msgid "Disabled"
+msgstr ""
+
+#: elementor/partials/slider.php:564 elementor/widgets/widget-imageslider.php:831
+msgid "Dots Style"
+msgstr ""
+
+#: elementor/partials/slider.php:574 elementor/widgets/widget-imageslider.php:841
+msgid "Dots Size"
+msgstr ""
+
+#: elementor/partials/testimonial.php:21
+msgid "Avatar"
+msgstr ""
+
+#: elementor/partials/testimonial.php:166 elementor/widgets/widget-countdown.php:265
+#: elementor/widgets/widget-filter.php:185 elementor/widgets/widget-filter.php:310
+#: elementor/widgets/widget-imagebox.php:172 elementor/widgets/widget-imagebox.php:218
+#: elementor/widgets/widget-imagebox.php:264
+#: elementor/widgets/widget-products-tab.php:1189
+#: elementor/widgets/widget-products.php:840
+#: templates/single-product-builder/elementor-widgets/excerpt.php:55
+#: templates/single-product-builder/elementor-widgets/meta.php:255
+#: templates/single-product-builder/elementor-widgets/navigation.php:80
+#: templates/single-product-builder/elementor-widgets/price.php:55
+#: templates/single-product-builder/elementor-widgets/rating.php:94
+#: templates/single-product-builder/elementor-widgets/rating.php:198
+msgid "Typography"
+msgstr ""
+
+#: elementor/partials/testimonial.php:192 elementor/partials/testimonial.php:212
+msgid "Comment"
+msgstr ""
+
+#: elementor/partials/testimonial.php:300 elementor/partials/testimonial.php:320
+#: elementor/partials/testimonial.php:434
+msgid "Job"
+msgstr ""
+
+#: elementor/partials/testimonial.php:369
+msgid "Star Spacing"
+msgstr ""
+
+#: elementor/partials/testimonial.php:391
+msgid "Blank Color"
+msgstr ""
+
+#: elementor/partials/testimonial.php:462
+msgid "Choose Avatar"
+msgstr ""
+
+#: elementor/partials/testimonial.php:472
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor/partials/testimonial.php:505
+#: elementor/widgets/widget-testimonial-group.php:122
+msgid "Testimonial Type"
+msgstr ""
+
+#: elementor/partials/testimonial.php:519
+msgid "Inversed"
+msgstr ""
+
+#: elementor/partials/testimonial.php:530
+msgid "Avatar Position"
+msgstr ""
+
+#: elementor/partials/testimonial.php:534
+msgid "Aside"
+msgstr ""
+
+#: elementor/partials/testimonial.php:536
+msgid "Aside Commenter"
+msgstr ""
+
+#: elementor/partials/testimonial.php:537
+msgid "Top Commenter"
+msgstr ""
+
+#: elementor/partials/testimonial.php:538
+msgid "After Title"
+msgstr ""
+
+#: elementor/partials/testimonial.php:549
+msgid "Commenter Position"
+msgstr ""
+
+#: elementor/partials/testimonial.php:553 elementor/partials/testimonial.php:569
+msgid "Before Comment"
+msgstr ""
+
+#: elementor/partials/testimonial.php:554 elementor/partials/testimonial.php:570
+msgid "After Comment"
+msgstr ""
+
+#: elementor/partials/testimonial.php:565
+msgid "Rating Position"
+msgstr ""
+
+#: elementor/partials/testimonial.php:581
+msgid "Vertical Alignment"
+msgstr ""
+
+#: elementor/partials/testimonial.php:610
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: elementor/render/widget-banner-render.php:193
+#: elementor/render/widget-button-render.php:44
+msgid "Click here"
+msgstr ""
+
+#: elementor/render/widget-categories-render.php:89
+#: elementor/widgets/widget-categories.php:361
+msgid "Shop Now"
+msgstr ""
+
+#: elementor/render/widget-filter-render.php:44
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: elementor/widgets/widget-banner.php:21
+msgid "Alpha Banner"
+msgstr ""
+
+#: elementor/widgets/widget-block.php:23
+msgid "Alpha Block"
+msgstr ""
+
+#: elementor/widgets/widget-block.php:51
+msgid "Block Slug or ID"
+msgstr ""
+
+#: elementor/widgets/widget-block.php:52
+msgid "ex. 931 or test"
+msgstr ""
+
+#: elementor/widgets/widget-breadcrumb.php:26
+msgid "Alpha Breadcrumb"
+msgstr ""
+
+#: elementor/widgets/widget-breadcrumb.php:50
+msgid "Breadcrumb"
+msgstr ""
+
+#: elementor/widgets/widget-breadcrumb.php:58
+msgid "Breadcrumb Delimiter"
+msgstr ""
+
+#: elementor/widgets/widget-breadcrumb.php:59
+msgid "/"
+msgstr ""
+
+#: elementor/widgets/widget-breadcrumb.php:66
+msgid "Delimiter Icon"
+msgstr ""
+
+#: elementor/widgets/widget-breadcrumb.php:75
+msgid "Show Home Icon"
+msgstr ""
+
+#: elementor/widgets/widget-breadcrumb.php:84
+msgid "Breadcrumb Style"
+msgstr ""
+
+#: elementor/widgets/widget-breadcrumb.php:93
+msgid "Breadcrumb Typography"
+msgstr ""
+
+#: elementor/widgets/widget-breadcrumb.php:102 elementor/widgets/widget-filter.php:124
+#: elementor/widgets/widget-products-tab.php:615 elementor/widgets/widget-products.php:266
+#: gutenberg/assets/blocks.js:793
+#: templates/single-product-builder/elementor-widgets/data-tab.php:68
+#: templates/single-product-builder/elementor-widgets/excerpt.php:74
+#: templates/single-product-builder/elementor-widgets/meta.php:69
+#: templates/single-product-builder/elementor-widgets/navigation.php:54
+#: templates/single-product-builder/elementor-widgets/price.php:63
+#: templates/single-product-builder/elementor-widgets/rating.php:68
+#: templates/single-product-builder/elementor-widgets/share.php:154
+msgid "Align"
+msgstr ""
+
+#: elementor/widgets/widget-breadcrumb.php:172
+msgid "Delimiter Size"
+msgstr ""
+
+#: elementor/widgets/widget-breadcrumb.php:196
+msgid "Delimiter Space"
+msgstr ""
+
+#: elementor/widgets/widget-button.php:23
+msgid "Alpha Button"
+msgstr ""
+
+#: elementor/widgets/widget-button.php:47
+msgid "Button Options"
+msgstr ""
+
+#: elementor/widgets/widget-button.php:66
+msgid "Expand"
+msgstr ""
+
+#: elementor/widgets/widget-button.php:74 elementor/widgets/widget-countdown.php:57
+#: elementor/widgets/widget-imagebox.php:124 elementor/widgets/widget-posts.php:381
+#: elementor/widgets/widget-share.php:203 gutenberg/assets/blocks.js:3610
+msgid "Alignment"
+msgstr ""
+
+#: elementor/widgets/widget-button.php:122
+msgid "Use as a play button in section"
+msgstr ""
+
+#: elementor/widgets/widget-button.php:126
+msgid "You can play video whenever you set video in parent section"
+msgstr ""
+
+#: elementor/widgets/widget-button.php:136
+msgid "Use as video button"
+msgstr ""
+
+#: elementor/widgets/widget-button.php:141
+msgid "You can play video on lightbox."
+msgstr ""
+
+#: elementor/widgets/widget-button.php:168
+msgid "Video url"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:35
+msgid "Alpha Categories"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:63 gutenberg/assets/blocks.js:1665
+msgid "Categories Selector"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:72
+#: elementor/widgets/widget-subcategories.php:101
+msgid "Category IDs"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:73
+#: elementor/widgets/widget-subcategories.php:102
+msgid "comma separated list of category ids"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:81
+#: elementor/widgets/widget-subcategories.php:110
+msgid "Show Subcategories"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:89
+#: elementor/widgets/widget-subcategories.php:134
+msgid "Hide Empty"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:97 gutenberg/assets/blocks.js:1669
+msgid "Category Count"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:105
+#: elementor/widgets/widget-subcategories.php:126
+msgid "0 value will show all categories."
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:118 templates/init.php:206
+msgid "Slug"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:121
+msgid "Parent"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:123 gutenberg/assets/blocks.js:1716
+msgid "Term Group"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:145 elementor/widgets/widget-categories.php:152
+#: gutenberg/assets/blocks.js:1732
+msgid "Categories Layout"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:155
+msgid "We advise you to use Inner Content type of category in creative layout"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:157
+#: elementor/widgets/widget-imageslider.php:109 elementor/widgets/widget-posts.php:149
+#: elementor/widgets/widget-products-tab.php:136 elementor/widgets/widget-products.php:67
+#: elementor/widgets/widget-testimonial-group.php:109 gutenberg/assets/blocks.js:1109
+#: gutenberg/assets/blocks.js:1738 gutenberg/assets/blocks.js:2251
+#: gutenberg/assets/blocks.js:2720
+#: templates/single-product-builder/elementor-widgets/image.php:58
+msgid "Grid"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:183 elementor/widgets/widget-categories.php:198
+#: gutenberg/assets/blocks.js:1832
+msgid "Category Type"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:203 gutenberg/assets/blocks.js:1835
+msgid "Badge"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:209 gutenberg/assets/blocks.js:1841
+msgid "Group"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:210 gutenberg/assets/blocks.js:1842
+msgid "Group 2"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:211 gutenberg/assets/blocks.js:1843
+msgid "Centered"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:222 gutenberg/assets/blocks.js:1849
+#: templates/header-builder/elementor-widgets/wishlist.php:94
+msgid "Show Icon"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:235
+msgid "Subcategory Count"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:262 gutenberg/assets/blocks.js:1854
+msgid "Overlay Effect"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:303 gutenberg/assets/blocks.js:1867
+msgid "Show Products Count"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:316 gutenberg/assets/blocks.js:1872
+msgid "Link Button"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:360 gutenberg/assets/blocks.js:1877
+msgid "Link Button Text"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:395
+msgid "Category "
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:465 meta-box/init.php:70
+msgid "Category Icon"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:522
+msgid "Category Content"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:794
+msgid "Content Height"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:858
+msgid "Set width auto"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:985
+msgid "Category Name"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:993
+#: elementor/widgets/widget-categories.php:1044
+#: elementor/widgets/widget-categories.php:1107
+#: elementor/widgets/widget-categories.php:1150
+#: templates/single-product-builder/elementor-widgets/cart-form.php:120
+#: templates/single-product-builder/elementor-widgets/cart-form.php:162
+#: templates/single-product-builder/elementor-widgets/cart-form.php:291
+#: templates/single-product-builder/elementor-widgets/cart-form.php:333
+msgid "Text Color"
+msgstr ""
+
+#: elementor/widgets/widget-categories.php:1036 elementor/widgets/widget-heading.php:77
+msgid "Products Count"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:27
+msgid "Alpha Countdown"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:51
+msgid "Countdown"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:94
+msgid "Target Date"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:102
+msgid "Timezone"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:106
+msgid "WordPress Defined Timezone"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:107
+msgid "User System Timezone"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:125
+msgid "Unit Type"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:130
+msgid "Short"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:140
+msgid "Unit Position"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:157
+msgid "Label Position"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:187
+msgid "Units"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:197
+msgid "Year"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:198
+msgid "Month"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:199
+msgid "Week"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:200
+msgid "Day"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:201
+msgid "Hour"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:202
+msgid "Minute"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:203
+msgid "Second"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:210
+msgid "Hide Spliter?"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:222
+msgid "Dimension"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:230
+#: elementor/widgets/widget-products-tab.php:562 elementor/widgets/widget-products.php:213
+msgid "Item Padding"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:245
+msgid "Label Margin"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:274 elementor/widgets/widget-countdown.php:312
+msgid "Amount"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:283 elementor/widgets/widget-countdown.php:323
+msgid "Unit, Label"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:301
+msgid "Section Background"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:335
+msgid "Seperator"
+msgstr ""
+
+#: elementor/widgets/widget-countdown.php:365
+msgid "Border-radius"
+msgstr ""
+
+#: elementor/widgets/widget-filter.php:29
+msgid "Alpha Filter"
+msgstr ""
+
+#: elementor/widgets/widget-filter.php:52
+msgid "Filter"
+msgstr ""
+
+#: elementor/widgets/widget-filter.php:64
+#, php-format
+msgid ""
+"Sorry, there are no product attributes available in this site. Click %1$shere%2$s to "
+"add attributes."
+msgstr ""
+
+#: elementor/widgets/widget-filter.php:96
+msgid "Query Type"
+msgstr ""
+
+#: elementor/widgets/widget-filter.php:99
+msgid "AND"
+msgstr ""
+
+#: elementor/widgets/widget-filter.php:100
+msgid "OR"
+msgstr ""
+
+#: elementor/widgets/widget-filter.php:148
+msgid "Filter Button Label"
+msgstr ""
+
+#: elementor/widgets/widget-filter.php:158
+msgid "Filter Button Skin"
+msgstr ""
+
+#: elementor/widgets/widget-filter.php:176
+msgid "Filter Items"
+msgstr ""
+
+#: elementor/widgets/widget-filter.php:261
+msgid "Gap"
+msgstr ""
+
+#: elementor/widgets/widget-filter.php:301
+msgid "Submit Button"
+msgstr ""
+
+#: elementor/widgets/widget-floating.php:24
+msgid "Alpha Floating"
+msgstr ""
+
+#: elementor/widgets/widget-floating.php:55
+msgid "SVG"
+msgstr ""
+
+#: elementor/widgets/widget-floating.php:64
+msgid "Floating SVG"
+msgstr ""
+
+#: elementor/widgets/widget-floating.php:65
+msgid ""
+"Upload svg only. Floating only works for path elements in svg, and color is only "
+"applied to svg element."
+msgstr ""
+
+#: elementor/widgets/widget-floating.php:76
+msgid "Offset"
+msgstr ""
+
+#: elementor/widgets/widget-floating.php:84
+msgid "Speed"
+msgstr ""
+
+#: elementor/widgets/widget-floating.php:109
+#: templates/single-product-builder/elementor-widgets/excerpt.php:46
+#: templates/single-product-builder/elementor-widgets/flash-sale.php:88
+#: templates/single-product-builder/elementor-widgets/image.php:155
+#: templates/single-product-builder/elementor-widgets/meta.php:46
+#: templates/single-product-builder/elementor-widgets/meta.php:113
+#: templates/single-product-builder/elementor-widgets/navigation.php:46
+#: templates/single-product-builder/elementor-widgets/price.php:46
+#: templates/single-product-builder/elementor-widgets/rating.php:47
+#: templates/single-product-builder/elementor-widgets/share.php:47
+msgid "Style"
+msgstr ""
+
+#: elementor/widgets/widget-floating.php:117
+msgid "Rotate"
+msgstr ""
+
+#: elementor/widgets/widget-floating.php:135
+msgid "Opacity"
+msgstr ""
+
+#: elementor/widgets/widget-floating.php:153
+msgid "Fill Color"
+msgstr ""
+
+#: elementor/widgets/widget-floating.php:164
+msgid "Stroke Color"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:28
+msgid "Alpha Heading"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:62
+msgid "Custom Text"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:63 elementor/widgets/widget-heading.php:72
+msgid "Dynamic Content"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:75
+msgid "Page Title"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:76
+msgid "Page Subtitle"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:94
+msgid "Add Your Heading Text Here"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:95
+msgid "Enter your title"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:105
+msgid "HTML Tag"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:124 gutenberg/assets/blocks.js:3369
+msgid "Decoration Type"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:128 gutenberg/assets/blocks.js:3373
+msgid "Cross"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:129 elementor/widgets/widget-subcategories.php:92
+#: gutenberg/assets/blocks.js:3374
+msgid "Underline"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:137 gutenberg/assets/blocks.js:3387
+msgid "Hide Active Underline?"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:151
+msgid "Title Align"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:174
+msgid "Decoration Spacing"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:205
+msgid "Show Link?"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:237
+msgid "Link Label"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:304
+msgid "Link Align"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:323
+msgid "Show Divider?"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:334
+msgid "Link Space"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:371
+msgid "Title Spacing"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:387
+msgid "Title Color"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:435 elementor/widgets/widget-heading.php:455
+#: templates/single-product-builder/elementor-widgets/navigation.php:176
+#: templates/single-product-builder/elementor-widgets/navigation.php:206
+msgid "Link Color"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:491 gutenberg/assets/blocks.js:3416
+msgid "Active Color"
+msgstr ""
+
+#: elementor/widgets/widget-heading.php:520
+msgid "Active Border Height"
+msgstr ""
+
+#: elementor/widgets/widget-hotspot.php:25 elementor/widgets/widget-hotspot.php:248
+msgid "Hotspot"
+msgstr ""
+
+#: elementor/widgets/widget-hotspot.php:56 elementor/widgets/widget-hotspot.php:66
+msgid "Custom Html"
+msgstr ""
+
+#: elementor/widgets/widget-hotspot.php:58 elementor/widgets/widget-products-tab.php:770
+#: elementor/widgets/widget-products.php:421
+#: templates/header-builder/elementor-widgets/search.php:129
+msgid "Product"
+msgstr ""
+
+#: elementor/widgets/widget-hotspot.php:75
+msgid "Block Id or Slug"
+msgstr ""
+
+#: elementor/widgets/widget-hotspot.php:96
+msgid "Product Id or Slug"
+msgstr ""
+
+#: elementor/widgets/widget-hotspot.php:106
+msgid "Hotspot Size"
+msgstr ""
+
+#: elementor/widgets/widget-hotspot.php:149
+msgid "Popup Position"
+msgstr ""
+
+#: elementor/widgets/widget-imagebox.php:28
+msgid "Alpha Image Box"
+msgstr ""
+
+#: elementor/widgets/widget-imagebox.php:51
+msgid "Image Box"
+msgstr ""
+
+#: elementor/widgets/widget-imagebox.php:87 elementor/widgets/widget-imagebox.php:198
+msgid "Subtitle"
+msgstr ""
+
+#: elementor/widgets/widget-imagebox.php:110
+msgid "Imagebox Type"
+msgstr ""
+
+#: elementor/widgets/widget-imagebox.php:115
+msgid "Outer Title"
+msgstr ""
+
+#: elementor/widgets/widget-imagebox.php:116
+msgid "Inner Title"
+msgstr ""
+
+#: elementor/widgets/widget-imageslider.php:29
+msgid "Alpha Image Gallery"
+msgstr ""
+
+#: elementor/widgets/widget-imageslider.php:55
+msgid "Image Carousel"
+msgstr ""
+
+#: elementor/widgets/widget-imageslider.php:62
+msgid "Add Images"
+msgstr ""
+
+#: elementor/widgets/widget-imageslider.php:80 elementor/widgets/widget-imageslider.php:86
+msgid "Caption"
+msgstr ""
+
+#: elementor/widgets/widget-imageslider.php:97
+msgid "Layout Options"
+msgstr ""
+
+#: elementor/widgets/widget-imageslider.php:104
+#: elementor/widgets/widget-products-banner.php:41
+#: elementor/widgets/widget-products-ultimate.php:41
+msgid "Layout"
+msgstr ""
+
+#: elementor/widgets/widget-imageslider.php:118
+msgid "Columns Count"
+msgstr ""
+
+#: elementor/widgets/widget-imageslider.php:136
+msgid "Columns Count ( >= 1200px )"
+msgstr ""
+
+#: elementor/widgets/widget-imageslider.php:155
+msgid "Columns Count ( < 576px )"
+msgstr ""
+
+#: elementor/widgets/widget-imageslider.php:219
+#: elementor/widgets/widget-imageslider.php:288
+msgid "Image Full Width"
+msgstr ""
+
+#: elementor/widgets/widget-imageslider.php:230
+#: elementor/widgets/widget-imageslider.php:299 gutenberg/assets/blocks.js:2724
+msgid "Horizontal Align"
+msgstr ""
+
+#: elementor/widgets/widget-imageslider.php:619
+msgid "Check this if columns' heights are different"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:27
+msgid "Alpha Menu"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:68
+msgid "Menu"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:75
+msgid "Select Menu"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:84
+msgid "Select Skin"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:88
+msgid "Skin 1"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:89
+msgid "Skin 2"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:90
+msgid "Skin 3"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:99
+msgid "Select Type"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:105
+msgid "Vertical Collapsible"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:106
+msgid "Toggle Dropdown"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:114
+msgid "Show as dropdown links in mobile"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:125
+msgid "Mobile Links Label"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:137
+msgid "Mobile Dropdown Position"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:159
+msgid "Width (px)"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:174
+msgid "Underline on hover"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:185
+msgid "Toggle Label"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:196
+msgid "Toggle Icon Class"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:211
+msgid "Toggle Hover Icon Class"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:222
+msgid "No Border"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:233
+msgid "Show After Homepage Loading"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:235
+msgid "Menu Dropdown will be shown after loading in homepage."
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:236
+msgid "Toggle Menu Dropdown will have no border."
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:246
+msgid "Show After Page Loading"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:248
+msgid "Menu Dropdown will be shown after loading in all pages."
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:258
+msgid "Equal Width"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:259
+msgid ""
+"Menu Dropdown will be laid on top of homepage sidebar and resized equally with sidebar "
+"width."
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:271
+msgid "Menu Ancestor"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:428
+msgid "Submenu Item"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:582
+msgid "Menu Toggle"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:614
+#: templates/header-builder/elementor-widgets/account.php:150
+#: templates/header-builder/elementor-widgets/cart.php:219
+#: templates/header-builder/elementor-widgets/search.php:472
+#: templates/header-builder/elementor-widgets/wishlist.php:148
+msgid "Icon Space (px)"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:751
+msgid "Menu Dropdown"
+msgstr ""
+
+#: elementor/widgets/widget-menu.php:774 elementor/widgets/widget-products-tab.php:1225
+#: elementor/widgets/widget-products.php:888
+#: templates/header-builder/elementor-widgets/search.php:223
+#: templates/header-builder/elementor-widgets/search.php:352
+#: templates/header-builder/elementor-widgets/search.php:394
+msgid "Background"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:29
+msgid "Alpha Posts"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:59 gutenberg/assets/blocks.js:2183
+msgid "Posts Selector"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:67
+msgid "Post IDs"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:68
+msgid "comma separated list of post ids"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:77
+msgid "Category IDs or slugs"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:78
+msgid "comma separated list of category ids or slugs"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:79
+msgid "ex. bags,shoes"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:87 gutenberg/assets/blocks.js:2187
+msgid "Posts Count"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:114 elementor/widgets/widget-posts.php:226
+#: gutenberg/assets/blocks.js:2225 sidebar-widgets/posts.php:150
+msgid "Author"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:138 elementor/widgets/widget-posts.php:145
+#: gutenberg/assets/blocks.js:2245
+msgid "Posts Layout"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:177 elementor/widgets/widget-posts.php:193
+#: gutenberg/assets/blocks.js:2306
+msgid "Post Type"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:199 gutenberg/assets/blocks.js:2310
+msgid "Mask"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:200 gutenberg/assets/blocks.js:2311
+msgid "Mask Gradient"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:202
+msgid "Calendar"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:225
+msgid "Featured Image"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:228
+msgid "Comments Count"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:231 elementor/widgets/widget-posts.php:337
+msgid "Read More"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:243
+msgid "Overlay"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:262
+msgid "Show Date On Featured Image"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:273 gutenberg/assets/blocks.js:2363
+msgid "Custom Excerpt"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:286 gutenberg/assets/blocks.js:2368
+msgid "Excerpt By"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:289 gutenberg/assets/blocks.js:2370
+msgid "Words"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:290 gutenberg/assets/blocks.js:2371
+msgid "Characters"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:304 gutenberg/assets/blocks.js:2377
+msgid "Excerpt Length"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:325 gutenberg/assets/blocks.js:2386
+msgid "Read More Button"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:335 gutenberg/assets/blocks.js:2390
+msgid "Read More Label"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:347 gutenberg/assets/blocks.js:2395
+msgid "Use Custom"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:548
+msgid "Excerpt"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:589
+msgid "Calendar Type"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:597
+msgid "Calendar Width"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:626
+msgid "Calendar Height"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:676
+msgid "Day Typograhy"
+msgstr ""
+
+#: elementor/widgets/widget-posts.php:684
+msgid "Month Typograhy"
+msgstr ""
+
+#: elementor/widgets/widget-products-banner.php:26
+msgid "Alpha Banner + Products"
+msgstr ""
+
+#: elementor/widgets/widget-products-banner.php:48
+#: elementor/widgets/widget-products-ultimate.php:48
+msgid "Widget Layout"
+msgstr ""
+
+#: elementor/widgets/widget-products-banner.php:52
+#: elementor/widgets/widget-products-ultimate.php:52
+msgid "Banner + Products"
+msgstr ""
+
+#: elementor/widgets/widget-products-banner.php:53
+#: elementor/widgets/widget-products-ultimate.php:53
+msgid "Products + Banner"
+msgstr ""
+
+#: elementor/widgets/widget-products-banner.php:54
+#: elementor/widgets/widget-products-ultimate.php:54
+msgid "Filter + Banner + Products"
+msgstr ""
+
+#: elementor/widgets/widget-products-banner.php:55
+#: elementor/widgets/widget-products-ultimate.php:55
+msgid "Banner in Products"
+msgstr ""
+
+#: elementor/widgets/widget-products-banner.php:88
+#: elementor/widgets/widget-products-ultimate.php:88
+msgid "Filter Width"
+msgstr ""
+
+#: elementor/widgets/widget-products-banner.php:130
+#: elementor/widgets/widget-products-ultimate.php:130
+msgid "Banner Width"
+msgstr ""
+
+#: elementor/widgets/widget-products-single.php:26
+msgid "Alpha Products + Single"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:27
+msgid "Alpha Products Tab"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:55
+msgid "Products Tab"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:64
+msgid "Tab Title"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:81
+msgid "New Arrivals"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:90
+msgid "Best Seller"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:99
+msgid "Most Popular"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:108
+msgid "View All"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:125
+#: elementor/widgets/widget-products-tab.php:132 elementor/widgets/widget-products.php:56
+#: elementor/widgets/widget-products.php:63 gutenberg/assets/blocks.js:1103
+msgid "Products Layout"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:138 elementor/widgets/widget-products.php:69
+msgid "Creative"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:167 elementor/widgets/widget-products.php:98
+msgid "Product Image Size for Large grid areas"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:179 elementor/widgets/widget-products.php:110
+msgid "Large Image Size"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:197 elementor/widgets/widget-products.php:128
+msgid "Filter by Category"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:206 elementor/widgets/widget-products.php:137
+msgid "Show All Filter"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:218 elementor/widgets/widget-products.php:149
+#: gutenberg/assets/blocks.js:1116
+msgid "Split Line"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:496
+#, php-format
+msgid "%1$s is sales, %2$s is stock."
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:498
+#, php-format
+msgid "e.g. Sold: %1$s/%2$s"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:509 elementor/widgets/widget-products.php:160
+msgid "Category Filter"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:517 elementor/widgets/widget-products.php:168
+msgid "Category Filter Style"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:549 elementor/widgets/widget-products.php:200
+msgid "Item Margin"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:777 elementor/widgets/widget-products.php:428
+msgid "Product Style"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:847 elementor/widgets/widget-products.php:498
+msgid "Split Line Color"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:994 elementor/widgets/widget-products.php:645
+msgid "Price Color"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:1005
+#: elementor/widgets/widget-products.php:656
+msgid "Old Price Color"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:1058
+#: elementor/widgets/widget-products.php:709
+msgid "Attributes"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:1080
+#: elementor/widgets/widget-products.php:731
+msgid "Attribute Width (PX)"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:1102
+#: elementor/widgets/widget-products.php:753
+msgid "Attribute Height (PX)"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:1169
+#: elementor/widgets/widget-products.php:820
+msgid "Sales & Stock"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:1177
+#: elementor/widgets/widget-products.php:828
+msgid "Count Text"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:1214
+#: elementor/widgets/widget-products.php:877
+msgid "Sales Progress"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:1239
+#: elementor/widgets/widget-products.php:902
+msgid "Active Background"
+msgstr ""
+
+#: elementor/widgets/widget-products-tab.php:1270
+#: elementor/widgets/widget-products.php:933
+msgid "Height (PX)"
+msgstr ""
+
+#: elementor/widgets/widget-products-ultimate.php:26
+msgid "Alpha Products Ultimate"
+msgstr ""
+
+#: elementor/widgets/widget-products.php:26
+msgid "Alpha Products"
+msgstr ""
+
+#: elementor/widgets/widget-products.php:865
+msgid "Sales Text Margin"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:44
+msgid "Alpha Social"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:67
+msgid "Share Buttons"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:94
+msgid "Please Leave it blank to share this page or Input URL for a custom link"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:129 gutenberg/assets/blocks.js:2837
+msgid "Stacked"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:130 gutenberg/assets/blocks.js:2837
+msgid "Framed"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:143 gutenberg/assets/blocks.js:2408
+#: gutenberg/assets/blocks.js:3538
+#: templates/header-builder/elementor-widgets/search.php:85
+msgid "Rectangle"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:182
+msgid "Direction"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:185
+msgid "Row"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:189
+msgid "Column"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:236
+msgid "Use Custom Color"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:286
+msgid "Use Custom Hover Color"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:296 elementor/widgets/widget-subcategories.php:232
+msgid "Hover Color"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:326
+msgid "Hover Background Color"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:343
+msgid "Share Icons Style"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:351
+msgid "Button Size"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:372
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:66
+#: templates/single-product-builder/elementor-widgets/navigation.php:89
+msgid "Icon Size"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:393
+msgid "Column Gap"
+msgstr ""
+
+#: elementor/widgets/widget-share.php:419
+msgid "Row Gap"
+msgstr ""
+
+#: elementor/widgets/widget-single-product.php:25
+#: templates/single-product-builder/init.php:180
+msgid "Alpha Single Product"
+msgstr ""
+
+#: elementor/widgets/widget-subcategories.php:26
+msgid "Alpha Subcategories List"
+msgstr ""
+
+#: elementor/widgets/widget-subcategories.php:79
+msgid "Product Categories"
+msgstr ""
+
+#: elementor/widgets/widget-subcategories.php:118
+msgid "Subcategories Count"
+msgstr ""
+
+#: elementor/widgets/widget-subcategories.php:142
+msgid "View All Label"
+msgstr ""
+
+#: elementor/widgets/widget-subcategories.php:180
+#: elementor/widgets/widget-subcategories.php:244
+msgid "Space"
+msgstr ""
+
+#: elementor/widgets/widget-testimonial-group.php:31
+msgid "Alpha Testimonial Group"
+msgstr ""
+
+#: elementor/widgets/widget-testimonial-group.php:54
+msgid "Testimonials"
+msgstr ""
+
+#: elementor/widgets/widget-testimonial-group.php:86
+msgid "Testimonial Group"
+msgstr ""
+
+#: elementor/widgets/widget-testimonial-group.php:98
+#: elementor/widgets/widget-testimonial-group.php:105
+msgid "Testimonials Layout"
+msgstr ""
+
+#: elementor/widgets/widget-testimonial-group.php:131
+#: elementor/widgets/widget-testimonial.php:92
+msgid "Maximum Content Line"
+msgstr ""
+
+#: elementor/widgets/widget-testimonial-group.php:143
+#: elementor/widgets/widget-testimonial.php:61
+msgid "Star Icon"
+msgstr ""
+
+#: elementor/widgets/widget-testimonial-group.php:156
+#: elementor/widgets/widget-testimonial.php:74
+msgid "Star Style"
+msgstr ""
+
+#: elementor/widgets/widget-testimonial.php:29
+msgid "Alpha Testimonial"
+msgstr ""
+
+#: elementor/widgets/widget-testimonial.php:52
+msgid "Testimonial"
+msgstr ""
+
+#: elementor/widgets/widget-testimonial.php:106
+msgid "Layout & Position"
+msgstr ""
+
+#: functions/hooks.php:54
+msgid "Sign in with social account"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:428
+msgid "Slider Style"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:461
+msgid "Grey"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:545
+msgid "Slider Options"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:549 gutenberg/assets/blocks.js:1121
+#: gutenberg/assets/blocks.js:1784 gutenberg/assets/blocks.js:2258
+msgid "Item count"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:551 gutenberg/assets/blocks.js:557
+#: gutenberg/assets/blocks.js:563 gutenberg/assets/blocks.js:1123
+#: gutenberg/assets/blocks.js:1129 gutenberg/assets/blocks.js:1135
+#: gutenberg/assets/blocks.js:1141 gutenberg/assets/blocks.js:1147
+#: gutenberg/assets/blocks.js:1786 gutenberg/assets/blocks.js:1792
+#: gutenberg/assets/blocks.js:1798 gutenberg/assets/blocks.js:1804
+#: gutenberg/assets/blocks.js:1810 gutenberg/assets/blocks.js:2260
+#: gutenberg/assets/blocks.js:2266 gutenberg/assets/blocks.js:2272
+#: gutenberg/assets/blocks.js:2278 gutenberg/assets/blocks.js:2284
+msgid "Auto"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:551 gutenberg/assets/blocks.js:557
+#: gutenberg/assets/blocks.js:563 gutenberg/assets/blocks.js:1123
+#: gutenberg/assets/blocks.js:1129 gutenberg/assets/blocks.js:1135
+#: gutenberg/assets/blocks.js:1141 gutenberg/assets/blocks.js:1147
+#: gutenberg/assets/blocks.js:1786 gutenberg/assets/blocks.js:1792
+#: gutenberg/assets/blocks.js:1798 gutenberg/assets/blocks.js:1804
+#: gutenberg/assets/blocks.js:1810 gutenberg/assets/blocks.js:2260
+#: gutenberg/assets/blocks.js:2266 gutenberg/assets/blocks.js:2272
+#: gutenberg/assets/blocks.js:2278 gutenberg/assets/blocks.js:2284
+msgid "1"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:551 gutenberg/assets/blocks.js:557
+#: gutenberg/assets/blocks.js:563 gutenberg/assets/blocks.js:1123
+#: gutenberg/assets/blocks.js:1129 gutenberg/assets/blocks.js:1135
+#: gutenberg/assets/blocks.js:1141 gutenberg/assets/blocks.js:1147
+#: gutenberg/assets/blocks.js:1786 gutenberg/assets/blocks.js:1792
+#: gutenberg/assets/blocks.js:1798 gutenberg/assets/blocks.js:1804
+#: gutenberg/assets/blocks.js:1810 gutenberg/assets/blocks.js:2260
+#: gutenberg/assets/blocks.js:2266 gutenberg/assets/blocks.js:2272
+#: gutenberg/assets/blocks.js:2278 gutenberg/assets/blocks.js:2284
+msgid "2"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:551 gutenberg/assets/blocks.js:557
+#: gutenberg/assets/blocks.js:563 gutenberg/assets/blocks.js:1123
+#: gutenberg/assets/blocks.js:1129 gutenberg/assets/blocks.js:1135
+#: gutenberg/assets/blocks.js:1141 gutenberg/assets/blocks.js:1147
+#: gutenberg/assets/blocks.js:1786 gutenberg/assets/blocks.js:1792
+#: gutenberg/assets/blocks.js:1798 gutenberg/assets/blocks.js:1804
+#: gutenberg/assets/blocks.js:1810 gutenberg/assets/blocks.js:2260
+#: gutenberg/assets/blocks.js:2266 gutenberg/assets/blocks.js:2272
+#: gutenberg/assets/blocks.js:2278 gutenberg/assets/blocks.js:2284
+msgid "3"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:551 gutenberg/assets/blocks.js:557
+#: gutenberg/assets/blocks.js:563 gutenberg/assets/blocks.js:1123
+#: gutenberg/assets/blocks.js:1129 gutenberg/assets/blocks.js:1135
+#: gutenberg/assets/blocks.js:1141 gutenberg/assets/blocks.js:1147
+#: gutenberg/assets/blocks.js:1786 gutenberg/assets/blocks.js:1792
+#: gutenberg/assets/blocks.js:1798 gutenberg/assets/blocks.js:1804
+#: gutenberg/assets/blocks.js:1810 gutenberg/assets/blocks.js:2260
+#: gutenberg/assets/blocks.js:2266 gutenberg/assets/blocks.js:2272
+#: gutenberg/assets/blocks.js:2278 gutenberg/assets/blocks.js:2284
+msgid "4"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:551 gutenberg/assets/blocks.js:557
+#: gutenberg/assets/blocks.js:563 gutenberg/assets/blocks.js:1123
+#: gutenberg/assets/blocks.js:1129 gutenberg/assets/blocks.js:1135
+#: gutenberg/assets/blocks.js:1141 gutenberg/assets/blocks.js:1147
+#: gutenberg/assets/blocks.js:1786 gutenberg/assets/blocks.js:1792
+#: gutenberg/assets/blocks.js:1798 gutenberg/assets/blocks.js:1804
+#: gutenberg/assets/blocks.js:1810 gutenberg/assets/blocks.js:2260
+#: gutenberg/assets/blocks.js:2266 gutenberg/assets/blocks.js:2272
+#: gutenberg/assets/blocks.js:2278 gutenberg/assets/blocks.js:2284
+msgid "5"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:551 gutenberg/assets/blocks.js:557
+#: gutenberg/assets/blocks.js:563 gutenberg/assets/blocks.js:1123
+#: gutenberg/assets/blocks.js:1129 gutenberg/assets/blocks.js:1135
+#: gutenberg/assets/blocks.js:1141 gutenberg/assets/blocks.js:1147
+#: gutenberg/assets/blocks.js:1786 gutenberg/assets/blocks.js:1792
+#: gutenberg/assets/blocks.js:1798 gutenberg/assets/blocks.js:1804
+#: gutenberg/assets/blocks.js:1810 gutenberg/assets/blocks.js:2260
+#: gutenberg/assets/blocks.js:2266 gutenberg/assets/blocks.js:2272
+#: gutenberg/assets/blocks.js:2278 gutenberg/assets/blocks.js:2284
+msgid "6"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:551 gutenberg/assets/blocks.js:557
+#: gutenberg/assets/blocks.js:563 gutenberg/assets/blocks.js:1123
+#: gutenberg/assets/blocks.js:1129 gutenberg/assets/blocks.js:1135
+#: gutenberg/assets/blocks.js:1141 gutenberg/assets/blocks.js:1147
+#: gutenberg/assets/blocks.js:1786 gutenberg/assets/blocks.js:1792
+#: gutenberg/assets/blocks.js:1798 gutenberg/assets/blocks.js:1804
+#: gutenberg/assets/blocks.js:1810 gutenberg/assets/blocks.js:2260
+#: gutenberg/assets/blocks.js:2266 gutenberg/assets/blocks.js:2272
+#: gutenberg/assets/blocks.js:2278 gutenberg/assets/blocks.js:2284
+msgid "7"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:551 gutenberg/assets/blocks.js:557
+#: gutenberg/assets/blocks.js:563 gutenberg/assets/blocks.js:1123
+#: gutenberg/assets/blocks.js:1129 gutenberg/assets/blocks.js:1135
+#: gutenberg/assets/blocks.js:1141 gutenberg/assets/blocks.js:1147
+#: gutenberg/assets/blocks.js:1786 gutenberg/assets/blocks.js:1792
+#: gutenberg/assets/blocks.js:1798 gutenberg/assets/blocks.js:1804
+#: gutenberg/assets/blocks.js:1810 gutenberg/assets/blocks.js:2260
+#: gutenberg/assets/blocks.js:2266 gutenberg/assets/blocks.js:2272
+#: gutenberg/assets/blocks.js:2278 gutenberg/assets/blocks.js:2284
+msgid "8"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:555 gutenberg/assets/blocks.js:1127
+#: gutenberg/assets/blocks.js:1790 gutenberg/assets/blocks.js:2264
+msgid "Item count(>=1200px)"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:561 gutenberg/assets/blocks.js:1145
+#: gutenberg/assets/blocks.js:1808 gutenberg/assets/blocks.js:2282
+msgid "Item count(<576px)"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:567 gutenberg/assets/blocks.js:1151
+#: gutenberg/assets/blocks.js:1814 gutenberg/assets/blocks.js:2288
+msgid "Item Gap"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:568 gutenberg/assets/blocks.js:1152
+#: gutenberg/assets/blocks.js:1815 gutenberg/assets/blocks.js:2289
+msgid "No Space"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:568 gutenberg/assets/blocks.js:1152
+#: gutenberg/assets/blocks.js:1815 gutenberg/assets/blocks.js:2289
+msgid "Extremely Small"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:633
+msgid "Banner Options"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:715
+msgid "Background Settings"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:733
+msgid "Banner Image"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:741
+msgid "Remove image"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:748
+msgid "Fixed Image Banner"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:759
+msgid "Use Container Width Content"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:785
+msgid "Parallax Height(%)"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:800
+msgid "Banner Content Position"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:856
+msgid "X-Pos (%)"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:864
+msgid "Y-Pos (%)"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:872
+msgid "Content Width (%)"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:878
+msgid "Min Height (px)"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1046 gutenberg/assets/blocks.js:1679
+#: gutenberg/assets/blocks.js:2197
+msgid "Selected"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1107 gutenberg/assets/blocks.js:1736
+#: gutenberg/assets/blocks.js:2249
+msgid "Layout Type"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1133 gutenberg/assets/blocks.js:1796
+#: gutenberg/assets/blocks.js:2270
+msgid "Item count(>=768px)"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1139 gutenberg/assets/blocks.js:1802
+#: gutenberg/assets/blocks.js:2276
+msgid "Item count(>=576px)"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1165
+msgid "Product Conformation"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1186
+msgid "Media Shadow Effect"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1705
+msgid "Hide Empty Categories"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1754
+msgid "Creative Presets"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1756
+msgid "Preset 1"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1757
+msgid "Preset 2"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1758
+msgid "Preset 3"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1759
+msgid "Preset 4"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1760
+msgid "Preset 5"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1761
+msgid "Preset 6"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1762
+msgid "Preset 7"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1763
+msgid "Preset 8"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1764
+msgid "Preset 9"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1765
+msgid "Preset 10"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1766
+msgid "Preset 11"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1776
+msgid "Layout Height"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:1828
+msgid "Category Conformation"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2302
+msgid "Post Conformation"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2313
+msgid "Galendar"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2324
+msgid "Check Items you want to show"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2339
+msgid "Overlay Type"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2352
+msgid "Show Date on Featured Image"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2406 gutenberg/assets/blocks.js:3536
+msgid "Shape"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2430 gutenberg/assets/blocks.js:3560
+msgid "Icon Class"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2451 gutenberg/assets/blocks.js:3586
+msgid "Icon Font Size"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2458 gutenberg/assets/blocks.js:3601
+msgid "Slide left"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2458 gutenberg/assets/blocks.js:3601
+msgid "Slide right"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2458 gutenberg/assets/blocks.js:3601
+msgid "Slide up"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2458 gutenberg/assets/blocks.js:3601
+msgid "Slide down"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2458 gutenberg/assets/blocks.js:3601
+msgid "Reveal left"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2458 gutenberg/assets/blocks.js:3601
+msgid "Reveal right"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2714
+msgid "Icon Box"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2718
+msgid "Icon Box Type"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2720
+msgid "Mixed"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2825
+msgid "Icon class ( Font Awesome Font Icons )"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2830
+msgid "Icon Size "
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2835
+msgid "Icon Style"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2841
+msgid "Border Shape"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2944 gutenberg/assets/blocks.js:3244
+msgid "Heading"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2948
+msgid "Heading "
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2953 gutenberg/assets/blocks.js:3024
+#: gutenberg/assets/blocks.js:3272 gutenberg/assets/blocks.js:3581
+msgid "Font Size"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:2959 gutenberg/assets/blocks.js:3277
+msgid "Font Weight (px) "
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3019
+msgid "Description "
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3029 gutenberg/assets/blocks.js:3294
+msgid "Line Height"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3248
+msgid "Heading Tag"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3257
+msgid "P"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3262
+msgid "Font Family "
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3269
+msgid "Comma Seperated Font Families"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3284
+msgid "Letter Spacing "
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3291
+msgid "Please Input value + unit. Empty unit will be set to \"px\"."
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3305
+msgid "Text Transform"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3309
+msgid "UPPERCASE"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3310
+msgid "lowercase"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3311
+msgid "Capitalize"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3365
+msgid "Heading Style"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3379
+msgid "Decoration Spacing (px)"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3392 gutenberg/assets/blocks.js:3398
+msgid "Divider Height (px)"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3404
+msgid "Divider Color"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3413
+msgid "Divider Active Color"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3516
+msgid "Button Content"
+msgstr ""
+
+#: gutenberg/assets/blocks.js:3591
+msgid "Icon Margin (px)"
+msgstr ""
+
+#: gutenberg/init.php:83
+msgid "Alpha"
+msgstr ""
+
+#: meta-box/init.php:57
+msgid "Alpha Page Option"
+msgstr ""
+
+#: meta-box/init.php:90
+msgid "Archive Page Layout"
+msgstr ""
+
+#: meta-box/init.php:151 meta-box/init.php:201
+msgid "General Settings"
+msgstr ""
+
+#: meta-box/init.php:155
+msgid "Header"
+msgstr ""
+
+#: meta-box/init.php:158
+msgid "Page Title Bar"
+msgstr ""
+
+#: meta-box/init.php:161
+msgid "Top Block"
+msgstr ""
+
+#: meta-box/init.php:164 meta-box/product-cat-meta.php:63
+msgid "Top Filter Sidebar"
+msgstr ""
+
+#: meta-box/init.php:169 meta-box/init.php:185 templates/init.php:200
+msgid "Sidebar"
+msgstr ""
+
+#: meta-box/init.php:174
+msgid "Inner Top Block"
+msgstr ""
+
+#: meta-box/init.php:177
+msgid "Main Content"
+msgstr ""
+
+#: meta-box/init.php:180
+msgid "Inner Bottom Block"
+msgstr ""
+
+#: meta-box/init.php:190
+msgid "Bottom Block"
+msgstr ""
+
+#: meta-box/init.php:193
+msgid "Footer"
+msgstr ""
+
+#: meta-box/init.php:208
+msgid "Save"
+msgstr ""
+
+#: meta-box/post-meta.php:14
+msgid "Supported Images"
+msgstr ""
+
+#: meta-box/post-meta.php:17
+msgid "These images will be shown as slider with Featured Image."
+msgstr ""
+
+#: meta-box/post-meta.php:21
+msgid "Featured Video"
+msgstr ""
+
+#: meta-box/post-meta.php:24
+msgid "Input embed code or use shortcodes. ex) iframe-tag or"
+msgstr ""
+
+#: meta-box/product-attr-meta.php:52 meta-box/product-attr-meta.php:113
+msgid "Guide block"
+msgstr ""
+
+#: meta-box/product-attr-meta.php:59 meta-box/product-attr-meta.php:122
+msgid "Guide block for the attribute(shown in product data tabs)."
+msgstr ""
+
+#: meta-box/product-attr-meta.php:62 meta-box/product-attr-meta.php:127
+msgid "Guide link text"
+msgstr ""
+
+#: meta-box/product-attr-meta.php:64 meta-box/product-attr-meta.php:131
+msgid "Link text for guide block."
+msgstr ""
+
+#: meta-box/product-attr-meta.php:67
+msgid "Guide link icon"
+msgstr ""
+
+#: meta-box/product-attr-meta.php:69
+msgid "Icon class for guide link."
+msgstr ""
+
+#: meta-box/product-attr-meta.php:136
+msgid "Guide icon"
+msgstr ""
+
+#: meta-box/product-attr-meta.php:140
+msgid "Icon class for guide title."
+msgstr ""
+
+#: meta-box/product-attr-meta.php:164
+msgid "Select terms"
+msgstr ""
+
+#: meta-box/product-attr-meta.php:180
+msgid "Select all"
+msgstr ""
+
+#: meta-box/product-attr-meta.php:181
+msgid "Select none"
+msgstr ""
+
+#: meta-box/product-attr-meta.php:182
+msgid "Add new"
+msgstr ""
+
+#: meta-box/product-attr-meta.php:244
+msgid "Swatch Label"
+msgstr ""
+
+#: meta-box/product-attr-meta.php:250
+msgid "Swatch Color"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:45
+msgid "Category Layout"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:55
+msgid "Category Sidebar"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:58
+msgid "No Sidebar"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:59
+msgid "Left Sidebar"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:60
+msgid "Left Filter Sidebar"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:61
+msgid "Right Sidebar"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:62
+msgid "Right Filter Sidebar"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:68
+msgid "Header Width"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:77
+msgid "Footer Width"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:86
+msgid "Breadcrumb Width"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:95
+msgid "Content Top Block"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:101
+msgid "Content Bottom Block"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:107
+msgid "Inner Content Top Block"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:113
+msgid "Inner Content Bottom Block"
+msgstr ""
+
+#: meta-box/product-cat-meta.php:119
+msgid "Product Count per Row"
+msgstr ""
+
+#: shortcode/class-alpha-single-product.php:86
+msgid "Alpha Single Product Name"
+msgstr ""
+
+#: shortcode/class-alpha-single-product.php:107
+msgid "Alpha Single Product ShortDescription"
+msgstr ""
+
+#: sidebar-widgets/block.php:14
+msgid "Display Alpha Block built by template block bilder"
+msgstr ""
+
+#: sidebar-widgets/block.php:19
+msgid "Alpha - Block"
+msgstr ""
+
+#: sidebar-widgets/block.php:76
+msgid "Select Block"
+msgstr ""
+
+#: sidebar-widgets/contact_info.php:14
+msgid "Display Contact Information."
+msgstr ""
+
+#: sidebar-widgets/contact_info.php:19
+msgid "Alpha - Contact Info"
+msgstr ""
+
+#: sidebar-widgets/contact_info.php:26 sidebar-widgets/contact_info.php:97
+msgid "Contact Info"
+msgstr ""
+
+#: sidebar-widgets/contact_info.php:118
+msgid "Phone Label"
+msgstr ""
+
+#: sidebar-widgets/contact_info.php:124
+msgid "Phone Number"
+msgstr ""
+
+#: sidebar-widgets/contact_info.php:130
+msgid "Phone Link"
+msgstr ""
+
+#: sidebar-widgets/contact_info.php:136
+msgid "Email Label"
+msgstr ""
+
+#: sidebar-widgets/contact_info.php:142
+msgid "Email Address"
+msgstr ""
+
+#: sidebar-widgets/contact_info.php:148
+msgid "Address Label"
+msgstr ""
+
+#: sidebar-widgets/contact_info.php:154
+msgid "Address"
+msgstr ""
+
+#: sidebar-widgets/contact_info.php:160
+msgid "Working Label"
+msgstr ""
+
+#: sidebar-widgets/contact_info.php:166
+msgid "Working Time"
+msgstr ""
+
+#: sidebar-widgets/posts.php:14
+msgid "Display widget typed posts."
+msgstr ""
+
+#: sidebar-widgets/posts.php:19
+msgid "Alpha - Posts"
+msgstr ""
+
+#: sidebar-widgets/posts.php:141 sidebar-widgets/products.php:148
+msgid "Product orderby"
+msgstr ""
+
+#: sidebar-widgets/posts.php:160 sidebar-widgets/products.php:168
+msgid "Product orderway"
+msgstr ""
+
+#: sidebar-widgets/posts.php:172 sidebar-widgets/products.php:180
+msgid "Total Count"
+msgstr ""
+
+#: sidebar-widgets/posts.php:179 sidebar-widgets/products.php:187
+msgid "Count per Slide"
+msgstr ""
+
+#: sidebar-widgets/price_filter.php:14
+msgid "Display list of price to filter products."
+msgstr ""
+
+#: sidebar-widgets/price_filter.php:19
+msgid "Alpha - Price Filter"
+msgstr ""
+
+#: sidebar-widgets/price_filter.php:91 sidebar-widgets/price_filter.php:93
+#, php-format
+msgid "%1$s%2$s"
+msgstr ""
+
+#: sidebar-widgets/price_filter.php:152
+msgid "Price Range"
+msgstr ""
+
+#: sidebar-widgets/price_filter.php:154
+msgid "Comma separated price ranges."
+msgstr ""
+
+#: sidebar-widgets/price_filter.php:159
+msgid "Price Range Format"
+msgstr ""
+
+#: sidebar-widgets/price_filter.php:161
+msgid "Input \"$from\" for first value and \"$to\" for last value."
+msgstr ""
+
+#: sidebar-widgets/price_filter.php:166
+msgid "Min Price Prefix"
+msgstr ""
+
+#: sidebar-widgets/price_filter.php:172
+msgid "Max Price Suffix"
+msgstr ""
+
+#: sidebar-widgets/price_filter.php:178
+msgid "Show Empty Filter"
+msgstr ""
+
+#: sidebar-widgets/price_filter.php:182
+msgid "Show \"All\" Filter"
+msgstr ""
+
+#: sidebar-widgets/products.php:14
+msgid "Display widget typed products."
+msgstr ""
+
+#: sidebar-widgets/products.php:19
+msgid "Alpha - Products"
+msgstr ""
+
+#: sidebar-widgets/products.php:159
+msgid "Comment Count"
+msgstr ""
+
+#: sidebar-widgets/social_link.php:14
+msgid "Display social link items composed of selected on theme options."
+msgstr ""
+
+#: sidebar-widgets/social_link.php:19
+msgid "Alpha - Social Links"
+msgstr ""
+
+#: sidebar-widgets/social_link.php:45
+#, php-format
+msgid ""
+"%1$sYou can change settings about this widget in %2$sCustomize Panel %3$s( Header / "
+"Social Links )%4$s.%5$s"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/account.php:19
+msgid "Alpha Account"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/account.php:46
+#: templates/header-builder/elementor-widgets/account.php:122
+msgid "Account"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/account.php:54
+msgid "Account Type"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/account.php:73
+msgid "Show Items"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/account.php:81
+msgid "User Icon"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/account.php:82
+msgid "Login/Logout Label"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/account.php:83
+msgid "Register Label"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/account.php:103
+msgid "Show 'Sign In' instead of 'Login'"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/account.php:111
+msgid "Enable Social Login"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/account.php:163
+#: templates/header-builder/elementor-widgets/cart.php:116
+msgid "Delimiter"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/account.php:191
+#: templates/header-builder/elementor-widgets/cart.php:232
+msgid "Delimiter Space (px)"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:19
+msgid "Alpha Cart"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:46
+#: templates/header-builder/elementor-widgets/cart.php:179
+msgid "Cart"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:54
+msgid "Cart Type"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:73
+msgid "Cart Icon Type"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:78
+#: templates/header-builder/elementor-widgets/cart.php:419
+msgid "Badge Type"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:79
+msgid "Label Type"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:87
+msgid "Off Canvas"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:95
+#: templates/header-builder/elementor-widgets/wishlist.php:73
+msgid "Show Label"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:104
+msgid "Cart Label"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:143
+msgid "Show Cart Total Price"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:152
+msgid "Cart Count Prefix"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:165
+msgid "Cart Count suffix"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:286
+msgid "Cart Count & Icon"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:320
+#: templates/header-builder/elementor-widgets/cart.php:374
+#: templates/header-builder/elementor-widgets/cart.php:481
+msgid "Count Color"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:334
+#: templates/header-builder/elementor-widgets/cart.php:388
+msgid "Icon Background"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:348
+#: templates/header-builder/elementor-widgets/cart.php:402
+msgid "Icon Border Color"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:431
+msgid "Badge Size"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:443
+msgid "Vertical Position"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:455
+msgid "Horizontal Position"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/cart.php:467
+msgid "Count Background Color"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/currency-switcher.php:19
+msgid "Alpha Currency Switcher"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/currency-switcher.php:46
+#: templates/header-builder/elementor-widgets/language-switcher.php:47
+msgid "Switcher Toggle"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/currency-switcher.php:186
+#: templates/header-builder/elementor-widgets/language-switcher.php:204
+msgid "Dropdown Box"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/currency-switcher.php:206
+#: templates/header-builder/elementor-widgets/language-switcher.php:224
+#: templates/header-builder/elementor-widgets/search.php:557
+msgid "Position"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/currency-switcher.php:248
+msgid "Currency item"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/language-switcher.php:19
+msgid "Alpha Language Switcher"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/language-switcher.php:63
+#: templates/header-builder/elementor-widgets/language-switcher.php:282
+msgid "Flag Size (%)"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/language-switcher.php:266
+msgid "Language item"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:19
+msgid "Alpha Mobile Menu Toggle"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:46
+#: templates/header-builder/elementor-widgets/mmenu-toggle.php:80
+msgid "Mobile Menu Toggle"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:19
+msgid "Alpha Search"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:46
+msgid "Search"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:54
+msgid "Search Type"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:69
+msgid "Search Label"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:81
+msgid "Border Type"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:104
+msgid "Search by Category"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:123
+msgid "Search Types"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:124
+msgid "Select post types to search"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:130
+msgid "Post"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:138
+msgid "Search Form Placeholder"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:147
+msgid "Search Icon"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:159
+msgid "Search Width"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:182
+msgid "Input Field"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:421
+msgid "Toggle Type"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:432
+msgid "Toggle"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/search.php:548
+msgid "Dropdown"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/v-divider.php:19
+msgid "Alpha Vertical Divider"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/v-divider.php:46
+msgid "Vertical Divider"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/wishlist.php:19
+msgid "Alpha Wishlist"
+msgstr ""
+
+#: templates/header-builder/elementor-widgets/wishlist.php:54
+msgid "Wishlist Type"
+msgstr ""
+
+#: templates/header-builder/init.php:64
+msgid "Alpha Header"
+msgstr ""
+
+#: templates/init.php:104
+msgid "Alpha Templates"
+msgstr ""
+
+#: templates/init.php:128
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: templates/init.php:139
+msgid "New Template"
+msgstr ""
+
+#: templates/init.php:144
+#, php-format
+msgid "One Click Install %1$sTemplates%2$s"
+msgstr ""
+
+#: templates/init.php:146
+msgid ""
+"A huge library of online templates are ready for your quick work, and their combination "
+"will bring about a new fashionable site."
+msgstr ""
+
+#: templates/init.php:165
+msgid "Choose Template Type"
+msgstr ""
+
+#: templates/init.php:167
+msgid "Select Template Type"
+msgstr ""
+
+#: templates/init.php:177
+msgid "Name your template"
+msgstr ""
+
+#: templates/init.php:178
+msgid "Enter your template name (required)"
+msgstr ""
+
+#: templates/init.php:181
+msgid "From Online Templates"
+msgstr ""
+
+#: templates/init.php:186
+msgid "Alpha Studio"
+msgstr ""
+
+#: templates/init.php:189
+msgid "Create Template"
+msgstr ""
+
+#: templates/init.php:207 templates/init.php:218
+msgid "Remove"
+msgstr ""
+
+#: templates/init.php:226
+msgid "Add Sidebar"
+msgstr ""
+
+#: templates/init.php:239
+msgid "succesfully registered"
+msgstr ""
+
+#: templates/init.php:255
+msgid "succesfully removed"
+msgstr ""
+
+#: templates/init.php:267
+msgid "no template type or name"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/cart-form.php:18
+msgid "Alpha Product Cart Form"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/cart-form.php:53
+msgid "Add To Cart Sticky"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/cart-form.php:195
+#: templates/single-product-builder/elementor-widgets/cart-form.php:366
+msgid "Transition Duration"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/cart-form.php:221
+msgid "Quantity"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/cart-form.php:326
+msgid "Focus"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/cart-form.php:392
+msgid "Variations"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/cart-form.php:426
+msgid "Space Between"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/cart-form.php:465
+msgid "List field"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/cart-form.php:526
+msgid "Select field"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/counter.php:16
+msgid "Alpha Product Counter"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/counter.php:50
+msgid "Additional Count"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/counter.php:68
+msgid "Sale Count"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/data-tab.php:19
+msgid "Alpha Product Data Tabs"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/data-tab.php:58
+msgid "Theme Option"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/data-tab.php:97
+msgid "Link Typography"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/data-tab.php:225
+msgid "Link Padding"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/excerpt.php:18
+msgid "Alpha Product Excerpt"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/flash-sale.php:18
+msgid "Alpha Product Flash Sale"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/flash-sale.php:77
+#: templates/single-product-builder/elementor-widgets/flash-sale.php:135
+msgid "Ends Label"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/flash-sale.php:79
+msgid "Ends in:"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/image.php:17
+msgid "Alpha Product Images"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/image.php:184
+msgid "Thumbnails"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/linked-products.php:16
+msgid "Alpha Linked Products"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/linked-products.php:52
+msgid "Related Products"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/linked-products.php:53
+msgid "Upsell Products"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/meta.php:18
+msgid "Alpha Product Meta"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/meta.php:55
+msgid "Meta Direction"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/meta.php:85
+msgid "Justified"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/meta.php:98
+msgid "Divider"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/meta.php:117
+msgid "Double"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/meta.php:118
+msgid "Dotted"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/meta.php:119
+msgid "Dashed"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/meta.php:134
+#: templates/single-product-builder/elementor-widgets/meta.php:158
+msgid "Weight"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/navigation.php:18
+msgid "Alpha Product Navigation"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/navigation.php:107
+msgid "Prev Icon"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/navigation.php:138
+msgid "Next Icon"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/navigation.php:187
+#: templates/single-product-builder/elementor-widgets/navigation.php:217
+msgid "Icon Color"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/price.php:18
+msgid "Alpha Product Price"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/price.php:129
+msgid "Old"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/rating.php:19
+msgid "Alpha Product Rating"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/rating.php:59
+#: templates/single-product-builder/elementor-widgets/rating.php:105
+msgid "Star"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/rating.php:60
+msgid "Number"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/rating.php:171
+msgid "Unmarked Color"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/rating.php:185
+msgid "Reviews"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/share.php:19
+msgid "Alpha Product Share"
+msgstr ""
+
+#: templates/single-product-builder/elementor-widgets/title.php:18
+msgid "Alpha Product Title"
+msgstr ""

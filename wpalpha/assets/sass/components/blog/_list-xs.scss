@@ -1,0 +1,26 @@
+.post-calendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 4.1rem;
+    height: 4.2rem;
+    color: var(--alpha-dark-color, $dark-color);
+    background: #fff;
+    font-weight: 600;
+    line-height: 1;
+    .post-day {
+        display: block;
+        margin-bottom: 1px;
+        font-size: 1.4rem;
+    }
+    .post-month {
+        display: block;
+        margin-#{$left}: 2px;
+        font-size: 1rem;
+    }
+
+    + .post-details .post-meta {
+        display: none;
+    }
+}

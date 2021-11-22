@@ -1,0 +1,5607 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Alpha 1.0\n"
+"POT-Creation-Date: 2020-12-07 13:16-0800\n"
+"PO-Revision-Date: 2017-10-09 17:25+0800\n"
+"Last-Translator: alpha <alpha@example.com>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: woocommerce/cart/cart-empty.php\n"
+"X-Poedit-SearchPathExcluded-1: woocommerce/checkout/form-billing.php\n"
+"X-Poedit-SearchPathExcluded-2: woocommerce/checkout/form-checkout.php\n"
+"X-Poedit-SearchPathExcluded-3: woocommerce/checkout/form-coupon.php\n"
+"X-Poedit-SearchPathExcluded-4: woocommerce/checkout/form-pay.php\n"
+"X-Poedit-SearchPathExcluded-5: woocommerce/checkout/form-shipping.php\n"
+"X-Poedit-SearchPathExcluded-6: woocommerce/global/form-login.php\n"
+"X-Poedit-SearchPathExcluded-7: woocommerce/global/wrapper-end.php\n"
+"X-Poedit-SearchPathExcluded-8: woocommerce/global/wrapper-start.php\n"
+"X-Poedit-SearchPathExcluded-9: woocommerce/loop/add-to-cart.php\n"
+"X-Poedit-SearchPathExcluded-10: woocommerce/loop/loop-end.php\n"
+"X-Poedit-SearchPathExcluded-11: woocommerce/loop/loop-start.php\n"
+"X-Poedit-SearchPathExcluded-12: woocommerce/loop/pagination.php\n"
+"X-Poedit-SearchPathExcluded-13: woocommerce/loop/price.php\n"
+"X-Poedit-SearchPathExcluded-14: woocommerce/myaccount/dashboard.php\n"
+"X-Poedit-SearchPathExcluded-15: woocommerce/myaccount/downloads.php\n"
+"X-Poedit-SearchPathExcluded-16: woocommerce/myaccount/form-edit-account.php\n"
+"X-Poedit-SearchPathExcluded-17: woocommerce/myaccount/form-edit-address.php\n"
+"X-Poedit-SearchPathExcluded-18: woocommerce/myaccount/my-account.php\n"
+"X-Poedit-SearchPathExcluded-19: woocommerce/myaccount/my-address.php\n"
+"X-Poedit-SearchPathExcluded-20: woocommerce/myaccount/navigation.php\n"
+"X-Poedit-SearchPathExcluded-21: woocommerce/myaccount/orders.php\n"
+"X-Poedit-SearchPathExcluded-22: woocommerce/notices\n"
+"X-Poedit-SearchPathExcluded-23: woocommerce/order/order-downloads.php\n"
+"X-Poedit-SearchPathExcluded-24: woocommerce/single-product/meta.php\n"
+"X-Poedit-SearchPathExcluded-25: woocommerce/single-product/product-image.php\n"
+"X-Poedit-SearchPathExcluded-26: woocommerce/single-product/product-thumbnails.php\n"
+"X-Poedit-SearchPathExcluded-27: woocommerce/single-product/rating.php\n"
+"X-Poedit-SearchPathExcluded-28: woocommerce/single-product/related.php\n"
+"X-Poedit-SearchPathExcluded-29: woocommerce/single-product/review-meta.php\n"
+"X-Poedit-SearchPathExcluded-30: woocommerce/single-product/sale-flash.php\n"
+"X-Poedit-SearchPathExcluded-31: woocommerce/single-product/title.php\n"
+"X-Poedit-SearchPathExcluded-32: woocommerce/single-product/up-sells.php\n"
+"X-Poedit-SearchPathExcluded-33: woocommerce/single-product/tabs\n"
+"X-Poedit-SearchPathExcluded-34: woocommerce/add-to-wishlist-added.php\n"
+"X-Poedit-SearchPathExcluded-35: woocommerce/add-to-wishlist-browse.php\n"
+"X-Poedit-SearchPathExcluded-36: woocommerce/add-to-wishlist-button.php\n"
+"X-Poedit-SearchPathExcluded-37: woocommerce/archive-product.php\n"
+"X-Poedit-SearchPathExcluded-38: woocommerce/content-product.php\n"
+"X-Poedit-SearchPathExcluded-39: woocommerce/content-product_cat.php\n"
+"X-Poedit-SearchPathExcluded-40: woocommerce/content-single-product.php\n"
+"X-Poedit-SearchPathExcluded-41: woocommerce/share.php\n"
+"X-Poedit-SearchPathExcluded-42: woocommerce/single-product.php\n"
+"X-Poedit-SearchPathExcluded-43: woocommerce/wishlist-view-header.php\n"
+"X-Poedit-SearchPathExcluded-44: woocommerce/wishlist-view-mobile.php\n"
+"X-Poedit-SearchPathExcluded-45: inc/plugins/tgm-plugin-activation\n"
+"X-Poedit-SearchPathExcluded-46: inc/plugins/scssphp\n"
+"X-Poedit-SearchPathExcluded-47: assets\n"
+
+#: 404.php:26 inc/add-on/studio/studio.php:54
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:10
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:28
+msgid "OOOPPS.! THAT PAGE CAN’T BE FOUND."
+msgstr ""
+
+#: 404.php:29
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: 404.php:30
+msgid "Go Home"
+msgstr ""
+
+#: comments.php:20 inc/admin/customizer/option/woocommerce/option-wc-category.php:107
+#: inc/admin/page_layout/Alpha_Page_Layout.php:170
+#: inc/admin/page_layout/Alpha_Page_Layout.php:934
+msgid "No"
+msgstr ""
+
+#: comments.php:20 inc/action_filter/calls.php:817
+msgid "Comment"
+msgstr ""
+
+#: comments.php:20
+msgid "Comments"
+msgstr ""
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:119
+#, php-format
+msgid "Alpha eCommerce &copy; %s. All Rights Reserved"
+msgstr ""
+
+#: inc/action_filter/calls.php:75
+msgid "1. Shopping Cart"
+msgstr ""
+
+#: inc/action_filter/calls.php:79
+msgid "2. Checkout"
+msgstr ""
+
+#: inc/action_filter/calls.php:83
+msgid "3. Order Complete"
+msgstr ""
+
+#: inc/action_filter/calls.php:482 inc/action_filter/calls.php:495
+msgid "Error:"
+msgstr ""
+
+#: inc/action_filter/calls.php:498
+msgid "Username is required."
+msgstr ""
+
+#: inc/action_filter/calls.php:528
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: inc/action_filter/calls.php:538
+msgid "Wrong username or password."
+msgstr ""
+
+#: inc/action_filter/calls.php:597
+msgid "Register successful, redirecting..."
+msgstr ""
+
+#: inc/action_filter/calls.php:607
+msgid "Register failed."
+msgstr ""
+
+#: inc/action_filter/calls.php:718
+msgid "Send"
+msgstr ""
+
+#: inc/action_filter/calls.php:812 inc/admin/page_layout/Alpha_Page_Layout.php:1223
+msgid "Name"
+msgstr ""
+
+#: inc/action_filter/calls.php:813 inc/setup/theme-options.php:16
+msgid "Email"
+msgstr ""
+
+#: inc/action_filter/calls.php:819 inc/plugins/importer/alpha-wordpress-importer.php:475
+#: inc/plugins/importer/wordpress-importer.php:373
+msgid "Submit"
+msgstr ""
+
+#: inc/action_filter/calls.php:819
+msgid "Post Comment"
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:20
+msgid "Image Change & Swatch"
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:49
+#, php-format
+msgid ""
+"Before you can add image swatch you need to add some %1$slist%2$s variation attributes "
+"on the %1$sAttributes%2$s tab."
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:50
+msgid "Learn more"
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:56
+msgid ""
+"This will replace product image with following uploaded image when attribute button is "
+"clicked."
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:77
+msgid "Button Type"
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:79
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:45
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:52
+#: inc/admin/page_layout/Alpha_Page_Layout.php:92
+#: inc/admin/page_layout/Alpha_Page_Layout.php:133
+#: inc/admin/page_layout/Alpha_Page_Layout.php:147
+#: inc/admin/page_layout/Alpha_Page_Layout.php:161
+#: inc/admin/page_layout/Alpha_Page_Layout.php:193
+#: inc/admin/page_layout/Alpha_Page_Layout.php:257
+#: inc/admin/page_layout/Alpha_Page_Layout.php:322
+#: inc/admin/page_layout/Alpha_Page_Layout.php:339
+#: inc/admin/page_layout/Alpha_Page_Layout.php:356
+#: inc/admin/page_layout/Alpha_Page_Layout.php:373
+#: inc/admin/page_layout/Alpha_Page_Layout.php:391
+#: inc/admin/page_layout/Alpha_Page_Layout.php:450
+#: inc/admin/page_layout/Alpha_Page_Layout.php:477
+#: inc/admin/page_layout/Alpha_Page_Layout.php:507
+#: inc/admin/page_layout/Alpha_Page_Layout.php:522
+#: inc/admin/page_layout/Alpha_Page_Layout.php:541
+#: inc/admin/page_layout/Alpha_Page_Layout.php:557
+#: inc/admin/page_layout/Alpha_Page_Layout.php:589
+#: inc/admin/page_layout/Alpha_Page_Layout.php:621
+#: inc/admin/page_layout/Alpha_Page_Layout.php:690
+#: inc/admin/page_layout/Alpha_Page_Layout.php:720
+#: inc/admin/page_layout/Alpha_Page_Layout.php:819
+#: inc/admin/page_layout/Alpha_Page_Layout.php:834
+#: inc/admin/page_layout/Alpha_Page_Layout.php:924
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1011
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1151
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1172
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1221
+msgid "Default"
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:80
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:87
+msgid "Image"
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:82
+msgid "Select button type as image to show image on button."
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:86
+msgid "Attribute"
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:109
+msgid "Thumbnail Preview"
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:111
+msgid "Upload/Add image"
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:112
+msgid "Remove image"
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:126
+msgid "Expand"
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:126
+#: inc/admin/customizer/option/header/header-builder.php:368
+msgid "Close"
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:127
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:60
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:46
+msgid "Save changes"
+msgstr ""
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:128
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:61
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:47
+msgid "Cancel"
+msgstr ""
+
+#: inc/add-on/live-search/live-search.php:65 inc/add-on/live-search/live-search.php:76
+msgid "(no title)"
+msgstr ""
+
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:23
+msgid "Custom Description Tab "
+msgstr ""
+
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:39
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:42
+msgid "Custom Tab Title"
+msgstr ""
+
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:44
+msgid "Custom Tab Content"
+msgstr ""
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:23
+msgid "Alpha Extra Options"
+msgstr ""
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:38
+msgid "Image Change on Hover"
+msgstr ""
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:40
+#: inc/admin/page_layout/Alpha_Page_Layout.php:80
+#: inc/admin/page_layout/Alpha_Page_Layout.php:122
+#: inc/admin/page_layout/Alpha_Page_Layout.php:246
+#: inc/admin/page_layout/Alpha_Page_Layout.php:437
+#: inc/admin/page_layout/Alpha_Page_Layout.php:677
+#: inc/admin/page_layout/Alpha_Page_Layout.php:788
+#: inc/admin/page_layout/Alpha_Page_Layout.php:897
+msgid "Theme Option"
+msgstr ""
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:41
+#: inc/admin/customizer/option/menu/option-menu-labels.php:64
+msgid "Change"
+msgstr ""
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:42
+msgid "Do not change"
+msgstr ""
+
+#: inc/add-on/studio/blocks-wrapper.php:12
+msgid "Template Library"
+msgstr ""
+
+#: inc/add-on/studio/blocks-wrapper.php:13
+msgid "Close (Esc)"
+msgstr ""
+
+#: inc/add-on/studio/blocks-wrapper.php:16
+msgid "Alpha Studio"
+msgstr ""
+
+#: inc/add-on/studio/blocks-wrapper.php:22
+#: inc/admin/customizer/option/header/option-header-search.php:171
+#: inc/functions/woocommerce/product-archive.php:140 template_parts/posts/archive.php:44
+msgid "All"
+msgstr ""
+
+#: inc/add-on/studio/blocks-wrapper.php:29 inc/add-on/studio/blocks-wrapper.php:118
+msgid "Blocks"
+msgstr ""
+
+#: inc/add-on/studio/blocks-wrapper.php:87
+msgid "All in One Library"
+msgstr ""
+
+#: inc/add-on/studio/blocks-wrapper.php:88
+msgid "Choose any type of template from our library."
+msgstr ""
+
+#: inc/add-on/studio/blocks-wrapper.php:100 inc/admin/setup_wizard/views/demo.php:33
+msgid "Select Demo"
+msgstr ""
+
+#: inc/add-on/studio/blocks-wrapper.php:112
+msgid "Filter"
+msgstr ""
+
+#: inc/add-on/studio/blocks.php:14 inc/add-on/studio/blocks.php:39
+msgid "Select"
+msgstr ""
+
+#: inc/add-on/studio/blocks.php:14 inc/add-on/studio/blocks.php:39
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:45
+msgid "Import"
+msgstr ""
+
+#: inc/add-on/studio/blocks.php:35
+msgid "Favourite"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:32 inc/admin/setup_wizard/setup_wizard.php:173
+msgid "Demo"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:34
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:47
+msgid "Banner"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:36
+msgid "Call To Action"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:38 inc/functions/woocommerce/product-category.php:175
+msgid "Products"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:40
+msgid "Posts"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:42
+msgid "Testimonial"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:44
+msgid "Other"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:46 inc/admin/customizer/option/header/option-header.php:13
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:36
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:36
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:36
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:36
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:36
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:36
+msgid "Header"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:48 inc/admin/customizer/option/footer/option-footer.php:13
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:74
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:74
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:74
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:74
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:74
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:74
+msgid "Footer"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:50
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:10
+msgid "Single Product"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:52
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:53
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:242
+#: inc/admin/page_layout/Alpha_Page_Layout.php:187
+msgid "Popup"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:56
+msgid "Favourites"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:58
+msgid "My Templates"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:121
+msgid "Loading failed!"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:122
+msgid "There was an error when importing block. Please try again later!"
+msgstr ""
+
+#: inc/add-on/studio/studio.php:123
+msgid "Coming Soon..."
+msgstr ""
+
+#: inc/add-on/studio/studio.php:211
+msgid "Security issue found! Please try again later."
+msgstr ""
+
+#: inc/add-on/studio/studio.php:625 inc/add-on/studio/studio.php:681
+msgid "Could not connect to the API Server! Please try again later."
+msgstr ""
+
+#: inc/admin/admin.php:46 inc/admin/panel/panel.php:26 inc/admin/panel/views/header.php:14
+msgid "Theme License"
+msgstr ""
+
+#: inc/admin/admin.php:48 inc/admin/panel/panel.php:30 inc/admin/panel/panel.php:31
+#: inc/admin/panel/views/header.php:24 inc/admin/panel/views/header.php:33
+#: inc/admin/setup_wizard/views/index.php:13
+msgid "Setup Wizard"
+msgstr ""
+
+#: inc/admin/admin.php:50 inc/admin/panel/panel.php:37 inc/admin/panel/views/header.php:17
+#: inc/admin/speed_optimize_wizard/views/widgets_load.php:7
+msgid "Theme Options"
+msgstr ""
+
+#: inc/admin/admin.php:52 inc/admin/panel/panel.php:39
+msgid "Templates"
+msgstr ""
+
+#: inc/admin/admin.php:53 inc/admin/panel/panel.php:40
+msgid "Sidebars"
+msgstr ""
+
+#: inc/admin/admin.php:56 inc/admin/panel/panel.php:46 inc/admin/panel/views/header.php:30
+#: inc/admin/panel/views/header.php:34
+msgid "Optimize Wizard"
+msgstr ""
+
+#: inc/admin/admin.php:60 inc/admin/setup_wizard/views/demo.php:110
+msgid "Activate Theme"
+msgstr ""
+
+#: inc/admin/admin.php:167
+msgid "Your ip address is blocked as spam!!!"
+msgstr ""
+
+#: inc/admin/admin.php:169
+msgid "Purchase Code is not valid!!!"
+msgstr ""
+
+#: inc/admin/admin.php:171
+#, php-format
+msgid "This code was already used in %s"
+msgstr ""
+
+#: inc/admin/admin.php:173
+msgid "Please re-activate the theme."
+msgstr ""
+
+#: inc/admin/admin.php:175
+msgid "Alpha Theme is unregistered!"
+msgstr ""
+
+#: inc/admin/admin.php:177
+msgid "Alpha Theme is activated!"
+msgstr ""
+
+#: inc/admin/admin.php:266
+#, php-format
+msgid "Please %s Alpha theme to get access to pre-built demo websites and auto updates."
+msgstr ""
+
+#: inc/admin/admin.php:266
+msgid "register"
+msgstr ""
+
+#: inc/admin/admin.php:273
+msgid "Purchase Code is not valid or could not connect to the API server!"
+msgstr ""
+
+#: inc/admin/admin.php:291
+msgid "View Details"
+msgstr ""
+
+#: inc/admin/admin.php:313
+#, php-format
+msgid ""
+"Please %1$sregister%2$s alpha theme to get access to pre-built demo websites and auto "
+"updates."
+msgstr ""
+
+#: inc/admin/admin.php:315
+#, php-format
+msgid ""
+"%1$s Important! %2$s One %3$s standard license %4$s is valid for only %1$s1 website"
+"%2$s. Running multiple websites on a single license is a copyright violation."
+msgstr ""
+
+#: inc/admin/admin.php:316
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/admin/admin.php:347
+#, php-format
+msgid "Please %1$sverify purchase%2$s to get updates!"
+msgstr ""
+
+#: inc/admin/admin.php:366
+msgid "There is a problem contacting to the Alpha API server. Please try again later."
+msgstr ""
+
+#: inc/admin/customizer/customizer-function.php:210
+#: inc/admin/customizer/customizer-function.php:321
+#: inc/admin/customizer/customizer-function.php:425
+#: inc/admin/customizer/customizer-function.php:529
+#: inc/admin/customizer/customizer-function.php:633
+#: inc/admin/customizer/customizer-function.php:737
+#: inc/admin/customizer/customizer-function.php:848
+#: inc/admin/customizer/customizer-function.php:956 inc/setup/theme-options.php:180
+msgid "Search your keyword..."
+msgstr ""
+
+#: inc/admin/customizer/customizer-function.php:223
+#: inc/admin/customizer/customizer-function.php:334
+#: inc/admin/customizer/customizer-function.php:438
+#: inc/admin/customizer/customizer-function.php:542
+#: inc/admin/customizer/customizer-function.php:646
+#: inc/admin/customizer/customizer-function.php:750
+#: inc/admin/customizer/customizer-function.php:861
+#: inc/admin/customizer/customizer-function.php:969 inc/setup/theme-options.php:194
+msgid "MY CART"
+msgstr ""
+
+#: inc/admin/customizer/customizer-function.php:232
+#: inc/admin/customizer/customizer-function.php:343
+#: inc/admin/customizer/customizer-function.php:447
+#: inc/admin/customizer/customizer-function.php:551
+#: inc/admin/customizer/customizer-function.php:655
+#: inc/admin/customizer/customizer-function.php:759
+#: inc/admin/customizer/customizer-function.php:870
+#: inc/admin/customizer/customizer-function.php:978
+#: inc/admin/customizer/option/header/header-builder.php:37
+#: inc/admin/customizer/option/header/option-header-wishlist.php:10
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:41
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:197
+#: inc/setup/theme-options.php:210 inc/setup/theme-options.php:243
+#: template_parts/header/elements/element-wishlist.php:19
+msgid "Wishlist"
+msgstr ""
+
+#: inc/admin/customizer/customizer-function.php:239
+#: inc/admin/customizer/customizer-function.php:350
+#: inc/admin/customizer/customizer-function.php:454
+#: inc/admin/customizer/customizer-function.php:558
+#: inc/admin/customizer/customizer-function.php:766
+#: inc/admin/customizer/customizer-function.php:877
+msgid "WELCOME TO ALPHA STORE MESSAGE OR REMOVE IT!"
+msgstr ""
+
+#: inc/admin/customizer/customizer-function.php:990
+#: inc/admin/customizer/option/header/header-builder.php:57
+#: inc/setup/theme-options.php:221
+msgid "WELCOME TO ALPHA THEME! ADD ANYTHING HERE..."
+msgstr ""
+
+#: inc/admin/customizer/customizer.php:377
+#: inc/admin/customizer/option/header/header-builder.php:128
+#: inc/admin/page_layout/Alpha_Page_Layout.php:90
+#: inc/admin/page_layout/Alpha_Page_Layout.php:276
+#: inc/admin/page_layout/Alpha_Page_Layout.php:448
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1269
+msgid "Select Block"
+msgstr ""
+
+#: inc/admin/customizer/customizer.php:385
+#: inc/admin/page_layout/Alpha_Page_Layout.php:191
+msgid "Select Popup"
+msgstr ""
+
+#: inc/admin/customizer/customizer.php:596
+msgid "Navigator"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:10
+msgid "Theme Features"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:22
+msgid "Alpha Features"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:33
+msgid "Image LazyLoad"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:35
+msgid ""
+"All images will be lazyloaded. If you face to layout break problems with other plugins, "
+"please consider using below page loading animation instead."
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:46
+msgid "Lazyload Image Initial Color"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:68
+msgid "Menu Lazyload"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:70
+msgid ""
+"Menus will be lazyloaded. They will be saved in clients' local storages for faster "
+"performance, and they will be updated when menu has been changed."
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:81
+msgid "Live Search"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:82
+msgid "Search boxes will show instant, quick and live search results in below dropdown."
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:94
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:21
+msgid "Skeleton Screen"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:95
+msgid ""
+"Beautiful skeleton screen will appear instead of preloading icon in all archive pages, "
+"single pages, quickview popup and any other ajax loading."
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-image.php:10
+#: inc/admin/customizer/option/advanced/option-advanced-image.php:22
+msgid "Image Size"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-image.php:36
+msgid ""
+"Do you need a custom image size? Please input width and height to register new size. Do "
+"not forget to regenerate previously uploaded images."
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:10
+msgid "Import/Export/Reset"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:22
+msgid "Import/Export Options"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:33
+msgid "Please input the source file pathname"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:55
+msgid "Please input the destination file pathname"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:67
+msgid "Export"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:78
+msgid "Reset Options"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:90
+msgid "Please click below button to reset options."
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:90
+msgid "Reset Theme Options"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:10
+msgid "Woo Features"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:22
+msgid "Image Swatch"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:32
+msgid "Enable Image Swatch"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:46
+msgid "Notification"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:56
+msgid "Auto remove alerts after (seconds)"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:70
+msgid "Sales Popup"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:80
+msgid "Popup Content"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:84
+msgid "Do not show"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:85
+msgid "Popular products"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:86
+msgid "Top rated products"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:87
+msgid "Sale products"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:88
+msgid "Featured products"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:89
+msgid "Recent products"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:90
+msgid "Select a category"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:116
+msgid "Sales Popup Category"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:137
+msgid "Popup Title"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:157
+msgid "Products Count"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:181
+msgid "Start Delay(seconds)"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:205
+msgid "Interval(seconds)"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced-wc-feature.php:228
+msgid "Enable on Mobile"
+msgstr ""
+
+#: inc/admin/customizer/option/advanced/option-advanced.php:10
+msgid "Advanced"
+msgstr ""
+
+#: inc/admin/customizer/option/custom/option-custom.php:10
+msgid "Custom CSS & JS"
+msgstr ""
+
+#: inc/admin/customizer/option/custom/option-custom.php:21
+msgid "CSS code"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:10
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:22
+msgid "Footer Bottom"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:33
+#: inc/admin/customizer/option/footer/option-footer-main.php:33
+#: inc/admin/customizer/option/footer/option-footer-top.php:33
+msgid "Widget Layout"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:34
+#: inc/admin/customizer/option/footer/option-footer-main.php:34
+#: inc/admin/customizer/option/footer/option-footer-top.php:34
+msgid ""
+"Input \"+\" separated grid items ( Ex. 1/4 + 3/4 ). Empty Value will justify widgets "
+"with \"space-between\" property."
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:46
+msgid "Footer Bottom Padding(px)"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:58
+msgid "Add Divider to Footer Bottom"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:10
+#: inc/admin/customizer/option/header/option-header-general.php:10
+msgid "General"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:22
+#: inc/admin/customizer/option/footer/option-footer-general.php:33
+msgid "Footer Skin"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:37
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:109
+#: inc/admin/page_layout/Alpha_Page_Layout.php:936 inc/setup/theme-setup.php:116
+msgid "Dark"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:38
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:108
+#: inc/admin/page_layout/Alpha_Page_Layout.php:935
+msgid "Light"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:49
+#: inc/admin/customizer/option/header/option-header-bottom.php:117
+#: inc/admin/customizer/option/header/option-header-main.php:124
+#: inc/admin/customizer/option/header/option-header-top.php:125
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:33
+msgid "Background"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:61
+msgid "Link color"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:73
+msgid "Link Hover color"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:85
+msgid "Divider color"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:98
+msgid "Scroll To Top Button"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:109
+msgid "Button Size"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:127
+msgid "Button Position"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:131
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:259
+msgid "Left"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:132
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:261
+msgid "Right"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-main.php:10
+#: inc/admin/customizer/option/footer/option-footer-main.php:22
+msgid "Footer Main"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-main.php:46
+msgid "Footer Main Padding(px)"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-main.php:58
+msgid "Add Divider to Footer Main"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-top.php:10
+#: inc/admin/customizer/option/footer/option-footer-top.php:22
+msgid "Footer Top"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-top.php:46
+msgid "Footer Top Padding(px)"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-top.php:58
+msgid "Add Divider to Footer Top"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:10
+#: inc/admin/customizer/option/style/option-style-typography.php:10
+msgid "Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:22
+msgid "Footer Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:33
+msgid "Footer Base"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:45
+msgid "Widget Title"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:57
+msgid "Widget"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:33
+#: inc/admin/customizer/option/header/option-header-logo.php:10
+#: inc/admin/customizer/option/header/option-header-logo.php:22
+#: inc/admin/customizer/option/header/option-header-logo.php:33
+msgid "Logo"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:34
+#: inc/admin/customizer/option/header/option-header-account.php:10
+#: inc/admin/customizer/option/header/option-header-account.php:22
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:42
+#: inc/setup/theme-options.php:245
+msgid "Account"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:35
+#: inc/admin/customizer/option/header/option-header-cart.php:10
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:43
+#: inc/setup/theme-options.php:247
+msgid "Cart"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:36
+#: inc/admin/customizer/option/header/option-header-compare.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:195
+#: inc/functions/woocommerce/product-loop.php:544 inc/setup/theme-options.php:204
+msgid "Compare"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:38 inc/setup/theme-setup.php:20
+msgid "Currency Switcher"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:39
+#: inc/setup/theme-options.php:237
+msgid "Menu"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:40
+msgid " | "
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:41
+#: inc/admin/customizer/option/header/header-builder.php:82
+msgid "HTML"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:42 inc/setup/theme-setup.php:21
+msgid "Language Switcher"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:43
+msgid "☰ Menu Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:44
+msgid "Row"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:45
+#: inc/admin/customizer/option/header/option-header-search.php:10
+#: inc/admin/customizer/option/header/option-header-search.php:22
+msgid "Search Form"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:46
+#: inc/admin/customizer/option/header/option-header-social.php:24
+#: inc/admin/customizer/option/header/option-header-social.php:86
+msgid "Social Link Icons"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:47
+#: inc/admin/customizer/option/header/option-header-account.php:37
+#: inc/admin/customizer/option/header/option-header-cart.php:37
+#: inc/admin/customizer/option/header/option-header-compare.php:37
+#: inc/admin/customizer/option/header/option-header-wishlist.php:37
+msgid "Block"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:52
+msgid "Header Top Left"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:53
+msgid "Header Top Center"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:54
+msgid "Header Top Right"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:55
+msgid "Header Main Left"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:56
+msgid "Header Main Center"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:57
+msgid "Header Main Right"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:58
+msgid "Header Bottom Left"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:59
+msgid "Header Bottom Center"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:60
+msgid "Header Bottom Right"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:61
+msgid "Mobile Header Top Left"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:62
+msgid "Mobile Header Top Center"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:63
+msgid "Mobile Header Top Right"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:64
+msgid "Mobile Header Main Left"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:65
+msgid "Mobile Header Main Center"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:66
+msgid "Mobile Header Main Right"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:67
+msgid "Mobile Header Bottom Left"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:68
+msgid "Mobile Header Bottom Center"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:69
+msgid "Mobile Header Bottom Right"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:91
+msgid "Custom CSS Class"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:104
+#: inc/admin/customizer/option/header/header-builder.php:142
+#: inc/admin/customizer/option/header/header-builder.php:319
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:83
+msgid "Save"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:151
+msgid "Select a Menu"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:159
+#: template_parts/header/elements/element-menu.php:100
+msgid "Select Menu"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:169
+msgid "Menu Skin"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:173
+#: inc/admin/customizer/option/menu/option-menu-skin.php:35
+#: inc/admin/customizer/option/menu/option-menu-skin.php:49
+msgid "Skin 1"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:174
+#: inc/admin/customizer/option/menu/option-menu-skin.php:36
+#: inc/admin/customizer/option/menu/option-menu-skin.php:477
+msgid "Skin 2"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:175
+#: inc/admin/customizer/option/menu/option-menu-skin.php:37
+#: inc/admin/customizer/option/menu/option-menu-skin.php:905
+msgid "Skin 3"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:184
+msgid "Menu Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:188
+#: inc/admin/page_layout/Alpha_Page_Layout.php:705
+msgid "Horizontal"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:189
+msgid "Vertical"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:190
+msgid "Vertical Collapsible"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:191
+msgid "Toggle Dropdown"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:200
+msgid "Underline on hover?"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:210
+msgid "Enable Mobile Dropdown Links?"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:221
+msgid "Mobile Links Label"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:229
+msgid "Menu Width (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:239
+msgid "Toggle Label"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:249
+msgid "Toggle Icon Class"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:252
+#: inc/admin/customizer/option/header/header-builder.php:263
+#: inc/admin/customizer/option/header/option-header-account.php:67
+#: inc/admin/customizer/option/header/option-header-cart.php:81
+#: inc/admin/customizer/option/header/option-header-compare.php:50
+#: inc/admin/customizer/option/header/option-header-wishlist.php:50
+#, php-format
+msgid "Please visit %1$sAlpha Icon Store%2$s"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:260
+msgid "Toggle Hover Icon Class"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:271
+msgid "No Border"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:274
+msgid "Toggle Menu Dropdown will have no border."
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:282
+msgid "Show After Homepage Loading"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:285
+msgid "Menu Dropdown will be shown after loading in homepage."
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:293
+msgid "Show After Page Loading"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:296
+msgid "Menu Dropdown will be shown after loading in all pages."
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:304
+msgid "Equal Width"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:307
+msgid ""
+"Menu Dropdown will be laid on top of homepage sidebar and resized equally with sidebar "
+"width."
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:329
+msgid "Header Builder Elements"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:360
+msgid "Header Builder"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:366
+msgid "Tutorial"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:367
+msgid "Clear All"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:373
+#: inc/admin/customizer/option/header/header-builder.php:437
+msgid "Elements"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:373
+#: inc/admin/customizer/option/header/header-builder.php:437
+msgid "Drag &amp; Drop"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:407
+#: inc/admin/customizer/option/header/header-builder.php:471
+#: inc/admin/customizer/option/header/option-header-top.php:10
+#: inc/admin/customizer/option/header/option-sticky-header.php:49
+#: inc/admin/page_layout/Alpha_Page_Layout.php:553
+msgid "Header Top"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:416
+#: inc/admin/customizer/option/header/header-builder.php:480
+#: inc/admin/customizer/option/header/option-header-main.php:10
+#: inc/admin/customizer/option/header/option-header-main.php:22
+#: inc/admin/customizer/option/header/option-sticky-header.php:50
+#: inc/admin/page_layout/Alpha_Page_Layout.php:585
+msgid "Header Main"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:425
+#: inc/admin/customizer/option/header/header-builder.php:489
+#: inc/admin/customizer/option/header/option-header-bottom.php:10
+#: inc/admin/customizer/option/header/option-header-bottom.php:22
+#: inc/admin/customizer/option/header/option-sticky-header.php:51
+#: inc/admin/page_layout/Alpha_Page_Layout.php:617
+msgid "Header Bottom"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-account.php:33
+msgid "Account Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-account.php:38
+#: inc/admin/customizer/option/header/option-header-cart.php:38
+#: inc/admin/customizer/option/header/option-header-compare.php:38
+#: inc/admin/customizer/option/header/option-header-wishlist.php:38
+msgid "Inline"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-account.php:49
+msgid "Select Items to show"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-account.php:53
+msgid "User Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-account.php:54
+msgid "Login/Logout Label"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-account.php:55
+msgid "Register Label"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-account.php:66
+#: inc/admin/customizer/option/header/option-header-cart.php:78
+#: inc/admin/customizer/option/header/option-header-compare.php:49
+#: inc/admin/customizer/option/header/option-header-wishlist.php:49
+msgid "Icon Class"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-account.php:79
+msgid "Show 'Sign In' instead of 'Login'"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-account.php:91
+msgid "Social Login"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-bottom.php:33
+msgid "Header Bottom Padding"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-bottom.php:51
+#: inc/admin/customizer/option/header/option-header-main.php:58
+#: inc/admin/customizer/option/header/option-header-top.php:58
+msgid "Font Size (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-bottom.php:63
+#: inc/admin/customizer/option/header/option-header-main.php:70
+#: inc/admin/customizer/option/header/option-header-top.php:70
+msgid "Font Weight"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-bottom.php:75
+#: inc/admin/customizer/option/header/option-header-main.php:82
+#: inc/admin/customizer/option/header/option-header-social.php:64
+#: inc/admin/customizer/option/header/option-header-top.php:82
+#: inc/admin/customizer/option/share/option-share.php:79
+#: inc/admin/customizer/option/style/option-style-color.php:10
+msgid "Color"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-bottom.php:90
+#: inc/admin/customizer/option/header/option-header-general.php:45
+#: inc/admin/customizer/option/header/option-header-main.php:97
+#: inc/admin/customizer/option/header/option-header-top.php:97
+msgid "Hover Color"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-bottom.php:102
+#: inc/admin/customizer/option/header/option-header-main.php:109
+msgid "Background Width"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-bottom.php:130
+#: inc/admin/customizer/option/header/option-header-main.php:137
+#: inc/admin/customizer/option/header/option-header-top.php:137
+msgid "Add Divider"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-bottom.php:142
+#: inc/admin/customizer/option/header/option-header-main.php:149
+#: inc/admin/customizer/option/header/option-header-top.php:149
+msgid "You can change divider color in"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-bottom.php:142
+#: inc/admin/customizer/option/header/option-header-main.php:149
+#: inc/admin/customizer/option/header/option-header-top.php:149
+msgid "Header/General"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-builder.php:10
+msgid "Preset"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-builder.php:22
+msgid "Header Presets"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-cart.php:22
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:188
+msgid "Cart Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-cart.php:33
+msgid "Cart Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-cart.php:49
+msgid "Off Canvas Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-cart.php:61
+msgid "Cart Icon Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-cart.php:99
+msgid "Cart Labels"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-cart.php:110
+msgid "Show Cart Title"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-cart.php:122
+msgid "Cart Title"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-cart.php:141
+msgid "Cart Title Delimiter"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-cart.php:160
+msgid "Show Cart Total Price"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-cart.php:172
+msgid "Cart Count Prefix"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-cart.php:191
+msgid "Cart Count Affix"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-compare.php:22
+msgid "Compare Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-compare.php:33
+msgid "Compare Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-compare.php:62
+msgid "Show Compare Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-compare.php:74
+msgid "Show Compare Count"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-compare.php:93
+msgid "Show Compare Title"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-compare.php:105
+msgid "Compare Title"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-elements.php:10
+msgid "Other Elements"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-elements.php:21
+msgid "Please drag and drop header elements to header builder parts."
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:22
+#: inc/admin/page_layout/Alpha_Page_Layout.php:120
+msgid "General Options"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:33
+msgid "Header Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:57
+msgid "Header Background"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:70
+msgid "Classic Header Option"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:81
+#: inc/admin/page_layout/Alpha_Page_Layout.php:518
+msgid "Absolute Header"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:82
+msgid ""
+"Header will be positioned absolutely. Some themes call this option as transparent "
+"header."
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:94
+msgid "Divider Color"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-logo.php:45
+msgid "Logo Width(px)"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-logo.php:46
+msgid "Input the logo width."
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-logo.php:58
+msgid "Logo Spacing"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-logo.php:76
+msgid "Logo Spacing on Mobile"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-main.php:33
+msgid "Header Main Padding"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-search.php:33
+msgid "Search Form Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-search.php:51
+msgid "Dropdown In Right"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-search.php:70
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:200
+msgid "Search Label"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-search.php:89
+msgid "Search By Categories"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-search.php:113
+msgid "Border Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-search.php:117
+msgid "Rectangle"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-search.php:118
+msgid "Rounded"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-search.php:136
+msgid "Search Form Width"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-search.php:154
+msgid "Search Form Placeholder"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-search.php:166
+msgid "Search Types"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-search.php:167
+msgid "Select Post Types to Search"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-search.php:172
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:75
+#: woocommerce/wishlist-view.php:63
+msgid "Product"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-search.php:173
+msgid "Post"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-social.php:12
+msgid "Social Links"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-social.php:35
+msgid "Social Icon Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-social.php:52
+#: inc/admin/customizer/option/share/option-share.php:67
+msgid "Use Custom Color"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-social.php:100
+msgid "Social Link URLs"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-top.php:22
+msgid "Header Top Option"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-top.php:33
+msgid "Header Top Padding"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-top.php:109
+msgid "Background & Divider Width"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-top.php:113
+#: inc/admin/customizer/option/layout/option-layout.php:40
+#: inc/admin/page_layout/Alpha_Page_Layout.php:138
+#: inc/admin/page_layout/Alpha_Page_Layout.php:374
+#: inc/admin/page_layout/Alpha_Page_Layout.php:378
+#: inc/admin/page_layout/Alpha_Page_Layout.php:392
+#: inc/admin/page_layout/Alpha_Page_Layout.php:396
+#: inc/admin/page_layout/Alpha_Page_Layout.php:548
+#: inc/admin/page_layout/Alpha_Page_Layout.php:575
+#: inc/admin/page_layout/Alpha_Page_Layout.php:607
+#: inc/admin/page_layout/Alpha_Page_Layout.php:639
+#: inc/admin/page_layout/Alpha_Page_Layout.php:841
+#: inc/admin/page_layout/Alpha_Page_Layout.php:851
+#: inc/admin/page_layout/Alpha_Page_Layout.php:861
+#: inc/admin/page_layout/Alpha_Page_Layout.php:871
+msgid "Full"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-top.php:114
+#: inc/admin/customizer/option/layout/option-layout.php:41
+msgid "Boxed"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-wishlist.php:22
+msgid "Wish Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-wishlist.php:33
+msgid "Wishlist Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-wishlist.php:62
+msgid "Show Wishlist Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-wishlist.php:74
+msgid "Show Wishlist Count"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-wishlist.php:93
+msgid "Show Wishlist Title"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-wishlist.php:105
+msgid "Wishlist Title"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:10
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:21
+msgid "Add shadow to sticky header"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:34
+msgid "Sticky Headers"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:45
+msgid "Select Sticky Headers"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:63
+msgid "Sticky Header Padding"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:74
+msgid "Header Top Padding on Sticky"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:92
+msgid "Header Main Padding on Sticky"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:110
+msgid "Header Bottom Padding on Sticky"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:129
+msgid "Sticky Header Background"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:140
+msgid "Header Top Background"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:155
+msgid "Header Main Background"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:170
+msgid "Header Bottom Background"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:14
+msgid "Layout"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:26
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:32
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:32
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:32
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:32
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:32
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:32
+msgid "General Settings"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:36
+msgid "Site Type"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:42
+msgid "Framed"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:53
+msgid "Box/Frame Width (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:72
+msgid "Box/Frame Gap (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:91
+msgid "Screen Background"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:92
+msgid "Change background of outside the frame."
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:111
+msgid "Content Background"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:124
+msgid "Site Content"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:134
+msgid "Container Width (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:146
+msgid "Container Fluid Width (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:158
+msgid "Grid Gutter Size (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:159
+msgid "This gutter is the space between columns."
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:171
+msgid "Grid Gutter Large Size (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:183
+msgid "Grid Gutter Small Size (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:196
+msgid "Breakpoints"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:206
+msgid "Tablet Breakpoint (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/layout/option-layout.php:218
+msgid "Mobile Breakpoint (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:10
+msgid "Blog Archive"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:22
+msgid "Blog Archive Page"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:39
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:39
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:39
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:39
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:39
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:39
+#: inc/admin/customizer/option/page_title_bar/option-ptb.php:13
+msgid "Page Title Bar"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:42
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:42
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:42
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:42
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:42
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:42
+msgid "Top Block"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:45
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:45
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:45
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:45
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:45
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:45
+msgid "Top Filter Sidebar"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:50
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:66
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:50
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:66
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:50
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:66
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:50
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:66
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:50
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:66
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:50
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:66
+msgid "Sidebar"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:55
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:55
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:55
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:55
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:55
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:55
+msgid "Inner Top Block"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:58
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:58
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:58
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:58
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:58
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:58
+msgid "Main Content"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:61
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:61
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:61
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:61
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:61
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:61
+msgid "Inner Bottom Block"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-archive.php:71
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:71
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:71
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:71
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:71
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:71
+msgid "Bottom Block"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:22
+msgid "Default Page"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-default.php:82
+msgid "Back"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-error404.php:22
+msgid "Error 404 Page"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-product.php:22
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:22
+msgid "Single Product Page"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:10
+msgid "Shop (Product Archive)"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-shop.php:22
+msgid "Product Archive Page"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:10
+msgid "Blog Single"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts-single.php:22
+msgid "Blog Single Page"
+msgstr ""
+
+#: inc/admin/customizer/option/layouts/option-layouts.php:13
+msgid "Page Options"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:10
+#: inc/admin/customizer/option/menu/option-menu-labels.php:23
+#: inc/admin/customizer/option/menu/option-menu-labels.php:34
+#: inc/admin/customizer/option/menu/option-menu-labels.php:44
+msgid "Menu Labels"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:59
+msgid "Label Text to Change"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:61
+msgid "Label Background Color to Change"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:65 woocommerce/compare.php:138
+#: woocommerce/wishlist-view.php:241
+msgid "Remove"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:91
+msgid "New Label"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:100
+msgid "Input Label Text"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:102
+msgid "Choose Label Background Color"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:105
+msgid "Add"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:10
+msgid "Mobile Sticky Icon Bar"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:23
+msgid "Mobile Icon Bar"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:34
+msgid "Mobile Bar Icons"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:38
+msgid "Mobile Menu Toggle"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:39
+#: inc/setup/theme-options.php:239
+msgid "Home"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:40
+msgid "Shop"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:44
+#: inc/setup/theme-options.php:249
+msgid "Search"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:45
+#: inc/setup/theme-options.php:251
+msgid "To Top"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:56
+msgid "Menu Label"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:68
+msgid "Menu Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:80
+msgid "Home Label"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:92
+msgid "Home Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:104
+msgid "Shop Label"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:116
+msgid "Shop Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:128
+msgid "Wishlist Label"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:140
+msgid "Wishlist Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:152
+msgid "Account Label"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:164
+msgid "Account Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:176
+msgid "Cart Label"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:212
+msgid "Search Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:224
+msgid "To Top Label"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:236
+msgid "To Top Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:10
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:23
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:40
+msgid "Mobile Menus"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:10
+#: inc/admin/customizer/option/menu/option-menu-skin.php:22
+msgid "Menu Skins"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:69
+#: inc/admin/customizer/option/menu/option-menu-skin.php:497
+#: inc/admin/customizer/option/menu/option-menu-skin.php:925
+msgid "Ancestor"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:70
+#: inc/admin/customizer/option/menu/option-menu-skin.php:498
+#: inc/admin/customizer/option/menu/option-menu-skin.php:926
+msgid "Content"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:71
+#: inc/admin/customizer/option/menu/option-menu-skin.php:499
+#: inc/admin/customizer/option/menu/option-menu-skin.php:927
+msgid "Toggle"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:89
+#: inc/admin/customizer/option/menu/option-menu-skin.php:517
+#: inc/admin/customizer/option/menu/option-menu-skin.php:945
+msgid "Ancestor Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:113
+#: inc/admin/customizer/option/menu/option-menu-skin.php:541
+#: inc/admin/customizer/option/menu/option-menu-skin.php:969
+msgid "Ancestor Gap Space (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:137
+#: inc/admin/customizer/option/menu/option-menu-skin.php:565
+#: inc/admin/customizer/option/menu/option-menu-skin.php:993
+msgid "Ancestor Padding(px)"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:161
+#: inc/admin/customizer/option/menu/option-menu-skin.php:589
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1017
+msgid "Menu Background"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:188
+#: inc/admin/customizer/option/menu/option-menu-skin.php:616
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1044
+msgid "Ancestor Hover Background"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:215
+#: inc/admin/customizer/option/menu/option-menu-skin.php:643
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1071
+msgid "Ancestor Hover Color"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:242
+#: inc/admin/customizer/option/menu/option-menu-skin.php:670
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1098
+msgid "Content Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:266
+#: inc/admin/customizer/option/menu/option-menu-skin.php:694
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1122
+msgid "Menu Content Background"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:293
+#: inc/admin/customizer/option/menu/option-menu-skin.php:721
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1149
+msgid "Menu Item Hover Background"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:320
+#: inc/admin/customizer/option/menu/option-menu-skin.php:748
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1176
+msgid "Menu Item Hover Color"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:347
+#: inc/admin/customizer/option/menu/option-menu-skin.php:775
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1203
+msgid "Toggle Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:371
+#: inc/admin/customizer/option/menu/option-menu-skin.php:799
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1227
+msgid "Toggle Padding(px)"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:395
+#: inc/admin/customizer/option/menu/option-menu-skin.php:823
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1251
+msgid "Toggle Background"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:422
+#: inc/admin/customizer/option/menu/option-menu-skin.php:850
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1278
+msgid "Toggle Hover Background"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:449
+#: inc/admin/customizer/option/menu/option-menu-skin.php:877
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1305
+msgid "Toggle Hover Color"
+msgstr ""
+
+#: inc/admin/customizer/option/menu/option-menu.php:10
+msgid "Menus"
+msgstr ""
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:10
+msgid "PTB Style"
+msgstr ""
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:22
+msgid "Title Bar Style"
+msgstr ""
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:45
+msgid "Title Bar Height (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:58
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:58
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:69
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:69
+msgid "Show Home Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:81
+msgid "Breadcrumb Delimiter"
+msgstr ""
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:93
+msgid "Use Icon for Delimiter"
+msgstr ""
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:105
+msgid "Delimiter Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:10
+msgid "PTB Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:22
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1013
+msgid "Title"
+msgstr ""
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:33
+msgid "Page Title"
+msgstr ""
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:45
+msgid "Page Subtitle"
+msgstr ""
+
+#: inc/admin/customizer/option/share/option-share.php:15 inc/setup/theme-options.php:50
+msgid "Share"
+msgstr ""
+
+#: inc/admin/customizer/option/share/option-share.php:27
+#: inc/admin/customizer/option/share/option-share.php:101
+msgid "Share Icons"
+msgstr ""
+
+#: inc/admin/customizer/option/share/option-share.php:39
+#, php-format
+msgid ""
+"Please change options for %1$ssocial share buttons%2$s in single product and post page."
+msgstr ""
+
+#: inc/admin/customizer/option/share/option-share.php:50
+msgid "Share Icon Type"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-color.php:22
+msgid "Colors"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-color.php:32
+msgid "Primary Color"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-color.php:47
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-color.php:62
+msgid "Alert Color"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-color.php:77
+msgid "Success Color"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-color.php:92
+msgid "Dark Color"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-color.php:107
+msgid "Light Color"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:21
+#, php-format
+msgid ""
+"You can set header and footer typography in %1$sHeader/Header General%2$sFooter/"
+"Typography%3$s Section"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:31
+msgid "Default Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:53
+msgid "Force apply to default elements"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:54
+msgid ""
+"Some Alpha elements have 'Open Sans' font family by default. If you check this "
+"option, they will be updated forcibly. "
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:66
+msgid "Heading Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:88
+msgid "Paragraph Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:110
+msgid "Custom Google Fonts"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:120
+msgid "Select other google fonts to download"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:133
+msgid "Custom 1"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:134
+msgid "Custom 2"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:135
+msgid "Custom 3"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:146
+msgid "Custom Font 1"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:165
+msgid "Custom Font 2"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style-typography.php:184
+msgid "Custom Font 3"
+msgstr ""
+
+#: inc/admin/customizer/option/style/option-style.php:13
+msgid "Style"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-catalog.php:10
+msgid "Product Catalog"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-catalog.php:21
+#, php-format
+msgid ""
+"You can change layout options in %1$smain-content%2$s part of %3$sPage Layouts/Product "
+"Archive%4$s Layout"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:9
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:21
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:41
+msgid "Category Type"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:31
+msgid "You can choose one of categories "
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:31
+msgid "here"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:46
+msgid "Badge"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:48
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:190
+msgid "Label"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:49
+msgid "Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:50
+msgid "Classic"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:51
+msgid "Ellipse"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:52
+msgid "Group"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:53
+msgid "Group 2"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:54
+msgid "Centered"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:65
+msgid "Subcategory Count"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:84
+msgid "Show Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:103
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:48
+msgid "Hover Effect"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:110
+#: inc/admin/page_layout/Alpha_Page_Layout.php:937
+msgid "Zoom"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:111
+#: inc/admin/page_layout/Alpha_Page_Layout.php:938
+msgid "Zoom and Light"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:112
+#: inc/admin/page_layout/Alpha_Page_Layout.php:939
+msgid "Zoom and Dark"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:130
+msgid "Show Products Count"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:142
+msgid "Link Button"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:154
+msgid "Link Text"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:156
+#: inc/functions/woocommerce/product-category.php:185
+msgid "Shop Now"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:22
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:32
+msgid "Product Type"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:54
+msgid "Slide Up"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:72
+msgid "Add To Cart Position"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:97
+msgid "Quickview Position"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:120
+msgid "Add To Wishlist Position"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:143
+msgid "Show In Box"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:155
+msgid "Box shadow on Hover"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:174
+msgid "Media Shadow Effect on Hover"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:186
+msgid "Items to show"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:189
+msgid "Category"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:191
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1226 woocommerce/cart/cart.php:34
+#: woocommerce/cart/cart.php:95 woocommerce/wishlist-view.php:73
+msgid "Price"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:192
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1228
+msgid "Rating"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:193
+msgid "Attribute Swatches"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:194
+msgid "Add To Cart"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:196
+msgid "Quickview"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:209
+msgid "Change Image on Hover"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:221
+msgid "Quickview Type"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:237
+msgid "Quickview Loading Type"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:241
+msgid "Skeleton"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:243
+msgid "Loading"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:245
+msgid "Skeleton type is available for only when skeleton screen is enabled."
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:255
+msgid "Content Align"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:260
+msgid "Center"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:272
+msgid "Show Split Line"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:289
+msgid "Showing Attributes"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:32
+#, php-format
+msgid ""
+"You can change layout options in %1$smain-content%2$s part of %3$sPage Layouts/Product "
+"Single%4$s Layout"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:43
+msgid "This tab will be shown in data tabs of all product pages."
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:55
+msgid "Custom Tab Content Block"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-woocommerce.php:11
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/customizer/option/wp/option-wp.php:10
+msgid "Site Identify"
+msgstr ""
+
+#: inc/admin/customizer/option/wp/option-wp.php:18
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:321
+msgid "Widgets"
+msgstr ""
+
+#: inc/admin/customizer/option/wp/option-wp.php:26
+msgid "Homepage Settings"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:78
+msgid "Block Options"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:82
+#: inc/admin/page_layout/Alpha_Page_Layout.php:124
+#: inc/admin/page_layout/Alpha_Page_Layout.php:248
+#: inc/admin/page_layout/Alpha_Page_Layout.php:439
+#: inc/admin/page_layout/Alpha_Page_Layout.php:679
+#: inc/admin/page_layout/Alpha_Page_Layout.php:790
+#: inc/admin/page_layout/Alpha_Page_Layout.php:899
+msgid "Custom"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:87
+msgid "Select Block to use"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:93
+#: inc/admin/page_layout/Alpha_Page_Layout.php:194
+#: inc/admin/page_layout/Alpha_Page_Layout.php:451
+#: inc/admin/page_layout/Alpha_Page_Layout.php:691
+msgid "Do not use"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:129
+msgid "Content Wrap"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:136
+#: inc/admin/page_layout/Alpha_Page_Layout.php:375
+#: inc/admin/page_layout/Alpha_Page_Layout.php:379
+#: inc/admin/page_layout/Alpha_Page_Layout.php:393
+#: inc/admin/page_layout/Alpha_Page_Layout.php:397
+#: inc/admin/page_layout/Alpha_Page_Layout.php:542
+#: inc/admin/page_layout/Alpha_Page_Layout.php:544
+#: inc/admin/page_layout/Alpha_Page_Layout.php:573
+#: inc/admin/page_layout/Alpha_Page_Layout.php:605
+#: inc/admin/page_layout/Alpha_Page_Layout.php:637
+#: inc/admin/page_layout/Alpha_Page_Layout.php:835
+#: inc/admin/page_layout/Alpha_Page_Layout.php:837
+#: inc/admin/page_layout/Alpha_Page_Layout.php:849
+#: inc/admin/page_layout/Alpha_Page_Layout.php:859
+#: inc/admin/page_layout/Alpha_Page_Layout.php:869
+msgid "Container"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:137
+#: inc/admin/page_layout/Alpha_Page_Layout.php:376
+#: inc/admin/page_layout/Alpha_Page_Layout.php:380
+#: inc/admin/page_layout/Alpha_Page_Layout.php:394
+#: inc/admin/page_layout/Alpha_Page_Layout.php:398
+#: inc/admin/page_layout/Alpha_Page_Layout.php:547
+#: inc/admin/page_layout/Alpha_Page_Layout.php:574
+#: inc/admin/page_layout/Alpha_Page_Layout.php:606
+#: inc/admin/page_layout/Alpha_Page_Layout.php:638
+#: inc/admin/page_layout/Alpha_Page_Layout.php:840
+#: inc/admin/page_layout/Alpha_Page_Layout.php:850
+#: inc/admin/page_layout/Alpha_Page_Layout.php:860
+#: inc/admin/page_layout/Alpha_Page_Layout.php:870
+msgid "Container Fluid"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:143
+msgid "Sidebar Gutter"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:150
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1050
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1212 inc/setup/theme-setup.php:64
+msgid "Small"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:151
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1051
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1213 inc/setup/theme-setup.php:70
+msgid "Normal"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:152
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1052
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1214 inc/setup/theme-setup.php:82
+msgid "Large"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:157
+msgid "Center Content"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:163
+#: inc/admin/page_layout/Alpha_Page_Layout.php:166
+msgid "Yes"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:171
+msgid "If possible, content will be aligned center when sidebar is opened."
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:174
+msgid "Left Fixed Items"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:176
+msgid ""
+"Comma separated items to be considered while opening/closing sidebars. (e.x: .left-"
+"sidebar-toggle, .custom-html - used in demo 21 )"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:180
+msgid "Right Fixed Items"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:182
+msgid ""
+"Comma separated items to be considered while opening/closing sidebars. (e.x: .right-"
+"sidebar-toggle, .custom-html )"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:215
+msgid "Shop Popup On"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:217
+msgid "Page Load"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:218
+msgid "Scroll"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:223
+msgid "Show Popup Within (sec)"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:244
+msgid "Page Title Bar Options"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:253
+msgid "Show Page Title Bar"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:259
+#: inc/admin/page_layout/Alpha_Page_Layout.php:262
+#: inc/admin/page_layout/Alpha_Page_Layout.php:324
+#: inc/admin/page_layout/Alpha_Page_Layout.php:327
+#: inc/admin/page_layout/Alpha_Page_Layout.php:341
+#: inc/admin/page_layout/Alpha_Page_Layout.php:344
+#: inc/admin/page_layout/Alpha_Page_Layout.php:358
+#: inc/admin/page_layout/Alpha_Page_Layout.php:361
+#: inc/admin/page_layout/Alpha_Page_Layout.php:479
+#: inc/admin/page_layout/Alpha_Page_Layout.php:482
+#: inc/admin/page_layout/Alpha_Page_Layout.php:559
+#: inc/admin/page_layout/Alpha_Page_Layout.php:562
+#: inc/admin/page_layout/Alpha_Page_Layout.php:591
+#: inc/admin/page_layout/Alpha_Page_Layout.php:594
+#: inc/admin/page_layout/Alpha_Page_Layout.php:623
+#: inc/admin/page_layout/Alpha_Page_Layout.php:626
+#: inc/admin/page_layout/Alpha_Page_Layout.php:797
+msgid "Show"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:266
+#: inc/admin/page_layout/Alpha_Page_Layout.php:331
+#: inc/admin/page_layout/Alpha_Page_Layout.php:348
+#: inc/admin/page_layout/Alpha_Page_Layout.php:365
+#: inc/admin/page_layout/Alpha_Page_Layout.php:486
+#: inc/admin/page_layout/Alpha_Page_Layout.php:566
+#: inc/admin/page_layout/Alpha_Page_Layout.php:598
+#: inc/admin/page_layout/Alpha_Page_Layout.php:630
+#: inc/admin/page_layout/Alpha_Page_Layout.php:799
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1175
+msgid "Hide"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:270
+msgid "Use Title Bar Block"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:274
+msgid "Title Bar Block"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:300
+msgid "Page Title Bar Type"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:318
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1058
+msgid "Show Page Title"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:335
+msgid "Show Page Subtitle"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:352
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:369
+msgid "Title Bar Width"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:387
+msgid "Breadcrumb Width"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:408
+msgid "Custom Page Title"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:413
+msgid "Custom Page SubTitle"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:435
+msgid "Header Options"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:444
+msgid "Top Notification Bar"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:473
+msgid "Header Visibility"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:501
+msgid "Select Header"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:505
+#: inc/admin/page_layout/Alpha_Page_Layout.php:508
+msgid "Use Classic Header"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:524
+#: inc/admin/page_layout/Alpha_Page_Layout.php:529
+msgid "True"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:526
+#: inc/admin/page_layout/Alpha_Page_Layout.php:531
+msgid "False"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:537
+msgid "Header Wrap"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:570
+msgid "Header Top Wrap"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:572
+#: inc/admin/page_layout/Alpha_Page_Layout.php:604
+#: inc/admin/page_layout/Alpha_Page_Layout.php:636
+#: inc/admin/page_layout/Alpha_Page_Layout.php:848
+#: inc/admin/page_layout/Alpha_Page_Layout.php:858
+#: inc/admin/page_layout/Alpha_Page_Layout.php:868
+msgid "Inherit"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:580
+msgid "Top Background Color"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:602
+msgid "Header Main Wrap"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:612
+msgid "Main Background Color"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:634
+msgid "Header Bottom Wrap"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:644
+msgid "Bottom Background Color"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:664
+msgid "Sorry, this option is available for only product archive page."
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:675
+msgid "Sidebar Options"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:684
+msgid "Select Sidebar to use"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:688
+msgid "Select Sidebar"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:699
+#, php-format
+msgid "Please click %1$shere%2$s to register new sidebar."
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:703
+#: inc/admin/page_layout/Alpha_Page_Layout.php:718
+msgid "Sidebar Type"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:706
+msgid "Navigation"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:713
+msgid "This sidebar is not a filter sidebar"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:721
+msgid "Controllable"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:723
+#, php-format
+msgid ""
+"Controllable sidebar will be shown or hidden by control button. Please add %1$s\"%2$s-"
+"sidebar-toggle\"%3$s class to control button."
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:727
+msgid "Shop Control Button"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:729
+msgid "Use default control button"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:730
+msgid "I have my own control button"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:736
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:738
+msgid "Inside Content"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:739
+msgid "Off Canvas"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:745
+msgid "Show/Hide after load"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:746
+msgid "If checked, sidebar will be shown after page load."
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:751
+msgid "Show/Hide overlay"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:752
+msgid ""
+"If checked, dark sidebar overlay will be overwrapped the content so that the content "
+"will not be clickable."
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:758
+msgid "Sticky Top"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:763
+msgid "Sticky Bottom"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:786
+msgid "Footer Options"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:795
+msgid "Footer Visibility"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:813
+msgid "Select Footer"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:817
+#: inc/admin/page_layout/Alpha_Page_Layout.php:820
+msgid "Use Classic Footer"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:830
+msgid "Footer Wrap"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:846
+msgid "Footer Top Wrap"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:856
+msgid "Footer Main Wrap"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:866
+msgid "Footer Bottom Wrap"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:895
+msgid "Main Content Options"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:904
+msgid "There are no options for this part."
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:922
+msgid "Post Type"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:925
+msgid "List"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:926
+msgid "Mask"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:927
+msgid "Mask Gradient"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:932
+msgid "Post Overlay"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:944
+msgid "Posts per row"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:946
+msgid "How many posts should be shown per row?"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:950
+msgid "Posts Grid"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:952
+msgid "Grid"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:954
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1154
+msgid "Masonry"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:959
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1103
+msgid "Show Category Filter"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:964
+msgid "Show Date-Box on Image"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:968
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:973
+msgid "Excerpt Length By"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:975
+msgid "Word"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:977
+msgid "Character"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:981
+msgid "Load More Posts"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:983
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1114
+msgid "By Button"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:984
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1116
+msgid "Infinite Scroll"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:985
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1115
+msgid "By Pagination"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:990
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1121
+msgid "Loadmore Button Label"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:999
+msgid "Count of Related Posts"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1004
+msgid "Related Posts per Row"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1009
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1219
+msgid "Order By"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1012
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1222
+msgid "ID"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1014
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1224 woocommerce/checkout/thankyou.php:57
+msgid "Date"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1015
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1225
+msgid "Modified"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1016
+msgid "Author"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1017
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1229
+msgid "Comment count"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1022
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1235
+msgid "Order Way"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1024
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1237
+msgid "Descendent"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1025
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1238
+msgid "Ascendent"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1034
+msgid "Products per row"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1036
+msgid "How many products should be shown per row?"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1041
+msgid "Show Restricted Information"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1042
+msgid ""
+"Show only basic information including image, name and price. The else will be hidden."
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1046
+msgid "Products Gap"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1048
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1210
+msgid "No Gap"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1049
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1211
+msgid "Extra Small"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1059
+msgid "Show page title in toolbox bar."
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1064
+msgid "Show Result Count in Top Toolbox"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1069
+msgid "Show Sort By Toolbox"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1070
+msgid "Show Sort By toolbox in product archive page."
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1075
+msgid "Show Count Select Box"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1079
+msgid "Product Show Numbers"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1081
+msgid ""
+"Please input comma separated integers. Every integers will be shown as option of select "
+"box in product archive page.<br/>Integer with prefix \"_\" will be default count. "
+"Example: 9, _12, 24, 36"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1086
+msgid "Show View Type Toolbox"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1087
+msgid ""
+"Show view type toolbox in product archive page. These are located in top right toolbox "
+"in general. You can easily convert from grid to list, list to grid type using View Type "
+"toolbox."
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1091
+msgid "List Column"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1093
+msgid "Please input column count of list-type products"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1098
+msgid "Show Result Count in Bottom Toolbox"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1108
+msgid "Show Search"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1112
+msgid "Load More Products"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1145
+msgid "Please create single product template"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1145
+msgid "Single Product Builder"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1149
+msgid "Single Product Type"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1152
+msgid "Horizontal Thumb"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1153
+msgid "Grid Images"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1155
+msgid "Gallery"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1156
+msgid "Sticky Information"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1157
+msgid "Left & Right Sticky"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1158
+msgid "Use Builder"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1170
+msgid "Breadcrumb Position"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1173
+msgid "In Summary"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1174
+msgid "On Top"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1181
+msgid "Add to Cart Sticky"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1186
+msgid "Data Tab Inside"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1190
+msgid "Data Tab Type"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1192
+msgid "Tab"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1193
+msgid "Accordion"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1198
+msgid "Count of Related Products"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1203
+msgid "Related Products per Row"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1208
+msgid "Related Products Gap"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1227
+msgid "Random"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1230
+msgid "Total Sales"
+msgstr ""
+
+#: inc/admin/page_layout/Alpha_Page_Layout.php:1267
+msgid "Select block for 404 page"
+msgstr ""
+
+#: inc/admin/panel/panel.php:45 inc/admin/speed_optimize_wizard/views/index.php:13
+msgid "Speed Optimize Wizard"
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:5
+msgid "Welcome to Alpha"
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:7
+msgid "Congratulations! Your product is registered now."
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:9
+msgid ""
+"Thank you for choosing Alpha theme from ThemeForest. Please register your purchase "
+"and make sure that you have fulfilled all of the requirements."
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:16
+msgid "Please enter your Purchase Code to complete registration."
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:19
+msgid "Where can I find my purchase code?"
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:22
+#, php-format
+msgid "Please go to %1$sThemeForest.net/downloads%2$s"
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:23
+msgid "Click the Download button in Alpha row"
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:24
+msgid "Select License Certificate & Purchase code"
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:25
+msgid "Copy Item Purchase Code"
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:39
+msgid "Purchase code not updated. We will keep the existing one."
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:42
+#, php-format
+msgid ""
+"Your %1$spurchase code is valid%2$s. Thank you! Enjoy Alpha Theme and automatic "
+"updates."
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:56
+msgid "You are using Envato Hosted, this subscription code can not be deregistered."
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:59
+msgid "Purchase Code"
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:62
+msgid "Deactivate"
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:65
+#: inc/admin/speed_optimize_wizard/views/plugins.php:27
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:74
+#, php-format
+msgid ""
+"Before you get started, please be sure to always check out %1$sthis documentation%2$s. "
+"We outline all kinds of good information, and provide you with all the details you need "
+"to use Alpha."
+msgstr ""
+
+#: inc/admin/panel/views/activate.php:78
+#, php-format
+msgid ""
+"If you are unable to find your answer in our documentation, we encourage you to contact "
+"us through %1$ssupport page%2$s with your site CPanel (or FTP) and WordPress admin "
+"details. We are very happy to help you and you will get reply from us more faster than "
+"you expected."
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:150 woocommerce/checkout/thankyou.php:52
+msgid "Status"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:157
+#: inc/admin/setup_wizard/views/customize.php:7
+msgid "Child Theme"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:165
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:342
+#: inc/admin/speed_optimize_wizard/views/plugins.php:4
+msgid "Plugins"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:180
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:350
+msgid "Ready!"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:221
+msgid "Are you sure you want to leave?"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:222
+msgid "Are you sure to import demo contents and override old one?"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:224
+#, php-format
+msgid ""
+"Failed importing! Please check the %1$s\"System Status\"%2$s tab to ensure your server "
+"meets all requirements for a successful import. Settings that need attention will be "
+"listed in red. If your server provider does not allow to update settings, please try "
+"using alternative import mode."
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:225
+msgid " installation is failed!"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:226
+msgid " installation is finished!"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:227
+msgid "Installing"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:228
+msgid "Visit your site."
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:229
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:141
+msgid "Failed"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:230
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:142
+msgid "Ajax error"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:271
+msgid "Failed to find TGM"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:368
+#, php-format
+msgid "Directory permission required for %s"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:388
+#, php-format
+msgid "Child Theme %1$s has been created and activated!%2$s Folder is located in %3$s"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:438
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:233
+msgid "No Slug Found"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:458
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:253
+msgid "Activating Plugin"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:473
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:268
+msgid "Updating Plugin"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:488
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:283
+msgid "Installing Plugin"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:502
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:297
+msgid "Success"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:544
+msgid "Remote API error."
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:617
+msgid "Successfully reset menus!"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:644
+msgid "Successfully reset widgets!"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:841
+msgid "Successfully imported widgets!"
+msgstr ""
+
+#: inc/admin/setup_wizard/setup_wizard.php:870
+msgid "Please compile default css files by publishing options in customize panel."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/customize.php:4
+msgid "Setup Alpha Child Theme (Optional)"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/customize.php:7
+#, php-format
+msgid ""
+"If you are going to make changes to the theme source code please use a %1$s rather than "
+"modifying the main theme HTML/CSS/PHP code. %2$s This allows the parent theme to "
+"receive updates without overwriting your source code changes. Use the form below to "
+"create and activate the Child Theme."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/customize.php:23
+msgid "Child Theme Title:"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/customize.php:27
+msgid "If you're not sure what a Child Theme is just click the \"Skip this step\" button."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/customize.php:30 inc/admin/setup_wizard/views/demo.php:179
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:42
+#: inc/admin/speed_optimize_wizard/views/resources.php:52
+#: inc/admin/speed_optimize_wizard/views/widgets.php:16
+msgid "Skip this step"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/customize.php:31
+msgid "Create and Use Child Theme"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/customize.php:37 inc/admin/setup_wizard/views/demo.php:180
+#: inc/admin/setup_wizard/views/plugins.php:75 inc/admin/setup_wizard/views/status.php:178
+#: inc/admin/speed_optimize_wizard/views/plugins.php:57
+msgid "Continue"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:6
+msgid "Demo Content Installation"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:7
+msgid "In this step you can upload your logo and select a demo from the list."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:12
+msgid "Your Logo:"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:55
+msgid "Demo Import"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:69 inc/admin/setup_wizard/views/demo.php:92
+msgid "Import theme options"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:70 inc/admin/setup_wizard/views/demo.php:94
+msgid "Reset menus"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:71 inc/admin/setup_wizard/views/demo.php:95
+msgid "Reset widgets"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:72 inc/admin/setup_wizard/views/demo.php:96
+msgid "Import dummy content"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:73 inc/admin/setup_wizard/views/demo.php:97
+msgid "Import widgets"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:89
+msgid "Details"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:98
+msgid "Override existing contents"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:100
+msgid "Do you want to install demo? It can also take a minute to complete."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:101
+msgid "Standard Import"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:103
+msgid ""
+"Your server performance does not satisfy Alpha demo importer engine's requirement. We "
+"recommend you to use alternative method to perform demo import without any issues but "
+"it may take much time than standard import."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:105
+msgid ""
+"If you have any issues with standard import, please use Alternative mode. But it may "
+"take much time than standard import."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:107
+msgid "Alternative Mode"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:140
+#, php-format
+msgid "Please go to %1$sPlugins step%2$s and install required plugins."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:171
+msgid ""
+"Installing a demo provides pages, posts, menus, images, theme options, widgets and more."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:172
+msgid "IMPORTANT: "
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:172
+msgid "The included plugins need to be installed and activated before you install a demo."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/demo.php:174
+#, php-format
+msgid ""
+"Please check the %1$sStatus%2$s step to ensure your server meets all requirements for a "
+"successful import. Settings that need attention will be listed in red."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/index.php:9
+#: inc/admin/speed_optimize_wizard/views/index.php:9
+msgid "Alpha eCommerce"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/index.php:9
+#: inc/admin/speed_optimize_wizard/views/index.php:9
+msgid "version"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/index.php:14
+msgid ""
+"This quick setup wizard will help you configure your new website. This wizard will "
+"install the required WordPress plugins, import demo."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/plugins.php:4
+msgid "Default Plugins"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/plugins.php:26
+msgid "Load more"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/plugins.php:40
+msgid "Installation"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/plugins.php:42
+#: inc/admin/speed_optimize_wizard/views/plugins.php:25
+msgid "Update"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/plugins.php:44
+msgid "Activation"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/plugins.php:49
+#, php-format
+msgid "%s required"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/plugins.php:52
+#, php-format
+msgid "%s recommended for certain demos"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/plugins.php:66
+#, php-format
+msgid ""
+"Using %1$sElementor%2$s and %1$sVisual Composer%2$s togther affects your site "
+"performance."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/plugins.php:70
+#: inc/admin/speed_optimize_wizard/views/plugins.php:52
+msgid "Good news! All plugins are already installed and up to date. Please continue."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:5
+msgid "Your Website is Ready!"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:7
+msgid ""
+"Congratulations! The theme has been activated and your website is ready. Please go to "
+"your WordPress dashboard to make changes and modify the content for your needs."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:9
+msgid ""
+"This theme comes with 6 months item support from purchase date (with the option to "
+"extend this period). This license allows you to use this theme on a single website. "
+"Please purchase an additional license to use this theme on another website."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:13
+#, php-format
+msgid "Item Support %1$sDOES%2$s Include:"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:16
+msgid "Availability of the author to answer questions"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:17
+msgid "Answering technical questions about item features"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:18
+msgid "Assistance with reported bugs and issues"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:19
+msgid "Help with bundled 3rd party plugins"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:24
+#, php-format
+msgid "Item Support %1$sDOES NOT%2$s Include:"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:26
+#, php-format
+msgid ""
+"Customization services (this is available through %1$sptheme.customize@gmail.com%2$s)"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:27
+#, php-format
+msgid ""
+"Installation services (this is available through %1$sptheme.customize@gmail.com%2$s)"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:28
+msgid ""
+"Help and Support for non-bundled 3rd party plugins (i.e. plugins you install yourself "
+"later on)"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:33
+#, php-format
+msgid ""
+"More details about item support can be found in the ThemeForest %1$sItem Support Policy"
+"%2$s."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:37
+#: inc/admin/speed_optimize_wizard/views/ready.php:11
+msgid "More Resources"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:39
+#: inc/admin/speed_optimize_wizard/views/ready.php:13
+msgid "Alpha Documentation"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:40
+msgid "Learn how to use WooCommerce"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:41
+msgid "Learn how to use WordPress"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:42
+msgid "Leave an Item Rating"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:45
+#, php-format
+msgid ""
+"Please come back and leave a %1$s5-star rating%2$s if you are happy with this theme. "
+"Thanks!"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:48
+#: inc/admin/speed_optimize_wizard/views/ready.php:21
+msgid "View your new website!"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:30
+msgid "System Status"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:31
+msgid "Check your current server performance."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:42
+msgid "Uploads folder writable"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:45
+msgid ""
+"Uploads folder must be writable. Please set write permission to your wp-content/uploads "
+"folder."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:56
+msgid "WP File System"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:59
+msgid ""
+"File System access is required for pre-built websites and plugins installation. Please "
+"contact your hosting provider."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:71
+msgid "ZipArchive"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:74
+msgid ""
+"ZipArchive is required for pre-built websites and plugins installation. Please contact "
+"your hosting provider."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:82
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:83
+msgid "Suhosin may need to be configured to increase its data submission limits."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:99
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:107
+#, php-format
+msgid "Minimum %1$s128 MB%2$s is required, %1$s256 MB%2$s is recommended."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:111
+#, php-format
+msgid "Current memory limit is OK, however %1$s256 MB%2$s is recommended."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:128
+msgid "PHP max_execution_time"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:136
+#, php-format
+msgid "Minimum %1$s300%2$s is required, %1$s600%2$s is recommended."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:140
+#, php-format
+msgid "Current time limit is OK, however %1$s600%2$s is recommended."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:153
+msgid "PHP max_input_vars"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:159
+msgid "Minimum 2000 is required"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:163
+msgid ""
+"Do not worry if you are unable to update your server configuration due to hosting "
+"limit, you can use \"Alternative Import\" method in Demo Content import page."
+msgstr ""
+
+#: inc/admin/setup_wizard/views/status.php:167
+msgid ""
+"php.ini values are shown above. Real values may vary, please check your limits using"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:140
+msgid "Loading Failed"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:327
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:4
+msgid "Lazyload"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:333
+msgid "resources"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:374
+#: inc/admin/speed_optimize_wizard/speed_optimize_wizard.php:399
+msgid "Nonce Error"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/index.php:14
+msgid ""
+"Alpha speed optimize wizard will help you configure proper website with optimum css & "
+"js."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:6
+msgid "This will help you make your site faster by lazyloading images and contents."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:9
+msgid "Lazyload Images"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:11
+msgid "All image resources will be lazyloaded so that page's loading speed gets faster."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:12
+msgid "Use with caution! Disable this option if you have any compability problems."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:15
+msgid "Lazyload Menus"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:17
+msgid "Menus will be lazyloaded and cached in browsers for faster load."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:18
+msgid ""
+"Cached menus will be updated after they have been changed or customizer panel has been "
+"saved."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:23
+msgid ""
+"Instead of real content, skeleton is used to enhance speed of page loading and makes it "
+"more beautiful."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:26
+msgid "Enable Web Font Loader"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:32
+#, php-format
+msgid ""
+"Using %1$sWeb Font Loader%2$s, you can enhance page loading speed by about 4 percent in "
+"%3$sGoogle PageSpeed Insights%4$s for both mobile and desktop."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/lazyload.php:43
+#: inc/admin/speed_optimize_wizard/views/resources.php:53
+msgid "Save & Continue"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/plugins.php:11
+msgid "This will install the plugins which can acclerate your site."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/plugins.php:12
+msgid ""
+"You should disable below plugins while in development. Changes may not be applied "
+"because of them."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/plugins.php:23
+msgid "Install"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/plugins.php:46
+msgid "How to enable leverage browser  caching."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/plugins.php:47
+msgid ""
+"Page loading duration can be significantly improved by asking visitors to save and "
+"reuse the files included in your website."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/ready.php:5
+msgid "Your Website is now optimized much better than before!"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/ready.php:7
+msgid ""
+"Congratulations! The Site is now much faster, better and full optimized. Please visit "
+"your new site to notice how its performance changed."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/ready.php:14
+msgid "Leave a Rating"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/ready.php:17
+#, php-format
+msgid "Please leave a %1$s5-star rating%2$s if you are satisfied with this theme. Thanks!"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:4
+msgid "Optimize Resources"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:9
+msgid "Disable animations in mobile"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:12
+msgid "Unnecessary Styles & Scripts"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:15
+msgid "Gutenberg"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:17
+msgid "If any gutenberg block doesn't be used in site, disable me."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:20
+msgid "WooCommerce blocks for Gutenberg"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:22
+msgid "If any WooCommerce blocks for Gutenberg doesn't be used in cites, disable me."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:25
+msgid "Elementor's Resources"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:27
+msgid "If some elementor resources such as swiper.js are never used, disable me."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:29
+msgid "Asynchronous Scripts"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:32
+msgid "Asynchronous load"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:34
+msgid ""
+"Some javascript libraries does not affect first paint. And you can increase page "
+"loading speed by loading them asynchronously."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:37
+msgid "Split tasks"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:39
+msgid ""
+"Long time tasks may cause unintentional rendering suspension or affect to its "
+"performance. To make pages faster, please check split task option."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:42
+msgid "Only necessary JS at loading"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:44
+msgid ""
+"While page is loaded, there exists a lot of unnecessary javascripts running during "
+"initialization. If they works in idle time and only necessary ones runs while loading "
+"time, page speed will be faster."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:47
+msgid "Process after load event"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/resources.php:49
+msgid ""
+"This will accelerate page's load time. But this may cause compatibility issue since "
+"page still not be ready. It will be in ready state after document or window load event "
+"is ready. To fix this problem, Please add event handlers to window's \"alpha_complete"
+"\" event."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/welcome.php:5
+#, php-format
+msgid "Welcome to the speed optimize wizard for %s."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/welcome.php:10
+msgid "It looks like you have already optimized your site."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/welcome.php:13
+msgid "Run Speed Optimize Wizard Again"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/welcome.php:14
+msgid "Exit to Alpha Panel"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/welcome.php:20
+msgid ""
+"This Speed Optimize Wizard is introduced to optimize all resources that are unnecessary "
+"for your site. Every step has enough description about how it works. Some options may "
+"produce some conflicts if your site is still in development progress, so we advise you "
+"to enable all options once site development is completed."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/welcome.php:21
+msgid "No time right now? "
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/welcome.php:21
+msgid ""
+"If you don't want to go through the wizard, you can skip and return to the WordPress "
+"dashboard. Come back anytime you want!"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/welcome.php:23
+msgid "Not right now"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/welcome.php:24
+msgid "Let's Go"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/widgets.php:4
+msgid "Optimize Widgets"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/widgets.php:5
+msgid "This will help you to optimize theme styles."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/widgets.php:7
+msgid ""
+"Alpha comes with powerful optimization wizard for theme styles. Detailed options for "
+"used components and helper classes will optimize your site perfectly."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/widgets.php:9
+msgid ""
+"All options you have been checked will be saved for next use. After customizer panel's "
+"save, please run this wizard."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/widgets.php:11
+msgid "Please check used widgets."
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/widgets.php:17
+msgid "Compile & Continue"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/widgets_load.php:11
+msgid "Header Widgets"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/widgets_load.php:15
+msgid "Component Widgets"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/widgets_load.php:19
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/widgets_load.php:23
+msgid "Elementor Configuration"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/widgets_load.php:27
+msgid "Spacing Classes"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/widgets_load.php:84
+msgid "Extra"
+msgstr ""
+
+#: inc/admin/speed_optimize_wizard/views/widgets_load.php:91
+msgid "Toggle All"
+msgstr ""
+
+#: inc/functions/woocommerce/product-archive.php:81
+msgid "Show :"
+msgstr ""
+
+#: inc/functions/woocommerce/product-archive.php:94
+msgid "Show "
+msgstr ""
+
+#: inc/functions/woocommerce/product-category.php:202
+#, php-format
+msgid "Subcategory %d"
+msgstr ""
+
+#: inc/functions/woocommerce/product-loop.php:169
+#: inc/functions/woocommerce/product-loop.php:214
+#: inc/functions/woocommerce/product-loop.php:308
+msgid "Quick View"
+msgstr ""
+
+#: inc/functions/woocommerce/product-loop.php:460
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: inc/functions/woocommerce/product-loop.php:541
+msgid "Added"
+msgstr ""
+
+#: inc/functions/woocommerce/product-single.php:368 inc/general_function.php:465
+msgid "Prev"
+msgstr ""
+
+#: inc/functions/woocommerce/product-single.php:377 inc/general_function.php:466
+msgid "Next"
+msgstr ""
+
+#: inc/functions/woocommerce/product-single.php:522
+msgid "Awaiting product image"
+msgstr ""
+
+#: inc/functions/woocommerce/product-single.php:633
+msgid "Flash Deals"
+msgstr ""
+
+#: inc/functions/woocommerce/product-single.php:634
+msgid "Ends In:"
+msgstr ""
+
+#: inc/functions/woocommerce/product-single.php:647
+msgid "days"
+msgstr ""
+
+#: inc/functions/woocommerce/product-single.php:731
+msgid "QTY"
+msgstr ""
+
+#: inc/functions/woocommerce/woocommerce.php:268
+msgid "Product added to cart successfully"
+msgstr ""
+
+#: inc/functions/woocommerce/woocommerce.php:331
+msgid "Default sorting"
+msgstr ""
+
+#: inc/functions/woocommerce/woocommerce.php:332
+msgid "Sort by popularity"
+msgstr ""
+
+#: inc/functions/woocommerce/woocommerce.php:333
+msgid "Sort by average rating"
+msgstr ""
+
+#: inc/functions/woocommerce/woocommerce.php:334
+msgid "Sort by latest"
+msgstr ""
+
+#: inc/functions/woocommerce/woocommerce.php:335
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: inc/functions/woocommerce/woocommerce.php:336
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: inc/functions/woocommerce/woocommerce.php:346
+msgid "Relevance"
+msgstr ""
+
+#: inc/general_function.php:443
+msgid "Load More"
+msgstr ""
+
+#: inc/general_function.php:544
+msgid "Pingback:"
+msgstr ""
+
+#: inc/general_function.php:544
+msgid "(Edit)"
+msgstr ""
+
+#: inc/general_function.php:568
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/general_function.php:571
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/init.php:102 inc/init.php:153
+msgid "Default Animation"
+msgstr ""
+
+#: inc/init.php:103
+msgid "Bounce"
+msgstr ""
+
+#: inc/init.php:104
+msgid "Flash"
+msgstr ""
+
+#: inc/init.php:105
+msgid "Pulse"
+msgstr ""
+
+#: inc/init.php:106
+msgid "RubberBand"
+msgstr ""
+
+#: inc/init.php:107
+msgid "Shake"
+msgstr ""
+
+#: inc/init.php:108
+msgid "HeadShake"
+msgstr ""
+
+#: inc/init.php:109
+msgid "Swing"
+msgstr ""
+
+#: inc/init.php:110
+msgid "Tada"
+msgstr ""
+
+#: inc/init.php:111
+msgid "Wobble"
+msgstr ""
+
+#: inc/init.php:112
+msgid "Jello"
+msgstr ""
+
+#: inc/init.php:113
+msgid "HearBeat"
+msgstr ""
+
+#: inc/init.php:114 inc/init.php:196
+msgid "BlurIn"
+msgstr ""
+
+#: inc/init.php:115
+msgid "BounceIn"
+msgstr ""
+
+#: inc/init.php:116
+msgid "BounceInUp"
+msgstr ""
+
+#: inc/init.php:117
+msgid "BounceInDown"
+msgstr ""
+
+#: inc/init.php:118
+msgid "BounceInLeft"
+msgstr ""
+
+#: inc/init.php:119
+msgid "BounceInRight"
+msgstr ""
+
+#: inc/init.php:120
+msgid "FadeIn"
+msgstr ""
+
+#: inc/init.php:121
+msgid "FadeInUp"
+msgstr ""
+
+#: inc/init.php:122
+msgid "FadeInUpBig"
+msgstr ""
+
+#: inc/init.php:123
+msgid "FadeInDown"
+msgstr ""
+
+#: inc/init.php:124
+msgid "FadeInDownBig"
+msgstr ""
+
+#: inc/init.php:125
+msgid "FadeInLeft"
+msgstr ""
+
+#: inc/init.php:126
+msgid "FadeInLeftBig"
+msgstr ""
+
+#: inc/init.php:127
+msgid "FadeInRight"
+msgstr ""
+
+#: inc/init.php:128
+msgid "FadeInRightBig"
+msgstr ""
+
+#: inc/init.php:129
+msgid "Flip"
+msgstr ""
+
+#: inc/init.php:130
+msgid "FlipInX"
+msgstr ""
+
+#: inc/init.php:131
+msgid "FlipInY"
+msgstr ""
+
+#: inc/init.php:132
+msgid "LightSpeedIn"
+msgstr ""
+
+#: inc/init.php:133
+msgid "RotateIn"
+msgstr ""
+
+#: inc/init.php:134
+msgid "RotateInUpLeft"
+msgstr ""
+
+#: inc/init.php:135
+msgid "RotateInUpRight"
+msgstr ""
+
+#: inc/init.php:136
+msgid "RotateInDownLeft"
+msgstr ""
+
+#: inc/init.php:137
+msgid "RotateInDownRight"
+msgstr ""
+
+#: inc/init.php:138
+msgid "Hinge"
+msgstr ""
+
+#: inc/init.php:139
+msgid "JackInTheBox"
+msgstr ""
+
+#: inc/init.php:140
+msgid "RollIn"
+msgstr ""
+
+#: inc/init.php:141
+msgid "ZoomIn"
+msgstr ""
+
+#: inc/init.php:142
+msgid "ZoomInUp"
+msgstr ""
+
+#: inc/init.php:143
+msgid "ZoomInDown"
+msgstr ""
+
+#: inc/init.php:144
+msgid "ZoomInLeft"
+msgstr ""
+
+#: inc/init.php:145
+msgid "ZoomInRight"
+msgstr ""
+
+#: inc/init.php:146
+msgid "SlideInUp"
+msgstr ""
+
+#: inc/init.php:147
+msgid "SlideInDown"
+msgstr ""
+
+#: inc/init.php:148
+msgid "SlideInLeft"
+msgstr ""
+
+#: inc/init.php:149
+msgid "SlideInRight"
+msgstr ""
+
+#: inc/init.php:154
+msgid "BlurOut"
+msgstr ""
+
+#: inc/init.php:155
+msgid "BounceOut"
+msgstr ""
+
+#: inc/init.php:156
+msgid "BounceOutUp"
+msgstr ""
+
+#: inc/init.php:157
+msgid "BounceOutDown"
+msgstr ""
+
+#: inc/init.php:158
+msgid "BounceOutLeft"
+msgstr ""
+
+#: inc/init.php:159
+msgid "BounceOutRight"
+msgstr ""
+
+#: inc/init.php:160
+msgid "FadeOut"
+msgstr ""
+
+#: inc/init.php:161
+msgid "FadeOutUp"
+msgstr ""
+
+#: inc/init.php:162
+msgid "FadeOutUpBig"
+msgstr ""
+
+#: inc/init.php:163
+msgid "FadeOutDown"
+msgstr ""
+
+#: inc/init.php:164
+msgid "FadeOutDownBig"
+msgstr ""
+
+#: inc/init.php:165
+msgid "FadeOutLeft"
+msgstr ""
+
+#: inc/init.php:166
+msgid "FadeOutLeftBig"
+msgstr ""
+
+#: inc/init.php:167
+msgid "FadeOutRight"
+msgstr ""
+
+#: inc/init.php:168
+msgid "FadeOutRightBig"
+msgstr ""
+
+#: inc/init.php:169
+msgid "FlipOutX"
+msgstr ""
+
+#: inc/init.php:170
+msgid "FlipOutY"
+msgstr ""
+
+#: inc/init.php:171
+msgid "LightSpeedOut"
+msgstr ""
+
+#: inc/init.php:172
+msgid "RotateOutUpLeft"
+msgstr ""
+
+#: inc/init.php:173
+msgid "RotateOutUpRight"
+msgstr ""
+
+#: inc/init.php:174
+msgid "RotateOutDownLeft"
+msgstr ""
+
+#: inc/init.php:175
+msgid "RotateOutDownRight"
+msgstr ""
+
+#: inc/init.php:176
+msgid "RollOut"
+msgstr ""
+
+#: inc/init.php:177
+msgid "ZoomOut"
+msgstr ""
+
+#: inc/init.php:178
+msgid "ZoomOutUp"
+msgstr ""
+
+#: inc/init.php:179
+msgid "ZoomOutDown"
+msgstr ""
+
+#: inc/init.php:180
+msgid "ZoomOutLeft"
+msgstr ""
+
+#: inc/init.php:181
+msgid "ZoomOutRight"
+msgstr ""
+
+#: inc/init.php:182
+msgid "SlideOutUp"
+msgstr ""
+
+#: inc/init.php:183
+msgid "SlideOutDown"
+msgstr ""
+
+#: inc/init.php:184
+msgid "SlideOutLeft"
+msgstr ""
+
+#: inc/init.php:185
+msgid "SlideOutRight"
+msgstr ""
+
+#: inc/init.php:190
+msgid "Fade In Down Shorter"
+msgstr ""
+
+#: inc/init.php:191
+msgid "Fade In Left Shorter"
+msgstr ""
+
+#: inc/init.php:192
+msgid "Fade In Right Shorter"
+msgstr ""
+
+#: inc/init.php:193
+msgid "Fade In Up Shorter"
+msgstr ""
+
+#: inc/plugins/importer/importer-api.php:180
+msgid "The package could not be downloaded."
+msgstr ""
+
+#: inc/plugins/importer/importer-api.php:201
+msgid "WordPress filesystem error."
+msgstr ""
+
+#: inc/plugins/importer/importer-api.php:206
+msgid "The package could not be unziped."
+msgstr ""
+
+#: inc/plugins/importer/importer-api.php:211
+#, php-format
+msgid "Demo data directory does not exist (%s)."
+msgstr ""
+
+#: inc/plugins/importer/parsers.php:45 inc/plugins/importer/parsers.php:93
+#: inc/plugins/importer/parsers.php:101 inc/plugins/importer/alpha-parsers.php:46
+#: inc/plugins/importer/alpha-parsers.php:96
+#: inc/plugins/importer/alpha-parsers.php:104
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/plugins/importer/parsers.php:46 inc/plugins/importer/alpha-parsers.php:47
+msgid ""
+"Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: inc/plugins/importer/parsers.php:106 inc/plugins/importer/parsers.php:112
+#: inc/plugins/importer/parsers.php:403 inc/plugins/importer/parsers.php:620
+#: inc/plugins/importer/alpha-parsers.php:109
+#: inc/plugins/importer/alpha-parsers.php:115
+#: inc/plugins/importer/alpha-parsers.php:408
+#: inc/plugins/importer/alpha-parsers.php:630
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/plugins/importer/parsers.php:561 inc/plugins/importer/alpha-parsers.php:569
+msgid "GZ Not Enabled"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:208
+msgid "Imported categories"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:213
+msgid "Imported tags"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:218
+msgid "Imported terms"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:224
+msgid "Imported posts"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:230
+msgid "Importing posts"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:239
+msgid "Importing menus"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:245
+#: inc/plugins/importer/alpha-wordpress-importer.php:253
+#: inc/plugins/importer/alpha-wordpress-importer.php:258
+msgid "Processing menus"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:265
+msgid "Successfully imported dummy content!"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:312
+#: inc/plugins/importer/alpha-wordpress-importer.php:321
+#: inc/plugins/importer/alpha-wordpress-importer.php:378
+#: inc/plugins/importer/alpha-wordpress-importer.php:382
+#: inc/plugins/importer/alpha-wordpress-importer.php:392
+#: inc/plugins/importer/wordpress-importer.php:205
+#: inc/plugins/importer/wordpress-importer.php:214
+#: inc/plugins/importer/wordpress-importer.php:276
+#: inc/plugins/importer/wordpress-importer.php:280
+#: inc/plugins/importer/wordpress-importer.php:290
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:313
+#: inc/plugins/importer/wordpress-importer.php:206
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:384
+#: inc/plugins/importer/wordpress-importer.php:282
+#, php-format
+msgid ""
+"The export file could not be found at %s. It is likely that this was caused by a "
+"permissions problem."
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:401
+#: inc/plugins/importer/wordpress-importer.php:299
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the importer. Please "
+"consider updating."
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:427
+#: inc/plugins/importer/wordpress-importer.php:325
+#, php-format
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:454
+#: inc/plugins/importer/wordpress-importer.php:352
+msgid "Assign Authors"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:455
+#: inc/plugins/importer/wordpress-importer.php:353
+msgid ""
+"To make it easier for you to edit and save the imported content, you may want to "
+"reassign the author of the imported item to an existing user of this site. For example, "
+"you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:458
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly generated and "
+"the new user's role will be set as %s. Manually changing the new user&#8217;s details "
+"will be necessary."
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:468
+#: inc/plugins/importer/wordpress-importer.php:366
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:471
+#: inc/plugins/importer/wordpress-importer.php:369
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:488
+#: inc/plugins/importer/wordpress-importer.php:386
+msgid "Import author:"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:502
+#: inc/plugins/importer/wordpress-importer.php:400
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:505
+#: inc/plugins/importer/wordpress-importer.php:403
+msgid "as a new user:"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:513
+#: inc/plugins/importer/wordpress-importer.php:411
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:515
+#: inc/plugins/importer/wordpress-importer.php:413
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:522
+#: inc/plugins/importer/wordpress-importer.php:420
+msgid "- Select -"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:581
+#: inc/plugins/importer/wordpress-importer.php:479
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:665
+#: inc/plugins/importer/wordpress-importer.php:561
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:720
+#: inc/plugins/importer/wordpress-importer.php:614
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:806
+#: inc/plugins/importer/alpha-wordpress-importer.php:1155
+#: inc/plugins/importer/wordpress-importer.php:698
+#: inc/plugins/importer/wordpress-importer.php:1047
+#, php-format
+msgid "Failed to import %1$s %2$s"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:914
+#: inc/plugins/importer/wordpress-importer.php:797
+#, php-format
+msgid "Failed to import &#8220;%1$s&#8221;: Invalid post type %2$s"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:1005
+#: inc/plugins/importer/alpha-wordpress-importer.php:1114
+#: inc/plugins/importer/wordpress-importer.php:897
+#: inc/plugins/importer/wordpress-importer.php:1008
+#, php-format
+msgid "Failed to import %1$s &#8220;%2$s&#8221;"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:1350
+#: inc/plugins/importer/wordpress-importer.php:1244
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:1357
+#: inc/plugins/importer/wordpress-importer.php:1251
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:1439
+#: inc/plugins/importer/wordpress-importer.php:1333
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:1456
+#: inc/plugins/importer/wordpress-importer.php:1350
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:1519
+#: inc/plugins/importer/wordpress-importer.php:1413
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:1526
+#: inc/plugins/importer/wordpress-importer.php:1420
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:1535
+#: inc/plugins/importer/wordpress-importer.php:1429
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:1648
+#: inc/plugins/importer/wordpress-importer.php:1536
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:1656
+#: inc/plugins/importer/wordpress-importer.php:1544
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to ensure "
+"compatibility with newer export files."
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:1671
+#: inc/plugins/importer/wordpress-importer.php:1559
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, "
+"pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: inc/plugins/importer/alpha-wordpress-importer.php:1672
+#: inc/plugins/importer/wordpress-importer.php:1560
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:260
+msgid "All done."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:260
+msgid "Have fun!"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:261
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:356
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly generated and "
+"the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s "
+"details will be necessary."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:847
+#, php-format
+msgid "%1$s &#8220;%2$s&#8221; already exists."
+msgstr ""
+
+#: inc/setup/theme-assets.php:229
+msgid "Loading..."
+msgstr ""
+
+#: inc/setup/theme-assets.php:230
+msgid "Loading failed"
+msgstr ""
+
+#: inc/setup/theme-assets.php:231
+msgid "The content could not be loaded."
+msgstr ""
+
+#: inc/setup/theme-assets.php:232
+#, php-format
+msgid "all %d"
+msgstr ""
+
+#: inc/setup/theme-assets.php:268
+msgid "Successfully added."
+msgstr ""
+
+#: inc/setup/theme-assets.php:269
+msgid "Add to wishlist"
+msgstr ""
+
+#: inc/setup/theme-options.php:13
+msgid "Facebook"
+msgstr ""
+
+#: inc/setup/theme-options.php:14
+msgid "Twitter"
+msgstr ""
+
+#: inc/setup/theme-options.php:15
+msgid "Linkedin"
+msgstr ""
+
+#: inc/setup/theme-options.php:17
+msgid "Google +"
+msgstr ""
+
+#: inc/setup/theme-options.php:18
+msgid "Pinterest"
+msgstr ""
+
+#: inc/setup/theme-options.php:19
+msgid "Reddit"
+msgstr ""
+
+#: inc/setup/theme-options.php:20
+msgid "Tumblr"
+msgstr ""
+
+#: inc/setup/theme-options.php:21
+msgid "VK"
+msgstr ""
+
+#: inc/setup/theme-options.php:22
+msgid "WhatsApp"
+msgstr ""
+
+#: inc/setup/theme-options.php:23
+msgid "Xing"
+msgstr ""
+
+#: inc/setup/theme-options.php:24
+msgid "Instagram"
+msgstr ""
+
+#: inc/setup/theme-options.php:44
+msgid "Style / Additional CSS & Script"
+msgstr ""
+
+#: inc/setup/theme-options.php:45
+msgid "Header / Header Builder"
+msgstr ""
+
+#: inc/setup/theme-options.php:46
+msgid "Menu / Menu Skins"
+msgstr ""
+
+#: inc/setup/theme-options.php:47
+msgid "Woocommerce / Product Type"
+msgstr ""
+
+#: inc/setup/theme-options.php:48
+msgid "Woocommerce / Shop Layout"
+msgstr ""
+
+#: inc/setup/theme-options.php:49
+msgid "Woocommerce / Single Product Layout"
+msgstr ""
+
+#: inc/setup/theme-options.php:51
+msgid "Advanced / Theme Features"
+msgstr ""
+
+#: inc/setup/theme-options.php:52
+msgid "Advanced / Woo Features"
+msgstr ""
+
+#: inc/setup/theme-options.php:241
+msgid "Categories"
+msgstr ""
+
+#: inc/setup/theme-setup.php:65
+msgid "S"
+msgstr ""
+
+#: inc/setup/theme-setup.php:71
+msgid "N"
+msgstr ""
+
+#: inc/setup/theme-setup.php:76
+msgid "Medium"
+msgstr ""
+
+#: inc/setup/theme-setup.php:77
+msgid "M"
+msgstr ""
+
+#: inc/setup/theme-setup.php:83
+msgid "L"
+msgstr ""
+
+#: inc/setup/theme-setup.php:88
+msgid "Huge"
+msgstr ""
+
+#: inc/setup/theme-setup.php:89
+msgid "huge"
+msgstr ""
+
+#: inc/setup/theme-setup.php:101
+msgid "Primary"
+msgstr ""
+
+#: inc/setup/theme-setup.php:106
+msgid "Secondary"
+msgstr ""
+
+#: inc/setup/theme-setup.php:111
+msgid "Alert"
+msgstr ""
+
+#: inc/setup/theme-setup.php:121
+msgid "White"
+msgstr ""
+
+#: inc/setup/theme-setup.php:126
+msgid "Default Font Color"
+msgstr ""
+
+#: inc/setup/theme-setup.php:131
+msgid "Transparent"
+msgstr ""
+
+#: inc/walker/walker-init.php:69
+msgid "No Link"
+msgstr ""
+
+#: inc/walker/walker-init.php:76
+msgid "Megamenu"
+msgstr ""
+
+#: inc/walker/walker-init.php:82
+msgid "Megamenu Width (px)"
+msgstr ""
+
+#: inc/walker/walker-init.php:89
+msgid "Megamenu Position"
+msgstr ""
+
+#: inc/walker/walker-init.php:119
+msgid "Select A Block"
+msgstr ""
+
+#: inc/walker/walker-init.php:130
+msgid "This option only works in megamenu."
+msgstr ""
+
+#: inc/walker/walker-init.php:138
+msgid "Prefix Icon Class"
+msgstr ""
+
+#: inc/walker/walker-init.php:140
+msgid "Alpha Icon Store might be useful for you to select icons."
+msgstr ""
+
+#: inc/walker/walker-init.php:146
+msgid "Add Label"
+msgstr ""
+
+#: inc/walker/walker-init.php:148
+msgid "Select A Label"
+msgstr ""
+
+#: inc/widget-area/widget-init.php:26
+#, php-format
+msgid "Footer %1$s Widget %2$s"
+msgstr ""
+
+#: inc/widget-area/widget-init.php:39
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/widget-area/widget-init.php:50
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/widget-area/widget-init.php:65
+#: template_parts/header/elements/element-account.php:40
+#: template_parts/header/elements/element-account.php:66
+#: template_parts/header/elements/element-account.php:77
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: page.php:27 template_parts/posts/elements/post-content.php:8
+msgid "Pages:"
+msgstr ""
+
+#: page.php:34 template_parts/posts/archive.php:115
+msgid "Nothing Found"
+msgstr ""
+
+#: searchform.php:54
+msgid "All Categories"
+msgstr ""
+
+#: template_parts/header/elements/element-cart.php:80
+msgid "Shopping Cart"
+msgstr ""
+
+#: template_parts/header/elements/element-currency-switcher.php:105
+#: template_parts/header/elements/element-currency-switcher.php:108
+msgid "USD"
+msgstr ""
+
+#: template_parts/header/elements/element-currency-switcher.php:107
+msgid "EUR"
+msgstr ""
+
+#: template_parts/header/elements/element-language-switcher.php:106
+#: template_parts/header/elements/element-language-switcher.php:108
+msgid "ENG"
+msgstr ""
+
+#: template_parts/header/elements/element-language-switcher.php:109
+msgid "FRA"
+msgstr ""
+
+#: template_parts/posts/archive.php:116
+msgid ""
+"Sorry, I am afraid you do not have any matches. Please try again with other keywords."
+msgstr ""
+
+#: template_parts/posts/elements/post-author.php:16
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: template_parts/posts/elements/post-meta.php:26
+msgid "0 Comments"
+msgstr ""
+
+#: template_parts/posts/elements/post-meta.php:26
+msgid "1 Comment"
+msgstr ""
+
+#: template_parts/posts/elements/post-meta.php:26
+msgid "% Comments"
+msgstr ""
+
+#: template_parts/posts/elements/post-navigation.php:5
+msgid "Previous Post"
+msgstr ""
+
+#: template_parts/posts/elements/post-navigation.php:6
+msgid "Next Post"
+msgstr ""
+
+#: template_parts/posts/elements/post-related.php:30
+msgid "Related Posts"
+msgstr ""
+
+#: template_parts/posts/elements/post-tag.php:8
+msgid "Tags:"
+msgstr ""
+
+#: template_parts/posts/post.php:128
+msgid "Read More"
+msgstr ""
+
+#: template_parts/sidebar.php:73 template_parts/sidebar.php:125
+#: woocommerce/loop/orderby.php:71 woocommerce/loop/orderby.php:76
+#: woocommerce/loop/orderby.php:78 woocommerce/loop/orderby.php:108
+#: woocommerce/loop/orderby.php:149 woocommerce/loop/orderby.php:151
+msgid "Filters"
+msgstr ""
+
+#: template_parts/sidebar.php:74 template_parts/sidebar.php:126
+#: woocommerce/loop/orderby.php:183 woocommerce/single-product/add-to-cart/variable.php:71
+msgid "Clean All"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:31 woocommerce/cart/cart-totals.php:54
+#: woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:52
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:53
+msgid "Change address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:55
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:65
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:68
+msgid ""
+"There are no shipping options available. Please ensure that your address has been "
+"entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:71
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:72
+msgid "Enter a different address"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:26
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:38 woocommerce/cart/cart-totals.php:39
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:123
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:74
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:100 woocommerce/cart/cart-totals.php:101
+#: woocommerce/checkout/thankyou.php:62
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:101
+#: woocommerce/wishlist-view.php:84
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:66 woocommerce/cart/mini-cart.php:76
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:90
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:142
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:148
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:28
+#, php-format
+msgid "%d ITEM"
+msgid_plural "%d ITEMS"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/cart/mini-cart.php:29
+msgid "VIEW CART"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:112
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:29
+msgid "Select a country / region&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:48 woocommerce/cart/shipping-calculator.php:53
+#: woocommerce/cart/shipping-calculator.php:65
+msgid "State / County"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:54
+msgid "Select an option&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:74
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:84
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:25
+msgid "Payment Methods"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. Please "
+"contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:44
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please ensure you "
+"click the %1$sUpdate Totals%2$s button before placing your order. You may be charged "
+"more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:46
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:31
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/merchant has "
+"declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:34
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:36
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:42 woocommerce/checkout/thankyou.php:82
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:47
+msgid "Order number"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:68
+msgid "Payment method"
+msgstr ""
+
+#: woocommerce/compare.php:54
+msgid "Product Comparison"
+msgstr ""
+
+#: woocommerce/compare.php:92
+msgid "Close window [X]"
+msgstr ""
+
+#: woocommerce/compare.php:126
+msgid "No products added in the compare table."
+msgstr ""
+
+#: woocommerce/loop/orderby.php:94 woocommerce/loop/orderby.php:124
+msgid "Sort By"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:97 woocommerce/loop/orderby.php:126
+msgid "Shop order"
+msgstr ""
+
+#: woocommerce/loop/rating.php:49
+msgid "reviews"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:31
+msgid "Showing the single result"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:36
+#, php-format
+msgid "Showing %1$sall %2$d%3$s Product"
+msgid_plural "Showing %1$sall %2$d%3$s Products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/result-count.php:43
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %4$s%1$d&ndash;%2$d of %3$d%5$s Product"
+msgid_plural "Showing %4$s%1$d&ndash;%2$d of %3$d%5$s Products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/sale-flash.php:44
+msgid "Top"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:58
+msgid "off"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:64
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:29 woocommerce/myaccount/form-login.php:65
+msgid "Sign In"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:33 woocommerce/myaccount/form-login.php:116
+msgid "Sign Up"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:45
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:49 woocommerce/myaccount/form-login.php:97
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:57
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:60
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:83
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:90
+msgid "Your Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:103
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:111
+#, php-format
+msgid "%1$sI agree to the %2$s"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:32
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:35
+#: woocommerce/order/order-details-customer.php:55
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:53
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:66
+msgid "Back To List"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/wishlist-view.php:95
+msgid "Stock status"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:113
+msgid "Arrange"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:147 woocommerce/wishlist-view.php:241
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:193
+msgid "Out of stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:193
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:202
+#, php-format
+msgid "Added on: %s"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:215
+msgid "Move"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:234
+msgid "Move to another list &rsaquo;"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:262
+msgid "No products added to the wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:267
+msgid "GO SHOP"
+msgstr ""

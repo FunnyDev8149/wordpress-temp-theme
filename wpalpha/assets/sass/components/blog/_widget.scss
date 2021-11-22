@@ -1,0 +1,38 @@
+.post-widget {
+    display: flex;
+    align-items: center;
+
+    .post-media {
+        width: 8rem;
+        flex: 0 0 8rem;
+    }
+
+    .post-details {
+        padding: 0;
+        &:not(:first-child) {
+            margin-#{$left}: 1.6rem;
+        }
+    }
+    .post-title {
+        margin-bottom: 0;
+        white-space: normal;
+        text-transform: none;
+        font-weight: 500;
+        line-height: 1.43;
+    }
+    .post-meta,
+    .post-title {
+        font-size: 1.3rem;
+    }
+    .post-meta {
+        color: #666;
+    }
+    .post-details .post-meta span a {
+        color: inherit;
+    }
+}
+
+/* Sidebar widget */
+.post-sidebar-widget ~ .slider-button {
+    top: -3.1rem;
+}

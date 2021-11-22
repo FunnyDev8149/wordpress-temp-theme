@@ -1,0 +1,153 @@
+/* -------------------------------------------
+    Categories
+        Base
+        - Default Type
+        - Classic Type
+        - Icon Type
+        - Ellipse Type
+        - Group Type
+            - Image
+            - Icon
+        - Banner Type
+        - Badge Type
+        - Overlay Category
+        - Block Type
+---------------------------------------------- */
+
+// Base
+.product-category {
+    position: relative;
+    font-size: 1rem;
+    figure {
+        text-align: center;
+    }
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    mark {
+        color: inherit;
+        background: transparent;
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+    .btn {
+        color: inherit;
+    }
+    i {
+        display: inline-block;
+        font-size: 4.2rem;
+        color: var(--alpha-body-color, $body-color);
+        margin-bottom: 1.5rem;
+        transition: transform .3s;
+    }
+    // (new)
+    &.content-left .category-content {
+        align-items: if-ltr(flex-start, flex-end);
+        text-align: left;
+    }
+    &.content-center .category-content {
+        align-items: center;
+        text-align: center;
+    }
+    &.content-right .category-content {
+        align-items: if-ltr(flex-end, flex-start);
+        text-align: right;
+    }
+    //
+}
+.woocommerce-loop-category__title {
+    margin-bottom: .2rem;
+    font: {
+        size: 1.4rem;
+        weight: 600;
+    }
+    line-height: 1.2;
+    color: inherit;
+    a {
+        color: inherit;
+    }
+}
+.category-wrap {
+    margin-bottom: 2rem;
+}
+.category-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: background .3s;
+}
+.cat-type-absolute {
+    .category-content {
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        #{$left}: 0;
+        width: auto;
+        min-height: 50px;
+    }
+}
+
+// @start feature: fs_pct_default
+@import 'category/default';
+// @end feature: fs_pct_default
+
+// @start feature: fs_pct_frame
+@import 'category/frame';
+// @end feature: fs_pct_frame
+
+// @start feature: fs_pct_banner
+@import 'category/banner';
+// @end feature: fs_pct_banner
+
+// @start feature: fs_pct_simple
+@import 'category/simple';
+// @end feature: fs_pct_simple
+
+// @start feature: fs_pct_classic
+@import 'category/classic';
+// @end feature: fs_pct_classic
+
+// @start feature: fs_pct_classic-2
+@import 'category/classic2';
+// @end feature: fs_pct_classic-2
+
+// @start feature: fs_pct_ellipse
+@import 'category/ellipse';
+// @end feature: fs_pct_ellipse
+
+// @start feature: fs_pct_ellipse-2
+@import 'category/ellipse2';
+// @end feature: fs_pct_ellipse-2
+
+// @start feature: fs_pct_group
+@import 'category/group';
+// @end feature: fs_pct_group
+
+// @start feature: fs_pct_group-2
+@import 'category/group2';
+// @end feature: fs_pct_group-2
+
+// @start feature: fs_pct_icon
+@import 'category/icon';
+// @end feature: fs_pct_icon
+
+// @start feature: fs_pct_label
+@import 'category/block';
+// @end feature: fs_pct_label
+
+
+.filter-categories .active {
+    color: var(--alpha-primary-color, $primary-color);
+}
+// In Creative Grid
+.grid-item {
+    > .product-category {
+        height: 100%;
+    }
+}

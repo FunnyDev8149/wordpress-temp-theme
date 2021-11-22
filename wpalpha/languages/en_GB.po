@@ -1,0 +1,1047 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Alpha 1.0\n"
+"POT-Creation-Date: 2020-02-18 10:59-0800\n"
+"PO-Revision-Date: 2020-02-18 11:01-0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language: en_GB\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: woocommerce\n"
+"X-Poedit-SearchPathExcluded-1: inc/admin/kirki\n"
+
+#: comments.php:9 comments.php:57
+msgid "Comment"
+msgstr ""
+
+#: comments.php:9
+msgid "Comments"
+msgstr ""
+
+#: comments.php:53 inc/admin/customizer/option/pages/option-pages.php:230
+msgid "Name"
+msgstr ""
+
+#: comments.php:54 inc/default/default-theme-options.php:16
+msgid "Email"
+msgstr ""
+
+#: comments.php:58
+msgid "Submit Comment"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:10
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:21
+msgid "Breadcrumb Width"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:25
+#: inc/admin/customizer/option/footer/option-footer.php:25
+#: inc/admin/customizer/option/header/option-header-general.php:73
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:37
+msgid "Full"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:26
+#: inc/admin/customizer/option/footer/option-footer.php:26
+#: inc/admin/customizer/option/header/option-header-general.php:74
+msgid "Container"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:37
+msgid "Breadcrumb Style"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:41
+msgid "Banner"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:42
+msgid "Top + Bottom Border"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:43
+msgid "Bottom Border"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:44
+msgid "No Border"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:55
+#: inc/admin/customizer/option/header/option-header-bottom.php:60
+#: inc/admin/customizer/option/header/option-header-main.php:60
+msgid "Background Image"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:74
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:77
+msgid "None"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:78
+msgid "X"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:79
+msgid "Y"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:80
+#: inc/admin/customizer/option/header/option-header-element.php:104
+msgid "All"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:99
+msgid "Background Size"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:102
+msgid "Cover"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:103
+msgid "Contain"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:104
+msgid "Auto"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:122
+msgid "Banner Padding(px)"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:147
+msgid "Text Align"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:150
+#: inc/admin/customizer/option/footer/option-footer.php:241
+#: inc/admin/customizer/option/header/option-header-element.php:133
+#: inc/admin/customizer/option/pages/option-pages.php:130
+msgid "Left"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:151
+#: inc/admin/customizer/option/header/option-header-element.php:134
+#: inc/admin/customizer/option/pages/option-pages.php:131
+msgid "Center"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:152
+#: inc/admin/customizer/option/footer/option-footer.php:242
+#: inc/admin/customizer/option/pages/option-pages.php:132
+msgid "Right"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:163
+msgid "Show Page Title"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:175
+msgid "Show Home Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/breadcrumb/option-breadcrumb.php:187
+msgid "Breadcrumb Delimiter"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer.php:10
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer.php:21
+msgid "Footer Content Width"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer.php:37
+msgid "Footer Background Color"
+msgstr "Footer Background Colour"
+
+#: inc/admin/customizer/option/footer/option-footer.php:61
+msgid "Footer Top Padding(px)"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer.php:76
+msgid "Add Divider to Footer Top"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer.php:100
+#: inc/admin/customizer/option/footer/option-footer.php:152
+msgid "Widget Layout"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer.php:101
+#: inc/admin/customizer/option/footer/option-footer.php:153
+msgid "Leave it blank to use Full widget"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer.php:113
+msgid "Footer Main Padding(px)"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer.php:128
+msgid "Add Divider to Footer Main"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer.php:165
+msgid "Footer Bottom Padding(px)"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer.php:180
+msgid "Add Divider to Footer Bottom"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer.php:204
+#: inc/admin/customizer/option/header/option-header-element.php:205
+#: inc/admin/customizer/option/header/option-header-element.php:344
+#: inc/admin/customizer/option/share/option-share.php:35
+msgid "Icon Style"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer.php:219
+msgid "Button Size"
+msgstr ""
+
+#: inc/admin/customizer/option/footer/option-footer.php:237
+msgid "Button Position"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:38
+#: inc/admin/customizer/option/header/option-header-general.php:104
+msgid "Logo"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:39
+msgid "Cart"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:40
+msgid "☰ Menu Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:41
+#: inc/default/default-theme-setup.php:20
+msgid "Main Menu"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:42
+#: inc/default/default-theme-setup.php:21
+msgid "Secondary Menu"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:43
+msgid "Nav bar"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:44
+msgid "Search Form"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:45
+#: inc/admin/customizer/option/header/option-header-element.php:359
+msgid "Social Link Icons"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:46
+msgid "Account"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:47
+msgid "Currency Switcher"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:48
+msgid "Language Switcher"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:49
+#: inc/admin/customizer/option/header/header-builder.php:84
+msgid "HTML"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:50
+msgid " | "
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:55
+msgid "Header Top Left"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:56
+msgid "Header Top Center"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:57
+msgid "Header Top Right"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:58
+msgid "Header Main Left"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:59
+msgid "Header Main Center"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:60
+msgid "Header Main Right"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:61
+msgid "Header Bottom Left"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:62
+msgid "Header Bottom Center"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:63
+msgid "Header Bottom Right"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:64
+msgid "Mobile Header Top Left"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:65
+msgid "Mobile Header Top Center"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:66
+msgid "Mobile Header Top Right"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:67
+msgid "Mobile Header Main Left"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:68
+msgid "Mobile Header Main Center"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:69
+msgid "Mobile Header Main Right"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:70
+msgid "Mobile Header Bottom Left"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:71
+msgid "Mobile Header Bottom Center"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:72
+msgid "Mobile Header Bottom Right"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:93
+msgid "Custom CSS Class"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:105
+msgid "Note: Click Save button below to apply changes."
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:107
+msgid "Save"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:117
+msgid "Header Builder Elements"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:148
+msgid "Header Builder"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:154
+msgid "Tutorial"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:155
+msgid "Clear All"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:156
+msgid "Close"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:161
+#: inc/admin/customizer/option/header/header-builder.php:225
+msgid "Elements"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:161
+#: inc/admin/customizer/option/header/header-builder.php:225
+msgid "Drag &amp; Drop"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:195
+#: inc/admin/customizer/option/header/header-builder.php:259
+#: inc/admin/customizer/option/header/option-header-top.php:10
+msgid "Header Top"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:204
+#: inc/admin/customizer/option/header/header-builder.php:268
+#: inc/admin/customizer/option/header/option-header-main.php:10
+#: inc/admin/customizer/option/header/option-sticky-header.php:33
+msgid "Header Main"
+msgstr ""
+
+#: inc/admin/customizer/option/header/header-builder.php:213
+#: inc/admin/customizer/option/header/header-builder.php:277
+#: inc/admin/customizer/option/header/option-header-bottom.php:10
+#: inc/admin/customizer/option/header/option-sticky-header.php:34
+msgid "Header Bottom"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-bottom.php:33
+#: inc/admin/customizer/option/header/option-header-main.php:33
+#: inc/admin/customizer/option/header/option-header-top.php:51
+msgid "Background Width"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-bottom.php:48
+#: inc/admin/customizer/option/header/option-header-main.php:49
+#: inc/admin/customizer/option/header/option-header-top.php:67
+msgid "Background Color"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-bottom.php:73
+#: inc/admin/customizer/option/header/option-header-main.php:73
+msgid "Header Main Padding"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-bottom.php:91
+#: inc/admin/customizer/option/header/option-header-main.php:91
+#: inc/admin/customizer/option/header/option-header-top.php:79
+msgid "Add Divider"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:13
+msgid "Other Elements"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:36
+msgid "Search Form Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:40
+msgid "Popup"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:41
+msgid "Inline"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:52
+msgid "Search Label"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:71
+msgid "Border Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:75
+msgid "Rectangle"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:76
+msgid "Rounded"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:87
+msgid "Search Form Placeholder"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:99
+msgid "Search Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:100
+msgid "Select Types of Search Items"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:105
+msgid "Product"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:106
+msgid "Post"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:117
+msgid "Search By Categories"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:129
+msgid "Category-Select Position"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:152
+msgid "Separate Line Width(px)"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:164
+msgid "Search Form Width"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:194
+msgid "Use Font-Awesome Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:224
+msgid "Select Labels to show"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:225
+msgid "You would better not to select both login and username."
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:229
+msgid "User Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:230
+msgid "Login/Logout Label"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:231
+msgid "Register Label"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:254
+msgid "Cart Icon"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:268
+msgid "Show Cart Label"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:280
+msgid "Cart Label"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:299
+msgid "Show Cart Total Price"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-element.php:310
+msgid "Text around Total Price"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:10
+msgid "General"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:33
+msgid "Header Type"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:37
+msgid "Default"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:38
+msgid "Side Header"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:49
+msgid "Side Header Width"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:50
+msgid "format: 256px or 20%"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:69
+msgid "Header Content Width"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:92
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:115
+msgid "Logo Width(px)"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:116
+msgid "Input the logo width."
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-general.php:128
+msgid "Logo Spacing"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-menu.php:10
+#: inc/admin/customizer/option/header/option-header-menu.php:33
+msgid "Menu Labels"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-preset.php:10
+msgid "Preset"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-preset.php:34
+msgid "Just click to use one of supported header presets ."
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header-top.php:33
+msgid "Header Top Height"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-header.php:11
+msgid "Header"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:10
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:21
+msgid "Add shadow to sticky header"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:31
+msgid "Select What to use as sticky"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:45
+msgid "Header Main Padding on Sticky"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:62
+msgid "Header Bottom Padding on Sticky"
+msgstr ""
+
+#: inc/admin/customizer/option/header/option-sticky-header.php:79
+msgid "Logo Size on Sticky Header"
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:11
+msgid "Layout & Skin"
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:33
+msgid "Page Layout"
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:38
+msgid "Boxed"
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:39
+msgid "Framed"
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:50
+msgid "Box/Frame Width"
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:69
+msgid "Box/Frame Padding"
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:88
+msgid "Content Width (px)"
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:89
+msgid "Leave it blank to use full content."
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:101
+msgid "Grid Gutter Size(px)"
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:102
+msgid "This gutter is the space between columns."
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:125
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:137
+msgid "Screen Color"
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:138
+msgid "Change the color of outside the content."
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:157
+msgid "Primary Color"
+msgstr ""
+
+#: inc/admin/customizer/option/layout_skin/option-layout-skin.php:168
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:10
+msgid "Pages"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:31
+msgid "Default Page Layout"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:35
+#: inc/admin/customizer/option/pages/option-pages.php:62
+#: inc/admin/customizer/option/pages/option-pages.php:188
+#: inc/admin/customizer/option/pages/option-pages.php:275
+#: inc/admin/customizer/option/pages/option-pages.php:389
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:36
+#: inc/admin/customizer/option/pages/option-pages.php:63
+#: inc/admin/customizer/option/pages/option-pages.php:189
+#: inc/admin/customizer/option/pages/option-pages.php:276
+#: inc/admin/customizer/option/pages/option-pages.php:390
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:37
+#: inc/admin/customizer/option/pages/option-pages.php:65
+#: inc/admin/customizer/option/pages/option-pages.php:190
+#: inc/admin/customizer/option/pages/option-pages.php:277
+#: inc/admin/customizer/option/pages/option-pages.php:391
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:58
+msgid "Shop Page Layout"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:64
+msgid "Left Filter Sidebar"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:66
+msgid "Right Filter Sidebar"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:67
+msgid "Top Filter Sidebar"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:78
+msgid "Product Count per Row"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:90
+msgid "Product Type"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:94
+msgid "Classic"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:95
+msgid "Fade In Out"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:96
+msgid "Slide Up"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:97
+msgid "Slide Up Content"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:98
+msgid "Border Style"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:109
+msgid "Hover Shadow Effect"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:113
+msgid "No Shadow"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:114
+msgid "Shadow Type 1"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:115
+msgid "Shadow Type 2"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:126
+msgid "Content Align"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:143
+msgid "Details Padding"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:161
+msgid "Counts of Products per page"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:162
+msgid "Example: 6,9,12,24"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:184
+msgid "Product Page Layout"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:201
+msgid "Count of Related Products"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:213
+msgid "Related Products per Row"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:225
+msgid "Order By"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:229
+msgid "Random"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:231
+msgid "ID"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:232
+msgid "Date"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:233
+msgid "Rating"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:234
+msgid "Price"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:245
+msgid "Order Way"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:249
+msgid "Descendent"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:250
+msgid "Ascendent"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:271
+msgid "Archive Page Layout"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:288
+msgid "Post Type"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:304
+msgid "Post Count per Row"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:323
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:335
+msgid "Excerpt Length By"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:351
+msgid "Count of Related Posts"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:363
+msgid "Show Date-box on Image?"
+msgstr ""
+
+#: inc/admin/customizer/option/pages/option-pages.php:385
+msgid "Single Page Layout"
+msgstr ""
+
+#: inc/admin/customizer/option/share/option-share.php:12
+msgid "Share"
+msgstr ""
+
+#: inc/admin/customizer/option/share/option-share.php:50
+msgid "Share Icons"
+msgstr ""
+
+#: inc/admin/customizer/option/typography/option-typography.php:10
+msgid "Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/typography/option-typography.php:32
+msgid "Set default font"
+msgstr ""
+
+#: inc/admin/customizer/option/typography/option-typography.php:61
+msgid "Menu Content Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/typography/option-typography.php:91
+msgid "Navigation Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/typography/option-typography.php:121
+msgid "Main Menu Typography"
+msgstr ""
+
+#: inc/admin/customizer/option/typography/option-typography.php:151
+msgid "Widget Typography"
+msgstr ""
+
+#: inc/default/default-theme-options.php:13
+msgid "Facebook"
+msgstr ""
+
+#: inc/default/default-theme-options.php:14
+msgid "Twitter"
+msgstr ""
+
+#: inc/default/default-theme-options.php:15
+msgid "Linkedin"
+msgstr ""
+
+#: inc/default/default-theme-options.php:17
+msgid "Google +"
+msgstr ""
+
+#: inc/default/default-theme-options.php:18
+msgid "Pinterest"
+msgstr ""
+
+#: inc/default/default-theme-options.php:19
+msgid "Reddit"
+msgstr ""
+
+#: inc/default/default-theme-options.php:20
+msgid "Tumblr"
+msgstr ""
+
+#: inc/default/default-theme-options.php:21
+msgid "VK"
+msgstr ""
+
+#: inc/default/default-theme-options.php:22
+msgid "WhatsApp"
+msgstr ""
+
+#: inc/default/default-theme-options.php:23
+msgid "Xing"
+msgstr ""
+
+#: inc/default/default-theme-setup.php:22
+msgid "Header Navigation"
+msgstr ""
+
+#: inc/default/default-theme-setup.php:23
+msgid "Footer Navigation"
+msgstr ""
+
+#: inc/general_function.php:155
+msgid "<i class=\"fas fa-chevron-left\"></i>"
+msgstr ""
+
+#: inc/general_function.php:156
+msgid "<i class=\"fas fa-chevron-right\"></i>"
+msgstr ""
+
+#: inc/general_function.php:224
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/general_function.php:227
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/walker/walker-init.php:45
+msgid "No Link"
+msgstr ""
+
+#: inc/walker/walker-init.php:52
+msgid "Megamenu"
+msgstr ""
+
+#: inc/walker/walker-init.php:58
+msgid "Megamenu Fullwidth"
+msgstr ""
+
+#: inc/widgets/widget-init.php:12
+msgid "Footer Top"
+msgstr ""
+
+#: inc/widgets/widget-init.php:25
+msgid "Footer Main Widget "
+msgstr ""
+
+#: inc/widgets/widget-init.php:39
+msgid "Footer Bottom Widget "
+msgstr ""
+
+#: inc/widgets/widget-init.php:51
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/widgets/widget-init.php:62
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/widgets/widget-init.php:73
+msgid "Product Sidebar"
+msgstr ""
+
+#: inc/widgets/widget-init.php:84
+msgid "Shop Filter"
+msgstr ""
+
+#: page.php:37 page.php:62
+msgid "Nothing Found"
+msgstr ""
+
+#: searchform.php:38
+msgid "All Categories"
+msgstr ""
+
+#: template_parts/header/elements/element-account.php:34
+msgid "LOG OUT"
+msgstr ""
+
+#: template_parts/header/elements/element-account.php:53
+msgid "LOG IN"
+msgstr ""
+
+#: template_parts/header/elements/element-account.php:55
+msgid "REGISTER"
+msgstr ""
+
+#: template_parts/header/elements/element-cart.php:32
+msgid "Woocommerce is not installed."
+msgstr ""

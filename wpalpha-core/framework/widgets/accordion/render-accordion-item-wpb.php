@@ -1,0 +1,58 @@
+<?php
+/**
+ * Accordion Item Shortcode Render
+ *
+ * @author     FunnyWP
+ * @package    WP Alpha Core FrameWork
+ * @subpackage Core
+ * @since      1.0
+ */
+
+// Preprocess
+$wrapper_attrs = array(
+	'class' => 'alpha-accordion-item-container card ' . $atts['shortcode_class'] . $atts['style_class'],
+);
+
+$wrapper_attrs = apply_filters( 'alpha_wpb_element_wrapper_atts', $wrapper_attrs, $atts );
+
+$wrapper_attr_html = '';
+foreach ( $wrapper_attrs as $key => $value ) {
+	$wrapper_attr_html .= $key . '="' . esc_attr( $value ) . '" ';
+}
+
+$settings = array(
+	'card_title' => isset( $atts['card_title'] ) ? $atts['card_title'] : esc_html( 'Card Item', 'alpha-core' ),
+	'card_icon'  => isset( $atts['card_icon'] ) ? $atts['card_icon'] : '',
+);
+
+global $alpha_wpb_accordion;
+?>
+<div <?php echo alpha_escaped( $wrapper_attr_html ); ?>>
+<div class="card-header">
+	<a href="#" class="<?php echo isset( $alpha_wpb_accordion ) && 0 == $alpha_wpb_accordion['index'] ? 'collapse' : 'expand'; ?>">
+	<?php
+	if ( $settings['card_icon'] ) {
+		echo '<i class="' . esc_attr( $settings['card_icon'] ) . '"></i>';
+	}
+		echo '<span class="title">' . esc_html( $settings['card_title'] ) . '</span>';
+	if ( isset( $alpha_wpb_accordion ) ) {
+		if ( $alpha_wpb_accordion['accordion_icon'] ) {
+			echo '<span class="toggle-icon opened"><i class="' . esc_attr( $alpha_wpb_accordion['accordion_active_icon'] ) . '"></i></span>';
+		}
+		if ( $alpha_wpb_accordion['accordion_active_icon'] ) {
+			echo '<span class="toggle-icon closed"><i class="' . esc_attr( $alpha_wpb_accordion['accordion_icon'] ) . '"></i></span>';
+		}
+	}
+	?>
+	</a>
+</div>
+<div class="card-body <?php echo isset( $alpha_wpb_accordion ) && 0 == $alpha_wpb_accordion['index'] ? 'expanded' : 'collapsed'; ?>">
+<?php
+echo do_shortcode( $atts['content'] );
+?>
+</div>
+</div>
+<?php
+if ( isset( $alpha_wpb_accordion ) ) {
+	$alpha_wpb_accordion['index'] ++;
+}
