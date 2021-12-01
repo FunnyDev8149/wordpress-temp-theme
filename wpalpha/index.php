@@ -23,13 +23,6 @@ if ( alpha_doing_ajax() && isset( $_GET['only_posts'] ) ) {
 	do_action( 'alpha_before_content' );
 
 	?>
-	<div class="page-content">
-	<?php
-	do_action( 'alpha_print_before_page_layout' );
-	alpha_get_template_part( 'posts/archive' );
-	do_action( 'alpha_print_after_page_layout' );
-	?>
-	</div>
 	<?php
 
 	do_action( 'alpha_after_content' );
