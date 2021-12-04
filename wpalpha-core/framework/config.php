@@ -156,6 +156,8 @@ if ( ! function_exists( 'alpha_setup' ) ) {
 				'fs_addon_product_image_comments',
 				'fs_addon_product_compare',
 				'fs_addon_product_attribute_guide',
+				'fs_addon_product_puchase_popup',
+				'fs_addon_product_checkout',
 				'fs_addon_comments_pagination',
 				'fs_addon_product_buy_now',
 				'fs_addon_minicart_quantity_input',
