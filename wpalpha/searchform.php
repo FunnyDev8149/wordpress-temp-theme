@@ -5,7 +5,7 @@
  * @author     FunnyWP
  * @package    WP Alpha
  * @subpackage Theme
- * @since      1.0
+ * @since      1.1
  */
 
 defined( 'ABSPATH' ) || die;
