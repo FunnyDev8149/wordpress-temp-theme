@@ -35,16 +35,6 @@ defined( 'ABSPATH' ) || die;
 				echo '<link rel="preload" href="' . ALPHA_ASSETS . '/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>';
 			}
 		}
-		if ( ! empty( $preload_fonts['custom'] ) ) {
-			$font_urls = explode( "\n", $preload_fonts['custom'] );
-			foreach ( $font_urls as $font_url ) {
-				$dot_pos = strrpos( $font_url, '.' );
-				if ( false !== $dot_pos ) {
-					$type = substr( $font_url, $dot_pos + 1 );
-					echo '<link rel="preload" href="' . esc_url( $font_url ) . '" as="font" type="font/' . esc_attr( $type ) . '" crossorigin>';
-				}
-			}
-		}
 		?>
 
 		<?php wp_head(); ?>
