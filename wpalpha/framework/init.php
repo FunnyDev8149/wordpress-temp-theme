@@ -128,15 +128,7 @@ if ( alpha_get_feature( 'fs_plugin_wcmp' ) && class_exists( 'WCMp' ) ) {
 if ( alpha_get_feature( 'fs_plugin_wc-vendors' ) && class_exists( 'WC_Vendors' ) ) {
 	require_once alpha_framework_path( ALPHA_FRAMEWORK_PLUGINS . '/wc-vendors/class-alpha-wc-vendors.php' );
 }
-// @start feature: fs_plugin_wc-vendors
-if ( alpha_get_feature( 'fs_plugin_wc-vendors' ) && class_exists( 'WC_Vendors' ) ) {
-	require_once alpha_framework_path( ALPHA_FRAMEWORK_PLUGINS . '/wc-vendors/class-alpha-wc-vendors.php' );
-}
-// @start feature: fs_plugin_wc-vendors
-if ( alpha_get_feature( 'fs_plugin_wc-vendors' ) && class_exists( 'WC_Vendors' ) ) {
-	require_once alpha_framework_path( ALPHA_FRAMEWORK_PLUGINS . '/wc-vendors/class-alpha-wc-vendors.php' );
-}
-// @start feature: fs_plugin_wc-vendors
+
 if ( alpha_get_feature( 'fs_plugin_wc-vendors' ) && class_exists( 'WC_Vendors' ) ) {
 	require_once alpha_framework_path( ALPHA_FRAMEWORK_PLUGINS . '/wc-vendors/class-alpha-wc-vendors.php' );
 }
