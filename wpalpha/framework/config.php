@@ -105,6 +105,18 @@ if ( ! function_exists( 'alpha_remove_feature' ) ) {
 			remove_theme_support( $features );
 		}
 	}
+	function alpha_update_feature ( $features ) {
+		if ( empty( $features ) ) {
+			return false;
+		}
+		if ( is_array( $features ) ) {
+			foreach ( $features as $feature ) {
+				update_theme_support( $feature );
+			}
+		} else {
+			remove_theme_support( $features );
+		}
+	}
 }
 
 /**
